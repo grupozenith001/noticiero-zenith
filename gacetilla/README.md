@@ -16,6 +16,8 @@ node generar-gacetilla.js <edicion.json> <carpeta-salida>
 | `mensaje.txt` | Mensaje publicable en texto plano (WhatsApp o correo de texto), sin URL. |
 | `registro-interno.md` | «Registro interno de verificación — no compartir». Nunca se envía. |
 | `adjuntos.json` | Relación `cid` → archivo de `img/`. |
+| `gacetilla-sin-imagenes.html` | Versión sin imágenes (logotipo y banner como texto), compacta, para el envío de respaldo por el conector de Gmail. |
+| `envio-conector.json` | Asunto, HTML sin imágenes y texto plano para `send_message` del conector, sin adjuntos. |
 
 ## Envío
 
@@ -35,8 +37,17 @@ El generador rechaza la edición si falta un campo obligatorio, si una noticia n
 
 ## Diseño
 
+### Modo oscuro
+
+Muchos teléfonos muestran el correo en modo oscuro. Gmail (Android e iOS) no lee estilos de modo oscuro: invierte los colores por su cuenta, y un bloque de fondo azul oscuro con texto blanco puede terminar con texto oscuro sobre fondo oscuro. Por eso:
+
+- El cuerpo usa solo fondos claros con texto oscuro (panorama, indicadores, «Impacto Zenith:» y conclusión), que Gmail invierte de forma pareja.
+- Las piezas que deben conservar el color (cabecera con el logotipo negativo, chips de la agenda, botón y chip blanco del logotipo color) lo fijan con `background-image: linear-gradient(...)`, que Gmail no altera.
+- El HTML declara `color-scheme: light dark` y trae reglas `@media (prefers-color-scheme: dark)` y `[data-ogsc]` con clases `z-*` para Apple Mail, iOS Mail y Outlook, que muestran una versión oscura diseñada.
+
 - Cabecera azul oscuro `#122649` con el logotipo oficial negativizado a color (copia redimensionada a 560 px, mostrada a 210 px), franja azul Zenith `#0087FF` y rótulo de la publicación.
-- Frase inicial con filete celeste `#9CD9F7`; panorama sobre fondo suave; tarjetas de indicadores en azul oscuro.
+- Frase inicial con filete celeste `#9CD9F7`; panorama, tarjetas de indicadores y conclusión sobre fondo suave con filete azul Zenith.
+- Párrafos justificados (panorama, noticias, «Impacto Zenith:», agenda, conclusión y aviso legal) con división en sílabas (`hyphens:auto`, idioma `es`) para evitar huecos en pantallas angostas. Títulos y encabezados quedan alineados a la izquierda.
 - Encabezados de sección con un emoji y filete azul Zenith; cada noticia con ícono de tema, título en Epilogue, recuadro «Impacto Zenith:» con el símbolo oficial y línea de fuentes en `#95A4BA`.
 - Cierre con el banner institucional «Disponibles para consultas», botón «Hablar con un asesor inmobiliario» (WhatsApp con mensaje precargado) y enlace de correo.
 - Pie con corredor, matrícula, contactos, Instagram, aviso de contenido informativo y forma de baja.

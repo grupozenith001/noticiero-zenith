@@ -42,7 +42,7 @@ Escribí la edición en `ediciones/<AAAA-MM-DD>/edicion.json` con el formato de 
 
 ## 6. Generación
 
-Ejecutá `node gacetilla/generar-gacetilla.js ediciones/<AAAA-MM-DD>/edicion.json ediciones/<AAAA-MM-DD>`. Si la validación rechaza la edición, corregí el JSON y repetí. Se generan `gacetilla.html`, `mensaje.txt`, `registro-interno.md`, `envio-gmail.json` y `vista-previa.html`.
+Ejecutá `node gacetilla/generar-gacetilla.js ediciones/<AAAA-MM-DD>/edicion.json ediciones/<AAAA-MM-DD>`. Si la validación rechaza la edición, corregí el JSON y repetí. Se generan `gacetilla.html`, `mensaje.txt`, `registro-interno.md`, `envio-gmail.json`, `vista-previa.html` y, para el envío de respaldo, `gacetilla-sin-imagenes.html` y `envio-conector.json`. La gacetilla está diseñada para leerse bien con el modo oscuro del teléfono (sin bloques de fondo oscuro con texto claro en el cuerpo); no agregues estilos al JSON que cambien eso.
 
 ## 7. Bajas
 
@@ -56,11 +56,18 @@ Ningún destinatario puede ver las direcciones de los demás. El envío lo hace 
 2. Enviá: `node gacetilla/enviar-gmail.js ediciones/<AAAA-MM-DD> --enviar`. Manda un único correo: `to` solo `grupozenith001@gmail.com`, `bcc` todas las direcciones con estado `activo` de `datos/destinatarios.csv`, sin `cc`. Deja el id del mensaje en `envio-resultado.json`.
 3. Si el script termina con error, reintentalo una sola vez solo si el error no indica que el correo salió; si vuelve a fallar, pasá al paso 9 e incluí el mensaje de error.
 
+**Respaldo sin imágenes** (autorizado por el usuario el 26/10/2026): si el script no puede enviar porque faltan los secretos de Gmail (`Faltan secretos del entorno`) o porque el token no se puede obtener, y el correo no salió, enviá la edición con `send_message` del conector de Gmail usando `ediciones/<AAAA-MM-DD>/envio-conector.json`:
+
+- `to`: `["grupozenith001@gmail.com"]`; `bcc`: todas las direcciones con estado `activo` en `datos/destinatarios.csv`; sin `cc`.
+- `subject`, `htmlBody` y `body`: exactamente los de `envio-conector.json`, sin adjuntos (esa versión no tiene imágenes: el logotipo y el banner van como texto).
+- Si el envío por el conector da error, reintentalo una sola vez; si vuelve a fallar, pasá al paso 9.
+- En el resumen final y en `notas_verificacion` dejá constancia de que salió por el respaldo sin imágenes y de por qué falló el script.
+
 Nunca envíes `registro-interno.md` ni `vista-previa.html`.
 
 ## 9. Impedimentos
 
-Si no hay acceso real a Internet, si la evidencia no alcanza para un panorama responsable, si el generador falla o si el envío da error (incluidos los secretos de Gmail faltantes o vencidos), **no envíes la edición a la lista**. Enviá solo a `grupozenith001@gmail.com` un correo de texto con asunto `[Noticiero] Edición no emitida <AAAA-MM-DD>` que explique el problema y qué se necesita.
+Si no hay acceso real a Internet, si la evidencia no alcanza para un panorama responsable, si el generador falla o si el envío da error (por el script y también por el respaldo sin imágenes del paso 8), **no envíes la edición a la lista**. Enviá solo a `grupozenith001@gmail.com` un correo de texto con asunto `[Noticiero] Edición no emitida <AAAA-MM-DD>` que explique el problema y qué se necesita.
 
 ## 10. Registro
 
