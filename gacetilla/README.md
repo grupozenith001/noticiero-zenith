@@ -51,5 +51,6 @@ El generador rechaza la edición si falta un campo, si una noticia no tiene regi
 Lo fija la plantilla. Puntos a tener en cuenta (26/10/2026):
 
 - Declara `color-scheme: light`; las secciones Mundo y Conclusión son bloques azul oscuro con texto blanco. Verificar en el teléfono con modo oscuro, porque Gmail puede invertir colores por su cuenta.
-- Tipografías: DM Sans y DM Serif Text (Google Fonts) además de Epilogue; azul `#0086FF`. El texto va alineado a la izquierda.
+- Tipografías: DM Sans y DM Serif Text (Google Fonts) además de Epilogue; azul `#0086FF`.
+- El cuerpo de cada noticia y su «Impacto Zenith» van justificados, con división en sílabas (pedido del usuario del 26/10/2026, único cambio de estilo sobre la plantilla original). El resto del texto queda alineado a la izquierda.
 - La cabecera incluye el emoji de periódico de Apple dentro de la imagen; conviene reemplazarlo por un ícono propio.
