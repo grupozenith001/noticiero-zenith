@@ -17,6 +17,14 @@ node generar-gacetilla.js <edicion.json> <carpeta-salida>
 | `registro-interno.md` | «Registro interno de verificación — no compartir». Nunca se envía. |
 | `adjuntos.json` | Relación `cid` → archivo de `img/`. |
 
+## Envío
+
+```
+node gacetilla/enviar-gmail.js <carpeta-edicion> [--prueba | --enviar]
+```
+
+Lee `envio-gmail.json` y `datos/destinatarios.csv`, arma el correo MIME (texto, HTML e imágenes en línea `cid:att0`…) y lo envía con la API de Gmail. Sin opción solo verifica; `--prueba` envía únicamente a `grupozenith001@gmail.com`; `--enviar` manda un único correo con `to` = `grupozenith001@gmail.com` y la lista activa en `bcc`. Usa los secretos del entorno `GMAIL_CLIENT_ID`, `GMAIL_CLIENT_SECRET` y `GMAIL_REFRESH_TOKEN` (alcance `https://www.googleapis.com/auth/gmail.send`), que nunca se guardan en el repositorio.
+
 ## Edición en JSON
 
 Ver `ejemplo/edicion-ejemplo.json` (contenido ficticio, solo para el diseño). Campos: `fecha`, `hora_cierre`, `horario_envio` (opcional, por defecto `07:00`), `numero` (opcional), `frase` (`texto`, `autor`, `obra`, `version_es`, `registro`), `panorama`, `indicadores` (opcional), `secciones.mundo|argentina|chaco` (listas de noticias; `[]` si no hay novedades), `agenda`, `conclusion` y `notas_verificacion` (opcional, solo para el registro).
