@@ -14,7 +14,7 @@ Este repositorio privado contiene solo el material del noticiero matutino de Gru
 
 1. Obtené la fecha y hora reales en Argentina: `TZ=America/Argentina/Buenos_Aires date '+%Y-%m-%d %H:%M %A'`.
 2. Si es sábado o domingo, terminá sin enviar nada.
-3. Consultá el calendario oficial de feriados y días no laborables del año en curso en argentina.gob.ar (históricamente `https://www.argentina.gob.ar/interior/feriados-nacionales-<AAAA>`; si la dirección cambió, buscala) y, como respaldo, en el Boletín Oficial. Recordá que los días no laborables con fines turísticos de 2026 son el 23/3, el 10/7 y el 7/12 (Resolución 164/2025 de Jefatura de Gabinete). Si hoy es **feriado nacional o día no laborable con fines turísticos**, terminá sin enviar nada.
+3. Consultá el calendario oficial de feriados y días no laborables del año en curso en argentina.gob.ar (desde octubre de 2026, `https://www.argentina.gob.ar/jefatura/feriados-nacionales-<AAAA>` y el JSON `https://www.argentina.gob.ar/sites/default/files/holidays-<AAAA>-es.json`; la ruta anterior `/interior/` da 404; si la dirección vuelve a cambiar, buscala) y, como respaldo, en el Boletín Oficial. Recordá que los días no laborables con fines turísticos de 2026 son el 23/3, el 10/7 y el 7/12 (Resolución 164/2025 de Jefatura de Gabinete). Si hoy es **feriado nacional o día no laborable con fines turísticos**, terminá sin enviar nada.
 4. Si no podés verificar el calendario en ninguna fuente oficial, seguí adelante y dejá constancia en el registro interno.
 
 ## 2. Contexto
