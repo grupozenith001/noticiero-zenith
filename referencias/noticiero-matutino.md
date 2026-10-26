@@ -62,6 +62,8 @@ Los seis de la plantilla, siempre con esos nombres: dólar BNA venta, dólar may
 
 ## Estructura
 
+Título visible del noticiero (cabecera y asunto, desde el 26/10/2026): «Actualidad y perspectiva financiera»; asunto: `Actualidad y perspectiva financiera | <fecha> · Grupo Zenith`.
+
 La define `assets/gacetilla/plantilla-base.html`, en este orden fijo: cabecera, fecha y edición, cita, panorama en 30 segundos (4 a 6 oraciones), indicadores al cierre, Mundo, Argentina, Chaco, agenda y señales a seguir (3 a 6 ítems con etiqueta `Hoy`, una hora como `10:00`, `Semana` o `Chaco`), conclusión (3 a 4 oraciones con la lectura para el negocio, sin repetir el panorama), bloque de contacto y pie. Además, un preheader de hasta 110 caracteres que se ve en la bandeja de entrada. No se modifican estilos, colores, tipografías, espaciados, cabecera, pie ni bloque de contacto.
 
 ## Humanización

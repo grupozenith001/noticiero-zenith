@@ -1,4 +1,4 @@
-# Noticiero «Grupo Zenith | Actualidad & Perspectiva»: ejecución diaria en la nube
+# Noticiero «Grupo Zenith | Actualidad y perspectiva financiera»: ejecución diaria en la nube
 
 Este repositorio privado contiene solo el material del noticiero matutino de Grupo Zenith (Resistencia, Chaco). La rutina programada lo ejecuta cada día hábil desde las 06:30 h de Argentina, para que el correo llegue cerca de las 07:00. Seguí este procedimiento completo, en orden.
 
@@ -53,7 +53,7 @@ Con el conector de Gmail, buscá en la bandeja de entrada respuestas recibidas d
 
 Ningún destinatario puede ver las direcciones de los demás. El envío lo hace el script `gacetilla/enviar-gmail.js` con la API de Gmail y los secretos del entorno (`GMAIL_CLIENT_ID`, `GMAIL_CLIENT_SECRET`, `GMAIL_REFRESH_TOKEN`). No transcribas el contenido de `envio-gmail.json` en una llamada al conector: el script lo lee del archivo.
 
-1. Verificá sin enviar: `node gacetilla/enviar-gmail.js ediciones/<AAAA-MM-DD>`. Debe mostrar el asunto correcto, `To: grupozenith001@gmail.com`, la cantidad de direcciones activas en `Bcc` y `alojadas: 3` (cabecera, símbolo y logotipo).
+1. Verificá sin enviar: `node gacetilla/enviar-gmail.js ediciones/<AAAA-MM-DD>`. Debe mostrar el asunto correcto («Actualidad y perspectiva financiera | <fecha> · Grupo Zenith»), `To: grupozenith001@gmail.com`, la cantidad de direcciones activas en `Bcc` y `alojadas: 3` (cabecera, símbolo y logotipo).
 2. Enviá: `node gacetilla/enviar-gmail.js ediciones/<AAAA-MM-DD> --enviar`. Manda un único correo: `to` solo `grupozenith001@gmail.com`, `bcc` todas las direcciones con estado `activo` de `datos/destinatarios.csv`, sin `cc`. Deja el id del mensaje en `envio-resultado.json`.
 3. Si el script termina con error, reintentalo una sola vez solo si el error no indica que el correo salió; si vuelve a fallar, pasá al paso 9 e incluí el mensaje de error.
 

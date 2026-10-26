@@ -12,6 +12,8 @@ Desde el 26/10/2026 el diseño es `plantilla-base.html`, provista por el usuario
 
 Las imágenes (cabecera, símbolo y logotipo) están alojadas en `https://grupozenith.org/assets/mailing/`; las copias maestras están en `img/mailing/`. El correo ya no lleva adjuntos.
 
+Cambios pedidos por el usuario el 26/10/2026: el título de la cabecera y el asunto dicen «Actualidad y perspectiva financiera», y la cabecera y el pie usan el logotipo con «ZENITH» sin «REAL ESTATE» (excepción autorizada solo para el noticiero; ver `CLAUDE.md`). Archivos en uso: `zenith-header-financiera.jpg` (retoque de `zenith-header.jpg`: título rehecho en Epilogue Medium 71 px, sin el emoji y sin el descriptor del logo) y `zenith-logo-white-sin-descriptor.png` (recorte de `zenith-logo-white.png` a 360 × 82, sin la franja del descriptor). Los originales se conservan, en `img/mailing/` y en el servidor. Si se vuelve a cambiar una imagen, subirla con un nombre nuevo: Gmail guarda en caché las imágenes por dirección.
+
 Ejemplo completo del usuario: `ejemplo/ejemplo-plantilla-26-10-2026.html`. Edición equivalente en JSON: `ejemplo/edicion-ejemplo.json`.
 
 ## Salidas

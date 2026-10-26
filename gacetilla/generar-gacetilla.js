@@ -230,7 +230,7 @@ function html(e) {
 function texto(e) {
   const l = [];
   l.push(`«${e.frase.texto}»`, `— ${e.frase.autor} · ${e.frase.obra}`, '');
-  l.push('GRUPO ZENITH | ACTUALIDAD & PERSPECTIVA', `${e.fecha} · Actualizado ${e.hora_cierre} h · Edición N.º ${e.numero}`, '');
+  l.push('GRUPO ZENITH | ACTUALIDAD Y PERSPECTIVA FINANCIERA', `${e.fecha} · Actualizado ${e.hora_cierre} h · Edición N.º ${e.numero}`, '');
   l.push('PANORAMA EN 30 SEGUNDOS', sinMarcas(e.panorama), '');
   l.push(`INDICADORES AL CIERRE (${e.fecha_cierre})`);
   const porClave = Object.fromEntries(e.indicadores.map((x) => [x.clave, x]));
@@ -276,7 +276,7 @@ function main() {
   for (const a of avisos) console.warn(`Aviso: ${a}`);
   fs.mkdirSync(salida, { recursive: true });
   const cuerpoHtml = html(edicion);
-  const asunto = `Actualidad & Perspectiva | ${edicion.fecha} · Grupo Zenith`;
+  const asunto = `Actualidad y perspectiva financiera | ${edicion.fecha} · Grupo Zenith`;
   fs.writeFileSync(path.join(salida, 'gacetilla.html'), cuerpoHtml);
   fs.writeFileSync(path.join(salida, 'vista-previa.html'), cuerpoHtml);
   fs.writeFileSync(path.join(salida, 'mensaje.txt'), texto(edicion));
