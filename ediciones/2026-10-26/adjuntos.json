@@ -1,0 +1,34 @@
+[
+  {
+    "posicion": 0,
+    "cid": "cid:att0",
+    "nombre": "logo-negativo",
+    "archivo": "img/logo-negativo.png",
+    "mimeType": "image/png",
+    "inline": true
+  },
+  {
+    "posicion": 1,
+    "cid": "cid:att1",
+    "nombre": "logo-color",
+    "archivo": "img/logo-color.png",
+    "mimeType": "image/png",
+    "inline": true
+  },
+  {
+    "posicion": 2,
+    "cid": "cid:att2",
+    "nombre": "simbolo-azul",
+    "archivo": "img/simbolo-azul.png",
+    "mimeType": "image/png",
+    "inline": true
+  },
+  {
+    "posicion": 3,
+    "cid": "cid:att3",
+    "nombre": "banner-contacto",
+    "archivo": "img/banner-contacto.jpg",
+    "mimeType": "image/jpeg",
+    "inline": true
+  }
+]
