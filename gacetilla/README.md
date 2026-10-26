@@ -11,7 +11,7 @@ node generar-gacetilla.js <edicion.json> <carpeta-salida>
 | Archivo | Uso |
 | --- | --- |
 | `gacetilla.html` | Correo para enviar. Las imágenes se referencian como `cid:att0`, `cid:att1`… (formato del conector de Gmail, por posición) y viajan como adjuntos en línea en ese orden (ver `adjuntos.json`). |
-| `envio-gmail.json` | Asunto, cuerpo HTML, texto plano y adjuntos en base64, listos para `send_message` del conector de Gmail; falta agregar el destinatario. Se envía un correo por persona, con una sola dirección en `to` y sin `cc` ni `bcc`. |
+| `envio-gmail.json` | Asunto, cuerpo HTML, texto plano y adjuntos en base64, listos para `send_message` del conector de Gmail; faltan los destinatarios: `to` = `grupozenith001@gmail.com` y la lista completa en `bcc` (copia oculta), nunca en `to` ni en `cc`. |
 | `vista-previa.html` | Misma pieza con las imágenes incrustadas, para revisarla en el navegador. No se envía. |
 | `mensaje.txt` | Mensaje publicable en texto plano (WhatsApp o correo de texto), sin URL. |
 | `registro-interno.md` | «Registro interno de verificación — no compartir». Nunca se envía. |

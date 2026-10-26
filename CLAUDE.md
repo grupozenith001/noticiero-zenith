@@ -50,22 +50,23 @@ Con el conector de Gmail, buscá en la bandeja de entrada respuestas recibidas d
 
 ## 8. Envío
 
-Cada correo es privado: se envía **uno por uno**, con un único destinatario en `to` y sin `cc` ni `bcc`, para que nadie vea las direcciones de los demás. Nunca juntes dos destinatarios en el mismo correo, ni siquiera en copia oculta.
+Ningún destinatario puede ver las direcciones de los demás. Enviá un único correo con `send_message` del conector de Gmail:
 
-1. Enviá primero la copia de control con `send_message` del conector de Gmail, con `to`: `["grupozenith001@gmail.com"]`. Si falla, no envíes a la lista y pasá al paso 9.
-2. Después enviá un correo por cada dirección con estado `activo` en `datos/destinatarios.csv`, en el orden del archivo, con `to`: `["<esa dirección>"]` y nada más en destinatarios.
-3. En todos los correos, `subject`, `htmlBody`, `body` y `attachments` son exactamente los de `ediciones/<AAAA-MM-DD>/envio-gmail.json` (los adjuntos van en el mismo orden; las imágenes del HTML los referencian como `cid:att0`, `cid:att1`…).
-4. Si un envío individual da error, reintentalo una sola vez. Si vuelve a fallar, seguí con los demás y avisá a `grupozenith001@gmail.com` qué direcciones no recibieron la edición. Nunca reenvíes a quien ya la recibió.
-5. Registrá en `ediciones/<AAAA-MM-DD>/envios.csv` (`email,resultado,hora`) el resultado de cada envío.
+- `to`: `["grupozenith001@gmail.com"]` (única dirección visible)
+- `bcc`: todas las direcciones con estado `activo` en `datos/destinatarios.csv` (copia oculta)
+- sin `cc`. Nunca pongas una dirección de la lista en `to` ni en `cc`.
+- `subject`, `htmlBody`, `body` y `attachments`: exactamente los de `ediciones/<AAAA-MM-DD>/envio-gmail.json` (los adjuntos van en el mismo orden; las imágenes del HTML los referencian como `cid:att0`, `cid:att1`…).
+
+Antes de enviar, comprobá que `to` contenga solo `grupozenith001@gmail.com` y que las direcciones activas estén únicamente en `bcc`. Si el envío da error, reintentalo una sola vez; si vuelve a fallar, pasá al paso 9.
 
 Nunca envíes `registro-interno.md` ni `vista-previa.html`.
 
 ## 9. Impedimentos
 
-Si no hay acceso real a Internet, si la evidencia no alcanza para un panorama responsable, si el generador falla o si falla la copia de control, **no envíes la edición a la lista**. Enviá solo a `grupozenith001@gmail.com` un correo de texto con asunto `[Noticiero] Edición no emitida <AAAA-MM-DD>` que explique el problema y qué se necesita.
+Si no hay acceso real a Internet, si la evidencia no alcanza para un panorama responsable, si el generador falla o si el envío da error, **no envíes la edición a la lista**. Enviá solo a `grupozenith001@gmail.com` un correo de texto con asunto `[Noticiero] Edición no emitida <AAAA-MM-DD>` que explique el problema y qué se necesita.
 
 ## 10. Registro
 
 1. Agregá la frase utilizada a `datos/frases-usadas.csv` (`fecha_edicion,frase,autor,obra,version_es,url_verificacion`, con comillas dobles en los campos de texto).
 2. Hacé commit de `ediciones/<AAAA-MM-DD>/` y de `datos/` con el mensaje `Edición <AAAA-MM-DD> (N.º <numero>)` y push a la rama principal. Si el push falla, dejá constancia en el resumen final de la ejecución.
-3. Terminá con un resumen breve: día hábil o no, cantidad de noticias por sección, cantidad de envíos individuales correctos y fallidos, y cualquier impedimento.
+3. Terminá con un resumen breve: día hábil o no, cantidad de noticias por sección, cantidad de destinatarios en copia oculta y cualquier impedimento.
