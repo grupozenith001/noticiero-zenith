@@ -41,15 +41,15 @@ const base64Lineas = (buf) => buf.toString('base64').replace(/.{76}/g, '$&\r\n')
 function construirMime({ subject, htmlBody, body, attachments }, bcc) {
   const relacionado = `rel_${crypto.randomBytes(12).toString('hex')}`;
   const alternativo = `alt_${crypto.randomBytes(12).toString('hex')}`;
+  // Sin imágenes en línea (la plantilla actual las toma de grupozenith.org), el correo es solo texto y HTML.
+  const enLinea = attachments.length > 0;
   const partes = [
     `From: ${encabezado(NOMBRE_REMITENTE)} <${REMITENTE}>`,
     `To: ${REMITENTE}`,
     ...(bcc.length ? [`Bcc: ${bcc.join(', ')}`] : []),
     `Subject: ${encabezado(subject)}`,
     'MIME-Version: 1.0',
-    `Content-Type: multipart/related; boundary="${relacionado}"`,
-    '',
-    `--${relacionado}`,
+    ...(enLinea ? [`Content-Type: multipart/related; boundary="${relacionado}"`, '', `--${relacionado}`] : []),
     `Content-Type: multipart/alternative; boundary="${alternativo}"`,
     '',
     `--${alternativo}`,
@@ -76,7 +76,8 @@ function construirMime({ subject, htmlBody, body, attachments }, bcc) {
       base64Lineas(Buffer.from(a.content, 'base64')),
     );
   });
-  partes.push(`--${relacionado}--`, '');
+  if (enLinea) partes.push(`--${relacionado}--`);
+  partes.push('');
   return partes.join('\r\n');
 }
 
@@ -116,7 +117,8 @@ async function main() {
   const bcc = modo === '--prueba' ? [] : destinatariosActivos();
   const mime = construirMime(carga, bcc);
   console.log(`Asunto: ${carga.subject}`);
-  console.log(`To: ${REMITENTE} · Bcc: ${bcc.length} dirección(es) · Imágenes en línea: ${carga.attachments.length} · ${Math.round(mime.length / 1024)} KB`);
+  const remotas = new Set(carga.htmlBody.match(/https:\/\/grupozenith\.org\/assets\/mailing\/[\w.-]+/g) || []).size;
+  console.log(`To: ${REMITENTE} · Bcc: ${bcc.length} dirección(es) · Imágenes en línea: ${carga.attachments.length} · alojadas: ${remotas} · ${Math.round(mime.length / 1024)} KB`);
   if (!modo) {
     console.log('Verificación sin envío. Usá --prueba o --enviar para enviar.');
     return;

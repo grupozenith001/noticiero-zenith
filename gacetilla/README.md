@@ -6,18 +6,24 @@ Generador del correo del noticiero matutino. No usa dependencias: solo Node.js.
 node generar-gacetilla.js <edicion.json> <carpeta-salida>
 ```
 
+## Plantilla
+
+Desde el 26/10/2026 el diseño es `plantilla-base.html`, provista por el usuario junto con `../../references/instrucciones-plantilla.md` (reglas para completarla, que mandan sobre cualquier otro criterio de formato). El generador solo completa los marcadores `{{...}}` y repite los bloques de nota y de agenda; no cambia estilos, colores, tipografías, espaciados, cabecera, pie ni bloque de contacto. Si el usuario entrega una plantilla nueva, se reemplaza este archivo y se revisa que los nombres de los marcadores sigan coincidiendo.
+
+Las imágenes (cabecera, símbolo y logotipo) están alojadas en `https://grupozenith.org/assets/mailing/`; las copias maestras están en `img/mailing/`. El correo ya no lleva adjuntos.
+
+Ejemplo completo del usuario: `ejemplo/ejemplo-plantilla-26-10-2026.html`. Edición equivalente en JSON: `ejemplo/edicion-ejemplo.json`.
+
 ## Salidas
 
 | Archivo | Uso |
 | --- | --- |
-| `gacetilla.html` | Correo para enviar. Las imágenes se referencian como `cid:att0`, `cid:att1`… (formato del conector de Gmail, por posición) y viajan como adjuntos en línea en ese orden (ver `adjuntos.json`). |
-| `envio-gmail.json` | Asunto, cuerpo HTML, texto plano y adjuntos en base64, listos para `send_message` del conector de Gmail; faltan los destinatarios: `to` = `grupozenith001@gmail.com` y la lista completa en `bcc` (copia oculta), nunca en `to` ni en `cc`. |
-| `vista-previa.html` | Misma pieza con las imágenes incrustadas, para revisarla en el navegador. No se envía. |
+| `gacetilla.html` | Correo para enviar: la plantilla completa, sin marcadores. |
+| `vista-previa.html` | Copia de `gacetilla.html` para revisarla en el navegador. No se envía. |
+| `envio-gmail.json` | Asunto, HTML y texto plano para `enviar-gmail.js` (sin adjuntos). |
+| `envio-conector.json` | Lo mismo, para el envío de respaldo con `send_message` del conector de Gmail. Destinatarios: `to` = `grupozenith001@gmail.com` y la lista completa en `bcc`, nunca en `to` ni en `cc`. |
 | `mensaje.txt` | Mensaje publicable en texto plano (WhatsApp o correo de texto), sin URL. |
 | `registro-interno.md` | «Registro interno de verificación — no compartir». Nunca se envía. |
-| `adjuntos.json` | Relación `cid` → archivo de `img/`. |
-| `gacetilla-sin-imagenes.html` | Versión sin imágenes (logotipo y banner como texto), compacta, para el envío de respaldo por el conector de Gmail. |
-| `envio-conector.json` | Asunto, HTML sin imágenes y texto plano para `send_message` del conector, sin adjuntos. |
 
 ## Envío
 
@@ -29,29 +35,19 @@ Lee `envio-gmail.json` y `datos/destinatarios.csv`, arma el correo MIME (texto, 
 
 ## Edición en JSON
 
-Ver `ejemplo/edicion-ejemplo.json` (contenido ficticio, solo para el diseño). Campos: `fecha`, `hora_cierre`, `horario_envio` (opcional, por defecto `07:00`), `numero` (opcional), `frase` (`texto`, `autor`, `obra`, `version_es`, `registro`), `panorama`, `indicadores` (opcional), `secciones.mundo|argentina|chaco` (listas de noticias; `[]` si no hay novedades), `agenda`, `conclusion` y `notas_verificacion` (opcional, solo para el registro).
+Campos: `numero`, `fecha` («Lunes 26 de octubre de 2026»), `hora_cierre` («07:25»; la plantilla agrega « h»), `horario_envio` (opcional), `preheader` (hasta 110 caracteres), `frase` (`texto` sin comillas, `autor`, `obra` con año, `version_es`, `registro`), `panorama`, `fecha_cierre` («vie 23/10»), `indicadores`, `secciones.mundo|argentina|chaco` (al menos una nota cada una), `agenda`, `conclusion` y `notas_verificacion` (opcional, solo para el registro).
 
-Cada noticia lleva `tema` (`mercados`, `cambio`, `politica`, `normativa`, `empresas`, `comercio`, `energia`, `infraestructura`, `inmobiliario`, `produccion`, `empleo`, `tecnologia`), `titulo`, `cuerpo`, `impacto` (sin el rótulo, que agrega el generador), `fuentes` (nombres) y `registro` (lista con `fuente`, `url` y `fecha_publicacion`).
+- `indicadores`: los seis de la plantilla, cada uno con `clave` (`dolar_bna`, `dolar_mayorista`, `dolar_mep`, `riesgo_pais`, `merval`, `brent`), `valor` con unidad, `variacion` con signo y unidad, `tendencia` (`sube`, `baja`, `igual` o `sin_dato`) y `registro`.
+- Cada noticia: `tema` (`politica`, `energia`, `mercados`, `cambio`, `normativa`, `infraestructura`, `comercio`, `empleo`, `inmobiliario`, `construccion`, `clima`, `empresas`, `produccion`, `tecnologia`), `titulo` (6 a 14 palabras), `cuerpo`, `impacto` (sin el rótulo), `fuentes` (nombres) y `registro` (lista con `fuente`, `url` y `fecha_publicacion`).
+- `agenda`: 3 a 6 ítems con `cuando` (`Hoy`, una hora como `10:00`, `Semana` o `Chaco`), `texto` y `registro`. El color de la etiqueta lo pone el generador.
+- Destacados: `**texto**` en `panorama`, `cuerpo`, `impacto` y `conclusion`, como máximo dos por texto; el generador aplica el estilo de la plantilla según el fondo.
 
-El generador rechaza la edición si falta un campo obligatorio, si una noticia no tiene registro con URL y fecha, o si el texto publicable contiene una URL.
+El generador rechaza la edición si falta un campo, si una noticia no tiene registro con URL y fecha, si un texto publicable contiene una URL o llaves dobles, si hay más de dos destacados en un texto o si queda algún marcador sin completar. Avisa (sin rechazar) si un titular no tiene entre 6 y 14 palabras o la agenda no tiene entre 3 y 6 ítems.
 
 ## Diseño
 
-### Modo oscuro
+Lo fija la plantilla. Puntos a tener en cuenta (26/10/2026):
 
-Muchos teléfonos muestran el correo en modo oscuro. Gmail (Android e iOS) no lee estilos de modo oscuro: invierte los colores por su cuenta, y un bloque de fondo azul oscuro con texto blanco puede terminar con texto oscuro sobre fondo oscuro. Por eso:
-
-- El cuerpo usa solo fondos claros con texto oscuro (panorama, indicadores, «Impacto Zenith:» y conclusión), que Gmail invierte de forma pareja.
-- Las piezas que deben conservar el color (cabecera con el logotipo negativo, chips de la agenda, botón y chip blanco del logotipo color) lo fijan con `background-image: linear-gradient(...)`, que Gmail no altera.
-- El HTML declara `color-scheme: light dark` y trae reglas `@media (prefers-color-scheme: dark)` y `[data-ogsc]` con clases `z-*` para Apple Mail, iOS Mail y Outlook, que muestran una versión oscura diseñada.
-
-- Cabecera azul oscuro `#122649` con el logotipo oficial negativizado a color (copia redimensionada a 560 px, mostrada a 210 px), franja azul Zenith `#0087FF` y rótulo de la publicación.
-- Frase inicial con filete celeste `#9CD9F7`; panorama, tarjetas de indicadores y conclusión sobre fondo suave con filete azul Zenith.
-- Párrafos justificados (panorama, noticias, «Impacto Zenith:», agenda, conclusión y aviso legal) con división en sílabas (`hyphens:auto`, idioma `es`) para evitar huecos en pantallas angostas. Títulos y encabezados quedan alineados a la izquierda.
-- Encabezados de sección con un emoji y filete azul Zenith; cada noticia con ícono de tema, título en Epilogue, recuadro «Impacto Zenith:» con el símbolo oficial y línea de fuentes en `#95A4BA`.
-- Cierre con el banner institucional «Disponibles para consultas», botón «Hablar con un asesor inmobiliario» (WhatsApp con mensaje precargado) y enlace de correo.
-- Pie con corredor, matrícula, contactos, Instagram, aviso de contenido informativo y forma de baja.
-- Epilogue se carga desde Google Fonts donde el cliente de correo lo permite (Apple Mail, iOS); Gmail y Outlook usan Arial.
-- La bandera 🇦🇷 se ve como «AR» en Windows; en teléfonos se muestra la bandera.
-
-Las imágenes de `img/` son copias redimensionadas de `brand/source/` (sin recortes ni deformaciones). Los datos de contacto están en la constante `CONTACTO` del generador: verificarlos antes de cada envío.
+- Declara `color-scheme: light`; las secciones Mundo y Conclusión son bloques azul oscuro con texto blanco. Verificar en el teléfono con modo oscuro, porque Gmail puede invertir colores por su cuenta.
+- Tipografías: DM Sans y DM Serif Text (Google Fonts) además de Epilogue; azul `#0086FF`. El texto va alineado a la izquierda.
+- La cabecera incluye el emoji de periódico de Apple dentro de la imagen; conviene reemplazarlo por un ícono propio.
