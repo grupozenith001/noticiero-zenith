@@ -81,7 +81,6 @@ function conDestacados(s, tono) {
 const sinMarcas = (s) => String(s ?? '').replace(/\*\*(.+?)\*\*/g, '$1');
 const destacados = (s) => (String(s ?? '').match(/\*\*(.+?)\*\*/g) || []).length;
 const palabras = (s) => sinMarcas(s).trim().split(/\s+/).filter(Boolean).length;
-const cantidadNotas = (n) => `${n} ${n === 1 ? 'nota' : 'notas'}`;
 
 function validar(e) {
   const errores = [];
@@ -186,11 +185,10 @@ function html(e) {
   // El comentario de instrucciones del encabezado no viaja en el correo.
   h = h.replace(/<!--\n\s*PLANTILLA BASE[\s\S]*?-->\n/, '');
 
-  for (const [clave, nombre, mayus, oscuro] of SECCIONES) {
+  for (const [clave, nombre, , oscuro] of SECCIONES) {
     const lista = e.secciones[clave];
     h = repetir(h, `<!-- ===== NOTA: INICIO (repetir este bloque por cada nota de ${nombre})`, '<!-- ===== NOTA: FIN ===== -->',
       lista, (bloque, n, k) => nota(bloque, n, k, oscuro));
-    h = poner(h, `${mayus}_CANTIDAD_NOTAS`, cantidadNotas(lista.length));
   }
 
   h = repetir(h, '<!-- ===== AGENDA ITEM: INICIO', '<!-- ===== AGENDA ITEM: FIN ===== -->', e.agenda, (bloque, a) => {
