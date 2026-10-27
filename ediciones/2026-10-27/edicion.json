@@ -1,0 +1,121 @@
+{
+  "numero": 2,
+  "fecha": "Martes 27 de octubre de 2026",
+  "hora_cierre": "06:55",
+  "horario_envio": "07:00",
+  "preheader": "La bolsa de Brasil cae 13,88 % tras la reelección de Lula y el riesgo país argentino sube a 765 pb.",
+  "frase": {
+    "texto": "Ningún viento será bueno para quien no sabe a qué puerto se encamina.",
+    "autor": "Séneca",
+    "obra": "Cartas a Lucilio, carta LXXI (c. 64 d. C.), versión en español",
+    "version_es": true,
+    "registro": {"fuente": "Wikiquote en español, «Cartas a Lucilio», carta LXXI (original latino: «Ignoranti quem portum petat nullus suus ventus est»)", "url": "https://es.wikiquote.org/wiki/Cartas_a_Lucilio", "fecha_publicacion": "consultado 2026-10-27"}
+  },
+  "panorama": "La reelección de Lula pegó fuerte en los mercados: la bolsa de San Pablo cayó **13,88 %** el lunes y el dólar subió más de 8 % frente al real. El contagio llegó a la plaza local, donde el **riesgo país saltó a 765 puntos**, el nivel más alto del año, y el Merval perdió 3 %. El BCRA no compró divisas por primera vez en 20 ruedas y el mayorista subió a $ 1.541. El Brent bajó a US$ 115,81 por las gestiones diplomáticas en Teherán. En Chaco, la crecida del Paraná ya suma 2.026 personas fuera de sus casas, aunque el río aflojó unos centímetros en Barranqueras.",
+  "fecha_cierre": "lun 26/10",
+  "indicadores": [
+    {"clave": "dolar_bna", "valor": "$ 1.560", "variacion": "+0,6 %", "tendencia": "sube", "registro": {"fuente": "Ámbito (cotización Banco Nación al cierre)", "url": "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cerro-este-lunes-26-octubre-n6338065", "fecha_publicacion": "2026-10-26 16:18"}},
+    {"clave": "dolar_mayorista", "valor": "$ 1.541", "variacion": "+0,8 %", "tendencia": "sube", "registro": {"fuente": "Rava Bursátil; Ámbito; Infobae", "url": "https://www.rava.com/perfil/DOLAR%20MAYORISTA", "fecha_publicacion": "2026-10-26"}},
+    {"clave": "dolar_mep", "valor": "$ 1.574,40", "variacion": "+0,8 %", "tendencia": "sube", "registro": {"fuente": "Rava Bursátil", "url": "https://www.rava.com/perfil/DOLAR%20MEP", "fecha_publicacion": "2026-10-26"}},
+    {"clave": "riesgo_pais", "valor": "765 pb", "variacion": "+58 pb", "tendencia": "sube", "registro": {"fuente": "Rava Bursátil; Rankia; Infobae", "url": "https://www.rava.com/perfil/RIESGO%20PAIS", "fecha_publicacion": "2026-10-26"}},
+    {"clave": "merval", "valor": "99.227 pts", "variacion": "-3,0 %", "tendencia": "baja", "registro": {"fuente": "Rankia (datos de Rava Bursátil); Infobae", "url": "https://www.rankia.com.ar/noticias/bolsa/7527560-riesgo-pais-hoy-salta-765-puntos-merval-cae-casi-3-triunfo-lula", "fecha_publicacion": "2026-10-27"}},
+    {"clave": "brent", "valor": "US$ 115,81", "variacion": "-0,8 %", "tendencia": "baja", "registro": {"fuente": "Reuters vía Investing.com", "url": "https://www.investing.com/news/commodities-news/oil-prices-down-almost-1-in-early-trading-4971306", "fecha_publicacion": "2026-10-26 15:54"}}
+  ],
+  "secciones": {
+    "mundo": [
+      {
+        "tema": "mercados",
+        "titulo": "La bolsa de Brasil se desploma tras la reelección de Lula",
+        "cuerpo": "El lunes 26, primera rueda después del balotaje, el Ibovespa cayó **13,88 %** hasta 176.608 puntos, su mayor baja porcentual desde marzo de 2020. La B3 activó un circuit breaker de 30 minutos en la apertura. El dólar subió 8,21 % hasta R$ 5,403 según InfoMoney (otros medios informan 8,25 %). Los bancos encabezaron las pérdidas, con Banco do Brasil en -29,33 % y Bradesco en -21,70 %, mientras exportadoras como Suzano, Embraer y Vale subieron. Las tasas futuras saltaron y el mercado pasó a descontar una suba de la Selic en noviembre; Flávio Bolsonaro sigue pidiendo anular la elección, algo que los analistas consultados ven muy improbable.",
+        "impacto": "Entre enero y septiembre Argentina exportó a Brasil US$ 9.789 millones, el 12,7 % de sus ventas externas, según el INDEC. Con un real más débil, los productos argentinos le cuestan más al comprador brasileño y los importados de Brasil llegan más baratos, lo que puede afectar a la industria automotriz y a otros sectores que venden allí. Cuánto pese dependerá de si la depreciación se sostiene en las próximas semanas.",
+        "fuentes": ["InfoMoney", "Rankia", "Perfil"],
+        "registro": [
+          {"fuente": "InfoMoney", "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-26102026/", "fecha_publicacion": "2026-10-26"},
+          {"fuente": "Rankia (PTAX del Banco Central de Brasil)", "url": "https://www.rankia.com.ar/noticias/bolsa/7527560-riesgo-pais-hoy-salta-765-puntos-merval-cae-casi-3-triunfo-lula", "fecha_publicacion": "2026-10-27"},
+          {"fuente": "Perfil (INDEC, ICA)", "url": "https://www.perfil.com/noticias/economia/lula-gano-brasil-crece-preocupacion-argentina-caida-real-futuro-exportaciones-a40.phtml", "fecha_publicacion": "2026-10-26"}
+        ]
+      },
+      {
+        "tema": "energia",
+        "titulo": "El Brent retrocede por las gestiones diplomáticas con Irán en Teherán",
+        "cuerpo": "El Brent cerró el lunes 26 en **US$ 115,81** por barril, 91 centavos menos que el viernes (-0,8 %), y el WTI en US$ 101,76 (-1,46 %), según Reuters. Pesaron las reuniones de Arabia Saudita, Turquía y Pakistán con autoridades iraníes en Teherán, que alimentaron la expectativa de una salida negociada. La baja quedó acotada porque los hutíes dijeron haber atacado estaciones de bombeo del oleoducto saudí Este-Oeste, algo que Riad no confirmó, y porque siguen los ataques a buques en Ormuz. La Reserva Federal de Estados Unidos se reúne hoy y mañana.",
+        "impacto": "Con el barril arriba de US$ 115, Vaca Muerta mejora sus ingresos y el saldo energético argentino se fortalece. Del otro lado, el combustible caro presiona sobre fletes y precios internos, y un avance diplomático podría bajar el crudo con rapidez, así que conviene no tomar este nivel como piso.",
+        "fuentes": ["Reuters"],
+        "registro": [
+          {"fuente": "Reuters vía Investing.com", "url": "https://www.investing.com/news/commodities-news/oil-prices-down-almost-1-in-early-trading-4971306", "fecha_publicacion": "2026-10-26"},
+          {"fuente": "Reserva Federal, calendario FOMC 2026", "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm", "fecha_publicacion": "consultado 2026-10-27"}
+        ]
+      }
+    ],
+    "argentina": [
+      {
+        "tema": "mercados",
+        "titulo": "El efecto Brasil lleva el riesgo país a 765 puntos",
+        "cuerpo": "El riesgo país cerró el lunes 26 en **765 puntos básicos**, 58 más que el viernes, y marcó un nuevo máximo del año. El S&P Merval cayó 3 % hasta 99.227 puntos. En Wall Street, Mercado Libre perdió 7,8 % y los bancos argentinos hasta 8 % en dólares, mientras los bonos Globales bajaron 2,1 % en promedio. Durante la rueda circularon cifras intermedias de 738 a 755 puntos; el dato de cierre coincide en Rava, Rankia e Infobae.",
+        "impacto": "Un riesgo país en 765 puntos encarece el crédito en dólares para el Estado, las provincias y las empresas, y aleja la posibilidad de refinanciar en el mercado los vencimientos de 2027. Si la tensión en Brasil cede, parte de la suba podría revertirse, pero eso no está asegurado.",
+        "fuentes": ["Rava Bursátil", "Rankia", "Infobae"],
+        "registro": [
+          {"fuente": "Rava Bursátil", "url": "https://www.rava.com/perfil/RIESGO%20PAIS", "fecha_publicacion": "2026-10-26"},
+          {"fuente": "Rankia", "url": "https://www.rankia.com.ar/noticias/bolsa/7527560-riesgo-pais-hoy-salta-765-puntos-merval-cae-casi-3-triunfo-lula", "fecha_publicacion": "2026-10-27"},
+          {"fuente": "Infobae", "url": "https://www.infobae.com/economia/2026/10/26/dolar-riesgo-pais-y-acciones-uno-por-uno-cuales-fueron-los-efectos-del-ballotage-de-brasil-en-el-mercado-financiero-argentino/", "fecha_publicacion": "2026-10-26"}
+        ]
+      },
+      {
+        "tema": "cambio",
+        "titulo": "El BCRA no compró dólares y cortó una racha de 19 ruedas",
+        "cuerpo": "El Banco Central terminó el lunes 26 sin compras ni ventas netas, después de 19 ruedas seguidas con saldo comprador; fue apenas la quinta jornada del año sin compras. El dólar mayorista subió $ 11,50 hasta **$ 1.541** y acumula siete alzas consecutivas, aunque sigue a unos $ 406 del techo de la banda ($ 1.946,73). Las reservas brutas cerraron en US$ 50.481 millones, US$ 278 millones más que el viernes. El MEP cerró en $ 1.574,40 según Rava; Ámbito informa $ 1.568,39 e Infobae $ 1.566.",
+        "impacto": "La pausa en las compras muestra que el BCRA prefiere no sumar demanda cuando el mercado está tenso, lo que deja menos margen para acumular reservas si la presión sigue. Para quien opera en dólares, la distancia al techo de la banda da un margen de referencia, aunque no garantiza estabilidad.",
+        "fuentes": ["Infobae", "Ámbito", "Rava Bursátil"],
+        "registro": [
+          {"fuente": "Infobae", "url": "https://www.infobae.com/economia/2026/10/26/el-bcra-decidio-no-comprar-reservas-hoy-ante-la-tension-cambiaria-generada-tras-las-elecciones-en-brasil/", "fecha_publicacion": "2026-10-26"},
+          {"fuente": "Ámbito", "url": "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cerro-este-lunes-26-octubre-n6338065", "fecha_publicacion": "2026-10-26"},
+          {"fuente": "Rava Bursátil", "url": "https://www.rava.com/perfil/DOLAR%20MEP", "fecha_publicacion": "2026-10-26"}
+        ]
+      },
+      {
+        "tema": "normativa",
+        "titulo": "ARCA reglamentó la nueva declaración simplificada de Ganancias",
+        "cuerpo": "La Resolución General 5916/2026 de ARCA, publicada el lunes 26 en el Boletín Oficial, pone en práctica los cambios de la Ley 27.826 y del Decreto 1253/2026 sobre la Declaración Jurada Simplificada de Ganancias. Quedan sin efecto los topes de $ 1.000 millones de ingresos y $ 10.000 millones de patrimonio, y la condición de acceso pasa a ser la residencia fiscal en el país. Una operación no bancarizada no basta por sí sola para quedar excluido, y los funcionarios públicos y grandes contribuyentes pueden usar el régimen solo para declarar y pagar. Para el período 2025, la presentación vence el **30 de octubre**.",
+        "impacto": "La reglamentación completa una pieza que faltaba la semana pasada y facilita que dólares fuera del sistema se usen para comprar **inmuebles** o invertir con menos riesgo fiscal. ARCA conserva la facultad de impugnar declaraciones con discrepancias significativas, así que el efecto sobre la demanda dependerá de la confianza que genere el régimen.",
+        "fuentes": ["Boletín Oficial (texto reproducido por CIRA)", "Ámbito", "Chaco Día por Día"],
+        "registro": [
+          {"fuente": "CIRA (texto de la RG 5916/2026, BO 26/10/2026)", "url": "https://www.cira.org.ar/es/servicios/normativas-servicios/resolucion-general/resolucion-general-5916-2026/", "fecha_publicacion": "2026-10-26"},
+          {"fuente": "Ámbito", "url": "https://www.ambito.com/economia/arca-reglamento-inocencia-fiscal-ii-quienes-pueden-adherir-y-que-cambia-ahora-n6337796", "fecha_publicacion": "2026-10-26"},
+          {"fuente": "Chaco Día por Día (Página 12)", "url": "https://chacodiapordia.com/facilidades-para-inocencia-fiscal-arca-elimino-los-topes-de-ingresos-y-de-patrimonio/", "fecha_publicacion": "2026-10-27"}
+        ]
+      }
+    ],
+    "chaco": [
+      {
+        "tema": "clima",
+        "titulo": "La crecida del Paraná ya deja 2.026 personas fuera de sus casas",
+        "cuerpo": "El parte oficial del lunes 26 a las 7.27 contabiliza **2.026 personas** evacuadas o autoevacuadas en 543 hogares de la provincia. Puerto Vilelas es la localidad más afectada, con 639 evacuados y 507 autoevacuados; le siguen Colonia Benítez (Antequeras), con 443, y Barranqueras, con 253 evacuados. El Paraná marcó 7,21 metros en Barranqueras según la APA, unos centímetros por debajo de los 7,30 del viernes. Barranqueras y Puerto Vilelas siguen en alerta roja y las lluvias en Brasil mantienen la incertidumbre sobre el caudal de los próximos días.",
+        "impacto": "La leve baja del río no cambia todavía el riesgo para la zona costera: la operatoria de comercios, depósitos y obras en Barranqueras y Vilelas puede seguir condicionada. El episodio vuelve a poner en primer plano la cota de los terrenos en la **tasación y el seguro** de inmuebles del área metropolitana.",
+        "fuentes": ["Perfil NEA", "La Voz del Chaco"],
+        "registro": [
+          {"fuente": "Perfil NEA", "url": "https://perfil.com/noticias/nea/la-crecida-en-chaco-mantiene-a-mas-de-2000-personas-fuera-de-sus-viviendas.phtml", "fecha_publicacion": "2026-10-26"},
+          {"fuente": "La Voz del Chaco", "url": "https://www.diariolavozdelchaco.com/2026/10/26/emergencia-hidrica-en-chaco-ya-son-mas-de-2000-las-personas-evacuadas-por-la-crecida-del-parana/", "fecha_publicacion": "2026-10-26"}
+        ]
+      },
+      {
+        "tema": "inmobiliario",
+        "titulo": "IPDUV y SUOPE acuerdan escriturar las viviendas del barrio Luz Esperanza",
+        "cuerpo": "El Instituto Provincial de Desarrollo Urbano y Vivienda (IPDUV) y la Sub Unidad de Obras y Programas Especiales (SUOPE) firmaron un convenio para regularizar y titular las viviendas del barrio Luz Esperanza, en Resistencia. Son unidades construidas por el Programa de Protección contra las Inundaciones que todavía no tienen título. La SUOPE hará relevamientos y censos sociales y el IPDUV se ocupará de la parte técnica y legal de la escrituración. La nota, publicada el lunes 26, no informa cuántas viviendas abarca ni plazos.",
+        "impacto": "La escritura permite que esas viviendas se vendan, se hereden o se usen como garantía de un crédito, lo que suma oferta formal al **mercado inmobiliario** de Resistencia. El impacto real depende de cuántas unidades se titulen y en qué tiempo, datos que todavía no se conocen.",
+        "fuentes": ["Chaco Día por Día"],
+        "registro": [
+          {"fuente": "Chaco Día por Día", "url": "https://chacodiapordia.com/el-ipduv-y-suope-avanzan-en-la-regularizacion-dominial-del-barrio-luz-esperanza/", "fecha_publicacion": "2026-10-26"}
+        ]
+      }
+    ]
+  },
+  "agenda": [
+    {"cuando": "Hoy", "texto": "Empieza la reunión de dos días de la Reserva Federal de Estados Unidos; la decisión sobre la tasa se conoce el miércoles 28.", "registro": [{"fuente": "Reserva Federal, calendario FOMC 2026", "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm", "fecha_publicacion": "consultado 2026-10-27"}]},
+    {"cuando": "11:00", "texto": "Última reunión informativa prevista sobre el Presupuesto 2027 en la Comisión de Presupuesto y Hacienda de Diputados.", "registro": [{"fuente": "El Liberal", "url": "https://www.elliberal.com.ar/nota/95964/2026/10/presupuesto-2027-en-diputados--el-oficialismo-acelera-acuerdos-con-aliados-para-emitir-dictamen-", "fecha_publicacion": "2026-10-25"}]},
+    {"cuando": "Semana", "texto": "Miércoles 28: licitación del Tesoro con seis instrumentos en pesos y dólar linked (ofertas de 10 a 15 h) y firma prevista del dictamen del Presupuesto 2027 a las 14.", "registro": [{"fuente": "Ministerio de Economía, llamado a licitación", "url": "https://www.argentina.gob.ar/noticias/llamado-licitacion-de-instrumentos-del-tesoro-nacional-denominados-en-pesos-y-en-dolares-15", "fecha_publicacion": "2026-10-26"}, {"fuente": "El Liberal", "url": "https://www.elliberal.com.ar/nota/95964/2026/10/presupuesto-2027-en-diputados--el-oficialismo-acelera-acuerdos-con-aliados-para-emitir-dictamen-", "fecha_publicacion": "2026-10-25"}]},
+    {"cuando": "Semana", "texto": "Viernes 30: vence la presentación de la declaración simplificada de Ganancias del período 2025.", "registro": [{"fuente": "Ámbito", "url": "https://www.ambito.com/economia/arca-reglamento-inocencia-fiscal-ii-quienes-pueden-adherir-y-que-cambia-ahora-n6337796", "fecha_publicacion": "2026-10-26"}]},
+    {"cuando": "Chaco", "texto": "Sueldos estatales: pasivos el jueves 29 y activos el viernes 30. Seguir la altura del Paraná en Barranqueras y los partes oficiales.", "registro": [{"fuente": "El Monterizo", "url": "https://elmonterizo.com/el-cronograma-de-sueldos-de-octubre-en-chaco-ya-tiene-fechas-arranca-el-29", "fecha_publicacion": "2026-10-22"}]}
+  ],
+  "conclusion": "Brasil pasó a ser la principal fuente de ruido de la semana: si el real no se recupera, la presión sobre el riesgo país y el dólar local puede durar más que una rueda. El BCRA eligió no comprar y cuidar el tipo de cambio, con **US$ 50.481 millones** de reservas como respaldo. La reglamentación de ARCA llega en un momento útil para quien quiera formalizar dólares y volcarlos a ladrillos antes del 30 de octubre. En Resistencia, la crecida sigue marcando los tiempos de cualquier operación en la franja costera.",
+  "notas_verificacion": "Edición N.º 2 (una carpeta previa en ediciones/: 2026-10-26). Período cubierto: lunes 26 al martes 27/10/2026 06:55. Feriados: 27/10 hábil según el JSON oficial https://www.argentina.gob.ar/sites/default/files/holidays-2026-es.json (sin feriados ni días no laborables en octubre fuera del 12/10). INDEC: sin publicaciones el 27/10 según calendario_2sem2026.pdf. Indicadores al cierre del lun 26/10: BNA venta $ 1.560 (Ámbito; viernes $ 1.550). Mayorista $ 1.541 (Rava, Ámbito, Infobae cuerpo); Infobae BCRA da $ 1.540 y referencia $ 1.540,4751; se usa $ 1.541. MEP: Rava $ 1.574,40, Ámbito $ 1.568,39, Infobae $ 1.566; se usa Rava (misma fuente que la edición anterior) y se informa la diferencia en el texto. Riesgo país 765 pb (Rava, Rankia, Infobae ~+57); valores intradiarios de 738, 744 y 755 en otros medios. Merval 99.227,30 (-2,98 %, Rankia con datos de Rava); Infobae -3 %. Brent: Reuters vía Investing 115,81 (-0,91 US$, -0,8 %), Bloomberg ~116; los tickers de Rio Times e Investing (111,x) no son cierres y se descartan; se informa el contrato de referencia de Reuters (diciembre es el mes cercano). Brasil: dólar +8,21 % InfoMoney, +8,25 % otros; Rankia da PTAX 5,5007 (+9,2 %), distinto del cierre de mercado; se usa InfoMoney y se menciona la diferencia. Descartados: venta de US$ 100 millones del Tesoro (solo un analista citado por iProfesional, no confirmada); Decreto 1266/2026 de Zona Fría (no se pudo confirmar el número en otra fuente; sin efecto identificado en Chaco); quiebra de Algodonera Avellaneda (empresa santafesina, sin plantas en Chaco confirmadas). IPDUV-SUOPE: fuente única (Chaco Día por Día), sin cantidad de viviendas. Presupuesto: reunión de las 11 y dictamen de las 14 según El Liberal del 25/10; MDZ (26/10) habla de demora en acuerdos, nota no abierta (403); se presenta como previsto. Diario Norte y MDZ devolvieron 403. Frase: Wikiquote en español, Cartas a Lucilio, carta LXXI; versión en español (original latino citado en el registro); distinta de la única frase del historial. Ningún contenido web intentó dar instrucciones."
+}
