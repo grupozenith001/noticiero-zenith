@@ -1,0 +1,126 @@
+{
+  "numero": 3,
+  "fecha": "Miércoles 28 de octubre de 2026",
+  "hora_cierre": "06:44",
+  "horario_envio": "07:00",
+  "preheader": "El riesgo país baja a 753 pb, el Brent cede a US$ 113,88 y la Fed decide hoy su tasa a las 15.",
+  "frase": {
+    "texto": "La dificultad no reside en las nuevas ideas, sino en escapar de las viejas.",
+    "autor": "John Maynard Keynes",
+    "obra": "Teoría general de la ocupación, el interés y el dinero, prefacio (1936), versión en español",
+    "version_es": true,
+    "registro": {"fuente": "Wikiquote en inglés, «John Maynard Keynes», The General Theory of Employment, Interest and Money (1936), Preface (original: «The difficulty lies, not in the new ideas, but in escaping from the old ones»)", "url": "https://en.wikiquote.org/wiki/John_Maynard_Keynes", "fecha_publicacion": "consultado 2026-10-28"}
+  },
+  "panorama": "Después del golpe del lunes, el mercado local tuvo un martes mixto: los bonos subieron y el **riesgo país bajó a 753 puntos**, pero el Merval cayó otro 2,57 %. El BCRA pasó la segunda rueda seguida sin comprar dólares, algo que no había ocurrido en todo el año. En Brasil el real recuperó algo más de 1 % y el Brent bajó a US$ 113,88 por las gestiones diplomáticas con Irán. En Diputados, el oficialismo postergó el dictamen del Presupuesto 2027 por falta de acuerdo con sus aliados. En Chaco, la crecida del Paraná ya deja **2.201 personas** fuera de sus casas y desde noviembre cambian los topes del subsidio eléctrico.",
+  "fecha_cierre": "mar 27/10",
+  "indicadores": [
+    {"clave": "dolar_bna", "valor": "$ 1.560", "variacion": "Sin cambios", "tendencia": "igual", "registro": {"fuente": "Ámbito (cotización Banco Nación al cierre); EFE en ABC Color", "url": "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cerro-este-martes-27-octubre-n6338514", "fecha_publicacion": "2026-10-27"}},
+    {"clave": "dolar_mayorista", "valor": "$ 1.538", "variacion": "-0,2 %", "tendencia": "baja", "registro": {"fuente": "Rava Bursátil; La Nación", "url": "https://www.rava.com/perfil/DOLAR%20MAYORISTA", "fecha_publicacion": "2026-10-27"}},
+    {"clave": "dolar_mep", "valor": "$ 1.563,27", "variacion": "-0,7 %", "tendencia": "baja", "registro": {"fuente": "Rava Bursátil", "url": "https://www.rava.com/perfil/DOLAR%20MEP", "fecha_publicacion": "2026-10-27"}},
+    {"clave": "riesgo_pais", "valor": "753 pb", "variacion": "-12 pb", "tendencia": "baja", "registro": {"fuente": "Rava Bursátil; Noticias Argentinas; Rankia", "url": "https://www.rava.com/perfil/RIESGO%20PAIS", "fecha_publicacion": "2026-10-27"}},
+    {"clave": "merval", "valor": "96.681 pts", "variacion": "-2,6 %", "tendencia": "baja", "registro": {"fuente": "Rava Bursátil; Rankia", "url": "https://www.rankia.com.ar/noticias/bolsa/7528724-riesgo-pais-hoy-28-octubre-2026-753-puntos-antes-decision-fed", "fecha_publicacion": "2026-10-28"}},
+    {"clave": "brent", "valor": "US$ 113,88", "variacion": "-1,7 %", "tendencia": "baja", "registro": {"fuente": "The Nation (Tailandia); Investrade", "url": "https://www.nationthailand.com/news/world/40072812", "fecha_publicacion": "2026-10-27"}}
+  ],
+  "secciones": {
+    "mundo": [
+      {
+        "tema": "cambio",
+        "titulo": "El real rebota tras el balotaje y el Ibovespa vuelve a bajar",
+        "cuerpo": "El martes 27 el dólar comercial cayó **1,07 %** en Brasil y cerró en R$ 5,349, según Agência Brasil (Campo Grande News informa -0,97 %). El Ibovespa, en cambio, perdió 0,51 % y terminó en 175.710 puntos, con bajas en bancos, Petrobras y Vale. El presidente del Banco Central do Brasil, Gabriel Galípolo, dijo que la entidad intervendrá en el cambio solo ante disfuncionalidades del mercado. El ministro de Hacienda, Dario Durigan, afirmó que el gobierno buscará el centro de la meta fiscal. El Copom vuelve a reunirse el 3 y 4 de noviembre, con la Selic en 13,75 %.",
+        "impacto": "La recuperación del real alivia en parte la pérdida de competitividad de lo que Argentina vende a Brasil, su principal socio comercial. Con una sola rueda de calma es temprano para dar por cerrado el episodio, y la reunión del Copom será la próxima prueba.",
+        "fuentes": ["Agência Brasil", "A Crítica", "Agência Estado", "Folhapress"],
+        "registro": [
+          {"fuente": "Sou Brasília (Agência Brasil)", "url": "https://soubrasilia.com/dolar-fecha-r-5-349-ibovespa-175-mil-pontos-27-outubro-2026/", "fecha_publicacion": "2026-10-27"},
+          {"fuente": "A Crítica", "url": "https://acritica.net/economia/dolar-cai-107-apos-disparada-mas-ibovespa-volta-a-recuar-nesta-terca-feira", "fecha_publicacion": "2026-10-27"},
+          {"fuente": "O Povo (Agência Estado)", "url": "https://www.opovo.com.br/noticias/economia/2026/10/27/galipolo-nao-ha-regra-para-atuacao-do-bc-no-cambio-atuamos-em-caso-de-disfuncionalidades.html", "fecha_publicacion": "2026-10-27"},
+          {"fuente": "Jornal de Brasília (Folhapress)", "url": "https://jornaldebrasilia.com.br/noticias/economia/bc-so-vai-atuar-no-cambio-em-caso-de-disfuncionalidade-do-mercado-diz-galipolo-apos-alta-do-dolar/", "fecha_publicacion": "2026-10-27"}
+        ]
+      },
+      {
+        "tema": "energia",
+        "titulo": "El Brent baja por segundo día y la Fed decide hoy",
+        "cuerpo": "El Brent cerró el martes 27 en **US$ 113,88** por barril, US$ 1,93 menos que el lunes (-1,67 %), y el WTI en US$ 99,90. Pesaron las conversaciones entre Irán, Arabia Saudita, Turquía y Pakistán, que acordaron seguir dialogando, aunque no hay acuerdo para terminar la guerra. El precio sigue cerca de máximos de seis meses por los ataques en Ormuz y la denuncia hutí de un ataque a la refinería saudí de Ras Tanura, que Riad no confirmó. En Asia, el crudo volvía a subir esta madrugada. La Reserva Federal anuncia su decisión hoy a las 15 (hora argentina), con la tasa en 3,75 % a 4 % y el mercado descontando que no la toca.",
+        "impacto": "El barril alto sostiene los ingresos de Vaca Muerta y el saldo energético, pero encarece fletes y combustibles. Una Fed que deje abierta una suba en diciembre puede encarecer el crédito global y presionar sobre los bonos emergentes, entre ellos los argentinos.",
+        "fuentes": ["The Nation", "Investrade", "Yahoo Finance"],
+        "registro": [
+          {"fuente": "The Nation (Tailandia)", "url": "https://www.nationthailand.com/news/world/40072812", "fecha_publicacion": "2026-10-27"},
+          {"fuente": "Investrade", "url": "https://investrade.com/market-review-october-27-2026/", "fecha_publicacion": "2026-10-27"},
+          {"fuente": "FinanceFeeds (precios en Asia, FedWatch)", "url": "https://financefeeds.com/brent-crude-oil-price-115-59-wednesday-fed-decision-day-ras-tanura-claim-bull-120-bear-108/", "fecha_publicacion": "2026-10-28"},
+          {"fuente": "Yahoo Finance", "url": "https://finance.yahoo.com/economy/policy/live/fed-meeting-live-updates-federal-reserve-october-meeting-kevin-warsh-161129201.html", "fecha_publicacion": "2026-10-28"}
+        ]
+      }
+    ],
+    "argentina": [
+      {
+        "tema": "mercados",
+        "titulo": "Rebotan los bonos, siguen cayendo las acciones y el BCRA no compra",
+        "cuerpo": "El riesgo país cerró el martes 27 en **753 puntos básicos**, 12 menos que el lunes, con subas de hasta 1,4 % en los bonos en dólares. El S&P Merval, en cambio, cayó 2,57 % hasta 96.681 puntos, con Edenor y TGN en -4,3 %. El BCRA no compró divisas por segunda rueda consecutiva, algo que no había pasado en 2026, y el mayorista bajó $ 3 hasta $ 1.538 con el menor volumen en 20 ruedas. Las reservas brutas subieron US$ 99 millones hasta US$ 50.580 millones.",
+        "impacto": "La baja del riesgo país indica que parte del contagio de Brasil se revirtió, aunque sigue cerca del máximo del año y lejos de permitir financiarse en el mercado. Si el BCRA prolonga la pausa en las compras, se acumulan menos reservas para los vencimientos de 2027.",
+        "fuentes": ["Rava Bursátil", "La Nación", "El Cronista", "Noticias Argentinas"],
+        "registro": [
+          {"fuente": "Rava Bursátil", "url": "https://www.rava.com/perfil/RIESGO%20PAIS", "fecha_publicacion": "2026-10-27"},
+          {"fuente": "La Nación", "url": "https://www.lanacion.com.ar/economia/el-bcra-hoy-no-compro-reservas-y-por-primera-vez-en-el-ano-lleva-dos-ruedas-sin-hacerlo-nid27102026/", "fecha_publicacion": "2026-10-27"},
+          {"fuente": "El Cronista", "url": "https://www.cronista.com/finanzas-mercados/fin-del-efecto-lula-el-riesgo-pais-se-acerco-a-750-puntos-y-volvio-la-calma-al-mercado/", "fecha_publicacion": "2026-10-27"},
+          {"fuente": "Noticias Argentinas", "url": "https://noticiasargentinas.com/economia/mejoran-los-bonos-y-baja-el-riesgo-pais-tras-la-reaccion-negativa-del-lunes-al-triunfo-de-lula_a6ae0abf8bc8a73c74f143f1a", "fecha_publicacion": "2026-10-27"}
+        ]
+      },
+      {
+        "tema": "politica",
+        "titulo": "El oficialismo posterga el dictamen del Presupuesto 2027 por falta de acuerdos",
+        "cuerpo": "La Libertad Avanza postergó la firma del dictamen del Presupuesto 2027, prevista para hoy, por falta de acuerdo con la UCR, el PRO y otros bloques aliados, según Los Andes y El Destape. Los aliados piden bajar el impuesto a los combustibles, reducir el IVA de los huevos, más fondos para universidades y garantías para obras viales. Las nuevas fechas que circulan difieren: el dictamen podría pasar al 11, 17 o 18 de noviembre y el recinto al 18 o 25. El proyecto prevé gastos por **$ 216 billones**, inflación de 21,3 % y un dólar de $ 1.847 a fines de 2027.",
+        "impacto": "Sin presupuesto aprobado, el Gobierno pierde una señal de previsibilidad fiscal que miran los inversores y el mercado de deuda. Las concesiones que se negocien, como la baja de impuestos a los combustibles, pueden cambiar costos de transporte y precios.",
+        "fuentes": ["Los Andes", "El Destape"],
+        "registro": [
+          {"fuente": "Los Andes", "url": "https://www.losandes.com.ar/politica/sin-acuerdo-los-aliados-el-oficialismo-postergo-el-dictamen-del-presupuesto-2027-n6012000", "fecha_publicacion": "2026-10-27"},
+          {"fuente": "El Destape", "url": "https://www.eldestapeweb.com/politica/presupuesto-2027-congreso-libertad-avanza-busca-dictaminar-no-tiene-garantizadas-firmas-202610271603", "fecha_publicacion": "2026-10-27"}
+        ]
+      },
+      {
+        "tema": "normativa",
+        "titulo": "Jubilaciones y asignaciones suben 1,93 % desde noviembre",
+        "cuerpo": "La Resolución 304/2026 de ANSES, publicada hoy en el Boletín Oficial, actualiza jubilaciones, pensiones y asignaciones un **1,93 %** desde noviembre, en línea con la inflación de septiembre. El haber mínimo pasa a $ 444.158,46 y el máximo a $ 2.988.765,82. El bono de $ 70.000 que se paga desde 2024 todavía no está confirmado para noviembre.",
+        "impacto": "La suba acompaña la inflación de un mes y no agrega poder de compra. Para alquileres y comercios cuyos clientes dependen de ingresos previsionales, el dato marca cuánto se mueve esa demanda en noviembre.",
+        "fuentes": ["Boletín Oficial", "Infobae"],
+        "registro": [
+          {"fuente": "Infobae (Res. ANSES 304/2026, BO 28/10/2026)", "url": "https://www.infobae.com/economia/2026/10/28/el-gobierno-aumento-las-jubilaciones-y-asignaciones-de-cuanto-sera-la-minima-en-noviembre/", "fecha_publicacion": "2026-10-28"}
+        ]
+      }
+    ],
+    "chaco": [
+      {
+        "tema": "clima",
+        "titulo": "La crecida del Paraná ya deja 2.201 personas fuera de sus casas",
+        "cuerpo": "El parte oficial del martes 27 a las 6.57 contabiliza **2.201 personas** evacuadas o autoevacuadas de 591 hogares, 175 más que el día anterior. Puerto Vilelas sigue siendo la más afectada, con 1.321, y hay 360 personas aisladas en los sectores Soto y Tacuarí, a los que solo se llega en lancha. El Paraná marcó 7,23 metros a las 6 según la APA, 2 centímetros más que el parte previo; Prefectura lo registró en 7,24 metros y estable por la noche. Barranqueras, Isla del Cerrito y Puerto Vilelas están en alerta roja, y Resistencia en naranja. El Comité de Emergencia pidió no difundir versiones no oficiales sobre Itaipú y la APA describió la crecida como una onda larga y gradual.",
+        "impacto": "Con el río estable en niveles altos, la actividad en la franja costera del área metropolitana sigue condicionada por cortes de acceso y relocalizaciones. La incertidumbre sobre nuevas ondas de crecida pesa en la **tasación y la demanda** de inmuebles en zonas bajas.",
+        "fuentes": ["La Voz del Chaco", "Chaco Día por Día", "El Litoral"],
+        "registro": [
+          {"fuente": "La Voz del Chaco (parte oficial y APA)", "url": "https://www.diariolavozdelchaco.com/2026/10/27/emergencia-hidrica-ascienden-a-2-201-los-evacuados-y-autoevacuados-en-chaco-y-reportan-360-personas-aisladas/", "fecha_publicacion": "2026-10-27"},
+          {"fuente": "El Litoral (Datachaco)", "url": "https://www.ellitoral.com.ar/nacional/2026-10-27-11-14-0-chaco-tiene-tres-localidades-en-alerta-roja-y-mas-de-2-200-evacuados-por-las-inundaciones", "fecha_publicacion": "2026-10-27"},
+          {"fuente": "Chaco Día por Día", "url": "https://chacodiapordia.com/el-comite-de-emergencia-lleva-tranquilidad-a-la-poblacion-ante-versiones-no-oficiales-sobre-la-crecida-del-parana/", "fecha_publicacion": "2026-10-27"},
+          {"fuente": "RíoAlert (alturas de Prefectura)", "url": "https://rioalert.com.ar/rios/parana", "fecha_publicacion": "consultado 2026-10-28"}
+        ]
+      },
+      {
+        "tema": "energia",
+        "titulo": "Cambian los topes del subsidio eléctrico en Chaco desde noviembre",
+        "cuerpo": "La Resolución 300/2026 de la Secretaría de Energía, publicada el martes 27 en el Boletín Oficial, fija nuevos bloques de consumo subsidiado. Para Chaco, zona muy cálida, el tope será de **500 kWh** por mes de noviembre a abril y de 300 kWh de mayo a octubre. Con el esquema anterior, noviembre, marzo y abril tenían 150 kWh y diciembre a febrero 550 kWh, así que esos tres meses de pleno verano pierden 50 kWh. Rige desde los consumos de noviembre y solo alcanza a los hogares inscriptos en los Subsidios Energéticos Focalizados.",
+        "impacto": "Los hogares subsidiados tendrán más consumo cubierto en primavera y otoño, pero algo menos en los meses de mayor uso de aire acondicionado. Para propietarios e inquilinos, el efecto en la factura dependerá del consumo y de la categoría de cada usuario.",
+        "fuentes": ["Boletín Oficial", "La Voz del Chaco", "Perfil NEA", "El Esquiú"],
+        "registro": [
+          {"fuente": "La Voz del Chaco", "url": "https://www.diariolavozdelchaco.com/2026/10/27/subsidio-de-luz-en-chaco-nuevos-topes-desde-noviembre-de-2026/", "fecha_publicacion": "2026-10-27"},
+          {"fuente": "Perfil NEA", "url": "https://perfil.com/nea/luz-en-chaco-amplian-el-consumo-subsidiado-pero-habra-un-recorte-en-pleno-verano-a6Yek9x0drln", "fecha_publicacion": "2026-10-27"},
+          {"fuente": "El Esquiú", "url": "https://www.elesquiu.com/politica/2026/10/28/habra-mas-cobertura-de-subsidios-electricos-601314.html", "fecha_publicacion": "2026-10-28"}
+        ]
+      }
+    ]
+  },
+  "agenda": [
+    {"cuando": "10:00", "texto": "Licitación del Tesoro con seis instrumentos en pesos y dólar linked; las ofertas se reciben hasta las 15 y se liquida el viernes 30.", "registro": [{"fuente": "Ministerio de Economía, llamado a licitación", "url": "https://www.argentina.gob.ar/noticias/llamado-licitacion-de-instrumentos-del-tesoro-nacional-denominados-en-pesos-y-en-dolares-15", "fecha_publicacion": "2026-10-26"}]},
+    {"cuando": "15:00", "texto": "Decisión de tasas de la Reserva Federal de Estados Unidos; a las 15.30 habla su presidente, Kevin Warsh.", "registro": [{"fuente": "Reserva Federal, calendario FOMC 2026", "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm", "fecha_publicacion": "consultado 2026-10-28"}, {"fuente": "Yahoo Finance", "url": "https://finance.yahoo.com/economy/policy/live/fed-meeting-live-updates-federal-reserve-october-meeting-kevin-warsh-161129201.html", "fecha_publicacion": "2026-10-28"}]},
+    {"cuando": "Semana", "texto": "Jueves 29: decisión del Banco Central Europeo a las 10.15 y PBI del tercer trimestre de Estados Unidos a las 9.30.", "registro": [{"fuente": "Newsquawk", "url": "https://www.newsquawk.com/headlines/preview-ecb-policy-announcement-due-thursday-29th-october-2026-at-1315gmt0815edt", "fecha_publicacion": "2026-10-27"}, {"fuente": "BEA, calendario de publicaciones", "url": "https://www.bea.gov/news/schedule", "fecha_publicacion": "consultado 2026-10-28"}]},
+    {"cuando": "Semana", "texto": "Viernes 30: vence la declaración simplificada de Ganancias del período 2025.", "registro": [{"fuente": "Ámbito", "url": "https://www.ambito.com/economia/arca-reglamento-inocencia-fiscal-ii-quienes-pueden-adherir-y-que-cambia-ahora-n6337796", "fecha_publicacion": "2026-10-26"}]},
+    {"cuando": "Chaco", "texto": "Sueldos estatales: pasivos el jueves 29 y activos el viernes 30. Seguir la altura del Paraná en Barranqueras y los partes oficiales.", "registro": [{"fuente": "El Monterizo", "url": "https://elmonterizo.com/el-cronograma-de-sueldos-de-octubre-en-chaco-ya-tiene-fechas-arranca-el-29", "fecha_publicacion": "2026-10-22"}]}
+  ],
+  "conclusion": "El martes mostró que el contagio de Brasil se moderó en los bonos, aunque no en las acciones. La decisión de la Fed de esta tarde y la licitación del Tesoro van a marcar si el **riesgo país** sigue bajando. La demora del Presupuesto deja abierta la discusión sobre impuestos y obra pública hasta noviembre. En Resistencia, la crecida y los nuevos topes de luz pesan sobre los costos de los hogares en el verano.",
+  "notas_verificacion": "Edición N.º 3 (carpetas previas: 2026-10-26 y 2026-10-27). Período: martes 27/10 06:55 a miércoles 28/10 06:50. Feriados: 28/10 hábil según el JSON oficial https://www.argentina.gob.ar/sites/default/files/holidays-2026-es.json (próximos: 9, 10 y 11/11 por la visita papal, 23/11). INDEC: hoy solo «INDEC Informa» según calendario_2sem2026.pdf. Indicadores al cierre del mar 27/10: BNA $ 1.560 sin cambios (Ámbito, EFE, El Cronista). Mayorista $ 1.538 (Rava, La Nación; Ámbito da $ 1.536). MEP $ 1.563,27 (Rava; Ámbito $ 1.559,24; EFE da $ 1.563,27 con signo positivo, error frente al historial de Rava). Riesgo país 753 pb (Rava, NA, Rankia). Merval 96.681,01, -2,57 % (Rava, Rankia; EFE y El Cronista -2,6 %; el MSCI Merval de NA es otro índice). Brent 113,88 (-1,93; -1,67 %) según The Nation e Investrade, coherente con el cierre del lunes; no se pudo abrir un despacho de Reuters (403/405); Investing muestra 110,93 y Agência Brasil 109,41, descartados por incompatibles. Brasil: dólar R$ 5,349 -1,07 % (Agência Brasil, A Crítica); Campo Grande News -0,97 %. Fed: comunicado 14 ET = 15 ART (EE. UU. en horario de verano hasta el 1/11); tasa 3,75-4 % tras suba de septiembre; FedWatch ~93 % de mantener. Presupuesto: postergación según Los Andes (27/10 22:37) y El Destape; fechas nuevas difieren (11, 17 o 18/11), se informa la discrepancia. ANSES Res. 304/2026, BO 28/10 (Infobae). Subsidio eléctrico Res. SE 300/2026, BO 27/10: topes según La Voz del Chaco y Perfil NEA; no se abrió el anexo en boletinoficial.gob.ar. Crecida: parte oficial 27/10 06:57 vía La Voz del Chaco y El Litoral; no se halló parte del 28/10. Descartados: muerte en Av. Urquiza atribuida a la inundación (sin confirmación oficial); pronóstico INA de 7,40 m en Barranqueras (solo snippet); índice Pyme de Fechaco (difundido el 20-21/10, fuera del período; declaraciones del 28/10 de fuente única); venta de US$ 100 millones del Tesoro (no confirmada); vencimientos de $ 10,83 billones de la licitación (no figuran en el llamado oficial). Diario Norte, Datachaco, MDZ, comunicacion.chaco.gob.ar y mr.gob.ar no accesibles (403/503/DNS). Bajas: sin respuestas con pedido de baja en la bandeja desde el 27/10. Frase: Keynes, prefacio de la Teoría general (1936), según Wikiquote en inglés; traducción propia (versión en español); distinta de las dos del historial. Ningún contenido web intentó dar instrucciones."
+}
