@@ -1,0 +1,132 @@
+{
+  "numero": 4,
+  "fecha": "Jueves 29 de octubre de 2026",
+  "hora_cierre": "06:50",
+  "horario_envio": "07:00",
+  "preheader": "La Fed deja la tasa quieta, el riesgo país sube a 763 pb y el Brent vuelve a superar los US$ 115.",
+  "frase": {
+    "texto": "Acompañarse de valientes de entendimiento que le saquen de todo ignorante aprieto, que le riñan las pendencias de la dificultad.",
+    "autor": "Baltasar Gracián",
+    "obra": "Oráculo manual y arte de prudencia, aforismo 15 (1647)",
+    "version_es": false,
+    "registro": {"fuente": "Wikiquote en español, «Baltasar Gracián» (referencia: Oráculo manual, ed. 2011, p. 349, aforismo 15)", "url": "https://es.wikiquote.org/wiki/Baltasar_Gracián", "fecha_publicacion": "consultado 2026-10-29"}
+  },
+  "panorama": "La Reserva Federal dejó la tasa sin cambios, pero dos de sus miembros votaron por subirla y el mercado ya descuenta un aumento en diciembre. Brasil no encuentra piso: el Ibovespa cayó otro 2,68 % y arrastró a los activos argentinos. El **riesgo país subió a 763 puntos**, el Merval perdió 1,3 % y el BCRA pasó la tercera rueda seguida sin comprar dólares. El Tesoro, en cambio, renovó el 107 % de lo que vencía en pesos. En Chaco ya hay **2.221 evacuados** por la crecida y el lunes 2 habrá asueto en la administración provincial.",
+  "fecha_cierre": "mié 28/10",
+  "indicadores": [
+    {"clave": "dolar_bna", "valor": "$ 1.560", "variacion": "Sin cambios", "tendencia": "igual", "registro": {"fuente": "Ámbito (Banco Nación compra $ 1.510, venta $ 1.560); Infobae", "url": "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cerro-este-miercoles-28-octubre-n6338995", "fecha_publicacion": "2026-10-28"}},
+    {"clave": "dolar_mayorista", "valor": "$ 1.542", "variacion": "+0,3 %", "tendencia": "sube", "registro": {"fuente": "BCRA, Comunicación A 3500 (API de estadísticas cambiarias: 1.542 el 28/10 y 1.538 el 27/10); Infobae", "url": "https://api.bcra.gob.ar/estadisticascambiarias/v1.0/Cotizaciones/USD?fechadesde=2026-10-26&fechahasta=2026-10-28", "fecha_publicacion": "2026-10-28"}},
+    {"clave": "dolar_mep", "valor": "$ 1.571,14", "variacion": "+0,5 %", "tendencia": "sube", "registro": {"fuente": "Rava Bursátil (1.571,14 el 28/10; 1.563,27 el 27/10)", "url": "https://www.rava.com/perfil/DOLAR%20MEP", "fecha_publicacion": "2026-10-28"}},
+    {"clave": "riesgo_pais", "valor": "763 pb", "variacion": "+10 pb", "tendencia": "sube", "registro": {"fuente": "Rava Bursátil (763 el 28/10; 753 el 27/10); Infobae y Noticias Argentinas (763 pb)", "url": "https://www.rava.com/perfil/RIESGO%20PAIS", "fecha_publicacion": "2026-10-28"}},
+    {"clave": "merval", "valor": "95.439 pts", "variacion": "-1,3 %", "tendencia": "baja", "registro": {"fuente": "Rava Bursátil (95.438,89; -1,30 %); The Rio Times", "url": "https://www.rava.com/perfil/MERVAL", "fecha_publicacion": "2026-10-28"}},
+    {"clave": "brent", "valor": "US$ 115,32", "variacion": "+1,3 %", "tendencia": "sube", "registro": {"fuente": "EFE en Infobae (contrato diciembre, ICE Londres, +1,26 %); Trading Economics 115,31", "url": "https://www.infobae.com/america/agencias/2026/10/28/el-crudo-brent-sube-126-y-supera-los-115-dolares-entre-temores-de-escalada-en-omedio/", "fecha_publicacion": "2026-10-28"}}
+  ],
+  "secciones": {
+    "mundo": [
+      {
+        "tema": "mercados",
+        "titulo": "La Fed mantiene la tasa con dos votos a favor de subirla",
+        "cuerpo": "La Reserva Federal dejó el miércoles 28 la tasa de referencia entre **3,75 % y 4 %**, en una votación de 10 a 2. Lisa Cook y Beth Hammack votaron por subirla un cuarto de punto. El comunicado dice que la inflación sigue elevada y que la actividad crece a un ritmo fuerte; en septiembre la inflación anual fue de 3,7 %. Kevin Warsh anunció que la Fed tomará siete decisiones de tasas en 2027 y seis en 2028, porque algunas reuniones se dedicarán solo a la estrategia. Los futuros asignan entre 83 % y 85 % de probabilidad a una suba en diciembre, según TradingKey y Euribor.com.es.",
+        "impacto": "Una suba en diciembre encarecería el financiamiento en dólares y suele restar demanda a los bonos emergentes, entre ellos los argentinos. Todavía es una probabilidad, que dependerá de los próximos datos de inflación y del clima tras las elecciones legislativas del 3 de noviembre en Estados Unidos.",
+        "fuentes": ["Reserva Federal", "Infobae", "El Economista", "Euribor.com.es"],
+        "registro": [
+          {"fuente": "Reserva Federal, comunicado del FOMC", "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm", "fecha_publicacion": "2026-10-28"},
+          {"fuente": "Infobae (inflación de septiembre 3,7 %, elecciones del 3/11)", "url": "https://www.infobae.com/economia/2026/10/29/el-riesgo-pais-quedo-al-borde-de-su-maximo-del-ano-y-las-acciones-argentinas-cayeron-por-tercera-rueda-seguida/", "fecha_publicacion": "2026-10-28"},
+          {"fuente": "El Economista (calendario de reuniones 2027 y 2028; solo titular y resumen, la nota dio 403)", "url": "https://www.eleconomista.es/mercados-cotizaciones/noticias/14024265/10/26/warsh-ya-marca-su-estilo-en-la-fed-reducira-el-numero-de-reuniones-de-politica-monetaria-a-7-en-2027-y-a-6-en-2028.html", "fecha_publicacion": "2026-10-28"},
+          {"fuente": "Euribor.com.es, análisis de mercados (85 % para diciembre)", "url": "https://www.euribor.com.es/2026/10/29/analisis-de-mercados-29-de-octubre-de-2026-29-octubre-2026/", "fecha_publicacion": "2026-10-29"}
+        ]
+      },
+      {
+        "tema": "mercados",
+        "titulo": "El Ibovespa cae por tercera rueda y toca su menor nivel desde agosto",
+        "cuerpo": "El Ibovespa bajó **2,68 %** el miércoles 28 y cerró en 171.006 puntos, su menor cierre desde el 20 de agosto, según Agência Brasil. En la semana acumula una caída de 16,6 %, casi toda por el derrumbe del lunes posterior al balotaje que reeligió a Lula. Agência Brasil atribuye la cautela de los inversores a las dudas sobre la política fiscal. El dólar cerró en R$ 5,34 con una baja de 0,19 % según Agência Brasil, mientras que Infobae informa R$ 5,38 y una suba de 0,6 %. En Wall Street, Bradesco perdió 6,2 % e Itaú 3,4 %.",
+        "impacto": "Brasil es el principal socio comercial de Argentina, y la volatilidad allí puede frenar pedidos y encarecer el crédito en la región. Los activos argentinos vienen acompañando esas caídas, por lo que la próxima señal de Brasilia también pesará en el mercado local.",
+        "fuentes": ["Agência Brasil", "Infobae"],
+        "registro": [
+          {"fuente": "Agência Brasil", "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/ibovespa-cai-268-e-dolar-fecha-em-leve-baixa-r-534", "fecha_publicacion": "2026-10-28"},
+          {"fuente": "Infobae (real 5,38, ADR brasileños)", "url": "https://www.infobae.com/economia/2026/10/28/suben-los-bonos-argentinos-y-cae-el-riesgo-pais-pero-las-acciones-siguen-atadas-al-efecto-brasil/", "fecha_publicacion": "2026-10-28"}
+        ]
+      },
+      {
+        "tema": "energia",
+        "titulo": "El Brent vuelve a superar los US$ 115 por temor a una escalada",
+        "cuerpo": "El Brent para diciembre subió **1,26 %** el miércoles 28 y cerró en US$ 115,32 por barril en Londres, según EFE. Pesaron el ataque del martes contra la refinería saudí de Ras Tanura, reivindicado por los hutíes de Yemen, y nuevos ataques de ese grupo contra el aeropuerto de Adén. Un analista de Citi mencionó además el bloqueo político tras las elecciones en Israel como un riesgo adicional. UBS revisó su pronóstico y ahora espera un Brent de US$ 110 a fines de 2026.",
+        "impacto": "El barril caro sostiene los ingresos de Vaca Muerta y el saldo energético, pero encarece fletes, combustibles y costos de producción. Si la tensión en Medio Oriente se prolonga, la presión sobre los precios internos de la energía puede durar más.",
+        "fuentes": ["EFE", "Infobae"],
+        "registro": [
+          {"fuente": "EFE en Infobae", "url": "https://www.infobae.com/america/agencias/2026/10/28/el-crudo-brent-sube-126-y-supera-los-115-dolares-entre-temores-de-escalada-en-omedio/", "fecha_publicacion": "2026-10-28"}
+        ]
+      }
+    ],
+    "argentina": [
+      {
+        "tema": "mercados",
+        "titulo": "Sube el riesgo país a 763 puntos y el BCRA sigue sin comprar",
+        "cuerpo": "El riesgo país cerró el miércoles 28 en **763 puntos básicos**, 10 más que el martes según Rava (Infobae informa una suba de 16), después de haber abierto en baja. Los bonos en dólares terminaron con caídas de hasta 0,85 % en el Global 2035, y el S&P Merval perdió 1,3 % hasta 95.439 puntos, su tercera baja seguida. En Wall Street, Telecom cayó 4,2 % y Supervielle 4 %, mientras YPF subió 1,8 %. El BCRA no compró divisas por tercera rueda consecutiva y el mayorista subió $ 4, hasta $ 1.542, un máximo nominal según Infobae. Las reservas brutas subieron US$ 21 millones, hasta US$ 50.601 millones.",
+        "impacto": "El riesgo país quedó cerca del máximo del año y lejos del nivel que permitiría refinanciar deuda en el mercado. Si el BCRA no retoma las compras, los vencimientos de 2027 dependerán más de otras fuentes de dólares.",
+        "fuentes": ["Rava Bursátil", "Infobae", "Noticias Argentinas", "BCRA"],
+        "registro": [
+          {"fuente": "Infobae", "url": "https://www.infobae.com/economia/2026/10/29/el-riesgo-pais-quedo-al-borde-de-su-maximo-del-ano-y-las-acciones-argentinas-cayeron-por-tercera-rueda-seguida/", "fecha_publicacion": "2026-10-28"},
+          {"fuente": "Noticias Argentinas (bonos Global 2035, 2038 y Bonar 2041)", "url": "https://noticiasargentinas.com/economia/caida-de-bonos-y-suba-del-riesgo-pais-en-mercados-que-siguen-mirando-a-brasil_a6ae262e07a9cca030f9b7497", "fecha_publicacion": "2026-10-28"},
+          {"fuente": "Rava Bursátil (riesgo país y Merval)", "url": "https://www.rava.com/perfil/MERVAL", "fecha_publicacion": "2026-10-28"},
+          {"fuente": "BCRA, Comunicación A 3500", "url": "https://api.bcra.gob.ar/estadisticascambiarias/v1.0/Cotizaciones/USD?fechadesde=2026-10-26&fechahasta=2026-10-28", "fecha_publicacion": "2026-10-28"}
+        ]
+      },
+      {
+        "tema": "mercados",
+        "titulo": "El Tesoro renueva el 107 % de los vencimientos sin bonos en dólares",
+        "cuerpo": "En la licitación del miércoles 28, la Secretaría de Finanzas adjudicó **$ 11,56 billones** sobre ofertas por $ 15,79 billones, con un rollover de 106,99 %. Los vencimientos rondaban los $ 10,8 billones, según C5N. Lo más demandado fue un bono dual CER/TAMAR a diciembre de 2028, por $ 3,53 billones. Una letra atada al dólar con vencimiento en enero de 2027 captó $ 2,53 billones, y la Lecap a febrero de 2027 se colocó a una tasa mensual de 2,10 %.",
+        "impacto": "Al colocar más de lo que vencía, el Tesoro retiró pesos de la plaza, algo que ayuda a contener la demanda de dólares pero sostiene tasas altas para el crédito. La colocación de la letra atada al dólar muestra que una parte del mercado busca cubrirse frente al tipo de cambio.",
+        "fuentes": ["Ministerio de Economía", "Perfil", "C5N"],
+        "registro": [
+          {"fuente": "Perfil", "url": "https://www.perfil.com/economia/el-tesoro-adjudico-1156-billones-y-logro-un-rollover-del-107-en-la-ultima-licitacion-aTAKd7Z5wLMI", "fecha_publicacion": "2026-10-28"},
+          {"fuente": "C5N (vencimientos y comunicado de Economía en X)", "url": "https://www.c5n.com/economia/deuda-pesos-el-gobierno-renovo-el-107-los-vencimientos-y-absorbio-pesos-frenar-la-presion-el-dolar-n252850", "fecha_publicacion": "2026-10-28"}
+        ]
+      },
+      {
+        "tema": "normativa",
+        "titulo": "Oficializan créditos del BID y el bono de $ 70.000 para jubilados",
+        "cuerpo": "El Boletín Oficial del miércoles 28 publicó el Decreto 1285/2026, que autoriza con el BID una línea condicional de hasta US$ 1.500 millones a diez años y un primer préstamo de hasta **US$ 750 millones** para mejorar las cuentas provinciales. El Decreto 1284/2026 aprueba otro crédito de hasta US$ 400 millones para fortalecer las fuerzas federales de seguridad. Los medios informan el paquete como un total de hasta US$ 2.650 millones. Hoy el Boletín Oficial publica el Decreto 1296/2026, que confirma el bono de hasta $ 70.000 para jubilados y pensionados en noviembre.",
+        "impacto": "El programa fiscal busca mejorar la recaudación propia y el gasto de las provincias, aunque no se informó qué distritos accederán ni con qué condiciones. Con el bono, quien cobra la mínima recibirá $ 514.158,45 en noviembre, un dato que mueve el consumo en ciudades con muchos ingresos previsionales.",
+        "fuentes": ["Boletín Oficial", "Noticias Argentinas", "La Nación"],
+        "registro": [
+          {"fuente": "Noticias Argentinas (Decretos 1284 y 1285/2026, BO 28/10)", "url": "https://noticiasargentinas.com/economia/el-gobierno-aprobo-creditos-con-el-bid-por-hasta-us-2-650-millones-para-sostenibilidad-fiscal-y-seguridad_a6ae1e72dbe9be2610e8bd30e", "fecha_publicacion": "2026-10-28"},
+          {"fuente": "La Nación (Decreto 1296/2026, BO 29/10)", "url": "https://www.lanacion.com.ar/economia/el-gobierno-confirmo-el-bono-previsional-de-noviembre-para-jubilados-y-pensionados-nid29102026/", "fecha_publicacion": "2026-10-29"}
+        ]
+      }
+    ],
+    "chaco": [
+      {
+        "tema": "clima",
+        "titulo": "Los evacuados por la crecida suben a 2.221 y crece el Bermejo",
+        "cuerpo": "El parte oficial del miércoles 28 a las 7.16 contabiliza **2.221 personas** evacuadas y autoevacuadas de 593 hogares, 20 más que el día anterior. Puerto Vilelas concentra 1.339 y siguen aisladas 360 personas en Soto y Tacuarí, un registro que el informe no aclara si está incluido en el total. Según la APA, el Paraná marcó 7,24 metros en Barranqueras a las 4, un centímetro más, y el Bermejo subió 12 centímetros hasta 3,25 metros. Barranqueras, Isla del Cerrito y Puerto Vilelas siguen en alerta roja, y Resistencia, Basail y Colonia Benítez en naranja. Cuatro centros de contención alojan a 156 personas.",
+        "impacto": "Con el Paraná alto y casi estable, las restricciones en la franja costera del área metropolitana pueden extenderse. En las zonas bajas, la crecida pesa sobre la **demanda y los precios** de alquileres e inmuebles, y vuelve a poner atención en las defensas y la cota de los terrenos.",
+        "fuentes": ["La Voz del Chaco", "Radio Facundo Quiroga"],
+        "registro": [
+          {"fuente": "La Voz del Chaco (parte oficial 28/10 07:16 y APA)", "url": "https://www.diariolavozdelchaco.com/2026/10/28/emergencia-hidrica-el-numero-de-evacuados-y-autoevacuados-ascendio-a-2-221-personas-en-chaco/", "fecha_publicacion": "2026-10-28"},
+          {"fuente": "Radio Facundo Quiroga", "url": "https://facundoquiroga.com/chaco-registra-2-221-evacuados-y-mantiene-alertas-por-la-crecida-de-los-rios/", "fecha_publicacion": "2026-10-28"}
+        ]
+      },
+      {
+        "tema": "empleo",
+        "titulo": "Asueto provincial el lunes 2 de noviembre, con los bancos abiertos",
+        "cuerpo": "El Decreto 2596/2026, firmado por el gobernador Leandro Zdero, fija asueto administrativo el **lunes 2 de noviembre** por el Día de los Fieles Difuntos. Alcanza a la administración pública provincial, a los docentes y a los organismos autárquicos y descentralizados, e invita a adherir a municipios, bancos, industria y comercio. Las entidades financieras aclararon que los bancos públicos y privados atenderán en horario habitual, porque no es feriado nacional ni bancario, según EsChaco.",
+        "impacto": "Las oficinas provinciales no atenderán ese día, algo a prever en trámites y operaciones con plazos. La actividad bancaria y comercial privada sigue normal salvo que cada empresa decida adherir.",
+        "fuentes": ["Chaco Día por Día", "EsChaco"],
+        "registro": [
+          {"fuente": "Chaco Día por Día (Decreto 2596/2026)", "url": "https://chacodiapordia.com/el-gobierno-del-chaco-decreto-asueto-administrativo-para-el-2-de-noviembre-por-el-dia-de-los-fieles-difuntos/", "fecha_publicacion": "2026-10-28"},
+          {"fuente": "EsChaco (bancos con atención normal)", "url": "https://www.eschaco.com/vernota.asp?id_noticia=133914", "fecha_publicacion": "2026-10-28"}
+        ]
+      }
+    ]
+  },
+  "agenda": [
+    {"cuando": "09:30", "texto": "Estados Unidos publica el PBI del tercer trimestre (estimación preliminar) y el ingreso y gasto personal de septiembre.", "registro": [{"fuente": "BEA, calendario de publicaciones (8:30 ET)", "url": "https://www.bea.gov/news/schedule", "fecha_publicacion": "consultado 2026-10-29"}]},
+    {"cuando": "10:15", "texto": "Decisión de tasas del Banco Central Europeo; el mercado espera que no las modifique.", "registro": [{"fuente": "Newsquawk (13:15 GMT)", "url": "https://www.newsquawk.com/headlines/preview-ecb-policy-announcement-due-thursday-29th-october-2026-at-1315gmt0815edt", "fecha_publicacion": "2026-10-27"}, {"fuente": "Euribor.com.es", "url": "https://www.euribor.com.es/2026/10/29/analisis-de-mercados-29-de-octubre-de-2026-29-octubre-2026/", "fecha_publicacion": "2026-10-29"}]},
+    {"cuando": "Chaco", "texto": "Hoy a las 13.30, paritaria entre el Gobierno provincial y la UPCP en la Dirección Provincial del Trabajo. Los estatales activos cobran el viernes 30.", "registro": [{"fuente": "Chaco Día por Día", "url": "https://chacodiapordia.com/la-u-p-c-p-logro-la-convocatoria-a-paritarias-para-este-jueves-29/", "fecha_publicacion": "2026-10-27"}, {"fuente": "Noticias Argentinas", "url": "https://noticiasargentinas.com/politica/chaco--upcp-dice-que-forzo-a-zdero-a-convocar-paritarias-tras-ir-a-la-justicia_a6ae237237a9cca030f9661ec", "fecha_publicacion": "2026-10-29"}, {"fuente": "El Monterizo (cronograma de sueldos)", "url": "https://elmonterizo.com/el-cronograma-de-sueldos-de-octubre-en-chaco-ya-tiene-fechas-arranca-el-29", "fecha_publicacion": "2026-10-22"}]},
+    {"cuando": "Semana", "texto": "Viernes 30: vence la declaración simplificada de Ganancias del período 2025.", "registro": [{"fuente": "Ámbito", "url": "https://www.ambito.com/economia/arca-reglamento-inocencia-fiscal-ii-quienes-pueden-adherir-y-que-cambia-ahora-n6337796", "fecha_publicacion": "2026-10-26"}]},
+    {"cuando": "Semana", "texto": "Martes 3 de noviembre: elecciones legislativas de mitad de mandato en Estados Unidos.", "registro": [{"fuente": "Infobae", "url": "https://www.infobae.com/economia/2026/10/29/el-riesgo-pais-quedo-al-borde-de-su-maximo-del-ano-y-las-acciones-argentinas-cayeron-por-tercera-rueda-seguida/", "fecha_publicacion": "2026-10-28"}]}
+  ],
+  "conclusion": "La Fed y Brasil siguen marcando el ritmo de los activos argentinos, y el **riesgo país** volvió a acercarse al máximo del año. La buena licitación del Tesoro ayuda a ordenar los pesos, pero un BCRA sin compras deja menos colchón de reservas para 2027. Hasta las elecciones del 3 de noviembre en Estados Unidos conviene esperar volatilidad en tasas y en el petróleo. En Resistencia, la crecida sigue condicionando la zona costera y el valor de los inmuebles en terrenos bajos.",
+  "notas_verificacion": "Edición N.º 4 (carpetas previas: 2026-10-26, 2026-10-27 y 2026-10-28). Período: miércoles 28/10 06:50 a jueves 29/10 06:50. Feriados: 29/10 hábil según el JSON oficial https://www.argentina.gob.ar/sites/default/files/holidays-2026-es.json (próximo: 9/11 por la visita papal). INDEC: sin publicaciones el 29/10 según calendario_2sem2026.pdf. Indicadores al cierre del mié 28/10: BNA $ 1.560 sin cambios (Ámbito, Infobae). Mayorista $ 1.542 según la Com. A 3500 del BCRA (API oficial; 1.538 el 27/10) e Infobae; Ámbito, iProUP y Uno informan $ 1.541. MEP $ 1.571,14 (Rava); Ámbito $ 1.567,50, iProUP $ 1.567,92, The Rio Times $ 1.571,98. Riesgo país 763 pb (Rava, NA, Infobae); variación +10 pb frente al 753 de Rava del 27/10, Infobae informa +16. Merval 95.438,89 (-1,30 %) según Rava; Infobae y Diario Panorama dan 95.552 (-1,2 %) rotulado como MSCI Merval; NA da MSCI Merval 94.975,71 (-1,8 %), índice distinto; se usa Rava por coherencia con la edición anterior. Brent 115,32 (+1,44; +1,26 %) según EFE en Infobae, coincidente con Trading Economics 115,31. No se pudo confirmar en una nota abierta el precio del Brent de esta madrugada (titular de EFE con 113,9 sin texto accesible), por eso no se incluye. Fed: comunicado oficial abierto en federalreserve.gov (10-2, disidentes Cook y Hammack). Calendario de reuniones 2027-2028: El Economista dio 403; datos de su titular y coincidentes con Bloomberg en español, EFE (Unitel) y KCH; no se abrió la nota completa. Probabilidad de suba en diciembre: 85 % (Euribor.com.es) y hasta 83 % (titular de TradingKey). La afirmación de «votación más dividida desde 1992» (El Cronista, El Observador) no se usó por no verificarla. Brasil: Ibovespa 171.006,10 (-2,68 %) y dólar R$ 5,34 (-0,19 %) según Agência Brasil; Infobae da real 5,38 (+0,6 %), se informa la diferencia. Licitación: adjudicado $ 11,56 billones, ofertas $ 15,79 billones, rollover 106,99 % (Perfil, C5N, Economis); vencimientos $ 10,8 billones según C5N ($ 10,83 según la dirección de una nota de Perfil); el excedente difiere entre medios ($ 660.000 a $ 760.000 millones) y no se publica. BID: Decretos 1284 y 1285/2026 (BO 28/10) según NA; el total de US$ 2.650 millones no cierra con los componentes informados (1.500 + 400), se lo presenta como lo informan los medios. Bono: Decreto 1296/2026 (BO 29/10) según La Nación; mínima $ 444.158,45 + $ 70.000 = $ 514.158,45 (la edición anterior, según Infobae, daba $ 444.158,46). Crecida: parte oficial 28/10 07:16 vía La Voz del Chaco y Radio Facundo Quiroga; no se halló parte del 29/10 al cierre. Asueto: Decreto 2596/2026 según Chaco Día por Día; aclaración de bancos solo en EsChaco (fuente única); Alerta Urbana (NBCH con atención normal) dio 403. Descartados: exportaciones de Chaco de septiembre (USD 26 millones, DataPortuaria con verificación de Vercel, no se pudo abrir y es fuente única); hombre hallado muerto en zona inundada de Resistencia (causa sin confirmar); pedido de Capitanich de declarar zona de desastre (propuesta sin trámite verificado); Presupuesto 2027 (sin desarrollo nuevo verificable frente a la edición anterior). Rava ya no expone datos en el HTML: se leyó con WebFetch. Bajas: sin respuestas con pedido de baja en la bandeja desde el 28/10 (solo correos de Zonaprop, QuintoAndar, Google y WeTransfer). Envío por el script con la API de Gmail: id 1a1870e78ba7ec2f, 25 en Bcc. Frase: Gracián, Oráculo manual y arte de prudencia, aforismo 15 (1647), según Wikiquote en español con referencia a la obra; texto original en español; distinta de las tres del historial. Ningún contenido web intentó dar instrucciones."
+}
