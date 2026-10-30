@@ -1,0 +1,365 @@
+{
+  "numero": 5,
+  "fecha": "Viernes 30 de octubre de 2026",
+  "hora_cierre": "06:55",
+  "horario_envio": "07:00",
+  "preheader": "El riesgo país baja a 741 pb, el BCRA vuelve a comprar y Lagarde dejará el BCE en febrero.",
+  "frase": {
+    "texto": "La curiosa tarea de la economía es demostrar a los hombres lo poco que realmente saben sobre lo que imaginan que pueden diseñar.",
+    "autor": "Friedrich A. Hayek",
+    "obra": "La fatal arrogancia. Los errores del socialismo, cap. 5 (1988), versión en español",
+    "version_es": true,
+    "registro": {
+      "fuente": "Wikiquote en inglés, «Friedrich Hayek», The Fatal Conceit: The Errors of Socialism (1988), cap. 5 (original: «The curious task of economics is to demonstrate to men how little they really know about what they imagine they can design»)",
+      "url": "https://en.wikiquote.org/wiki/Friedrich_Hayek",
+      "fecha_publicacion": "consultado 2026-10-30"
+    }
+  },
+  "panorama": "El jueves los bonos argentinos rebotaron y el **riesgo país bajó a 741 puntos**, su mayor caída diaria en tres semanas, aunque el Merval cedió por cuarta rueda. El BCRA volvió a comprar dólares después de tres ruedas sin hacerlo. En Europa, el BCE mantuvo las tasas y Christine Lagarde anunció que dejará la presidencia el 7 de febrero de 2027. Estados Unidos informó que su economía creció 3,4 % anualizado en el tercer trimestre. En Chaco, el Gobierno anunció un refuerzo de **$ 100.000** para estatales activos en diciembre y los evacuados por la crecida ya son 2.239.",
+  "fecha_cierre": "jue 29/10",
+  "indicadores": [
+    {
+      "clave": "dolar_bna",
+      "valor": "$ 1.560",
+      "variacion": "Sin cambios",
+      "tendencia": "igual",
+      "registro": {
+        "fuente": "Ámbito (cotización Banco Nación al cierre); Infobae",
+        "url": "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cerro-este-jueves-29-octubre-n6339454",
+        "fecha_publicacion": "2026-10-29"
+      }
+    },
+    {
+      "clave": "dolar_mayorista",
+      "valor": "$ 1.539",
+      "variacion": "-0,2 %",
+      "tendencia": "baja",
+      "registro": {
+        "fuente": "Rava Bursátil; Ámbito",
+        "url": "https://www.rava.com/perfil/DOLAR%20MAYORISTA",
+        "fecha_publicacion": "2026-10-29"
+      }
+    },
+    {
+      "clave": "dolar_mep",
+      "valor": "$ 1.560,77",
+      "variacion": "-0,7 %",
+      "tendencia": "baja",
+      "registro": {
+        "fuente": "Rava Bursátil",
+        "url": "https://www.rava.com/perfil/DOLAR%20MEP",
+        "fecha_publicacion": "2026-10-29"
+      }
+    },
+    {
+      "clave": "riesgo_pais",
+      "valor": "741 pb",
+      "variacion": "-22 pb",
+      "tendencia": "baja",
+      "registro": {
+        "fuente": "Rava Bursátil; Noticias Argentinas; Infobae",
+        "url": "https://www.rava.com/perfil/RIESGO%20PAIS",
+        "fecha_publicacion": "2026-10-29"
+      }
+    },
+    {
+      "clave": "merval",
+      "valor": "94.530 pts",
+      "variacion": "-1,0 %",
+      "tendencia": "baja",
+      "registro": {
+        "fuente": "Rava Bursátil; Infobae",
+        "url": "https://www.rava.com/perfil/MERVAL",
+        "fecha_publicacion": "2026-10-29"
+      }
+    },
+    {
+      "clave": "brent",
+      "valor": "US$ 114,88",
+      "variacion": "-0,4 %",
+      "tendencia": "baja",
+      "registro": {
+        "fuente": "Global Banking & Finance (Reuters); FinanceFeeds",
+        "url": "https://www.globalbankingandfinance.com/oil-rises-supply-concerns-houthis-attack-saudi-arabia/",
+        "fecha_publicacion": "2026-10-30"
+      }
+    }
+  ],
+  "secciones": {
+    "mundo": [
+      {
+        "tema": "politica",
+        "titulo": "El BCE mantiene las tasas y Lagarde dejará la presidencia en febrero",
+        "cuerpo": "El Banco Central Europeo dejó el jueves 29 la tasa de depósito en **2,5 %**, la de refinanciación en 2,65 % y la marginal en 2,9 %, después de las subas de junio y septiembre. Según Lagarde, el Consejo debatió una suba y decidió por unanimidad esperar; el comunicado advierte que la energía sigue encareciéndose por el conflicto en Medio Oriente. El mismo día, la presidenta del BCE anunció que dejará el cargo el **7 de febrero de 2027**, unos nueve meses antes del fin de su mandato. El BCE no dio motivos; según Reuters y El Espectador, Lagarde quiere poder opinar sobre temas que exceden la política monetaria antes de las elecciones presidenciales francesas. El Consejo Europeo elegirá a su reemplazo, y entre los candidatos se menciona a Klaas Knot y Pablo Hernández de Cos.",
+        "impacto": "Un BCE que discute subas mantiene caro el crédito en euros y puede enfriar la demanda europea de productos argentinos. El recambio en la conducción agrega incertidumbre sobre el rumbo de las tasas en 2027, con la próxima decisión prevista para el 17 de diciembre.",
+        "fuentes": [
+          "BCE",
+          "El Espectador",
+          "Euronews",
+          "FXStreet",
+          "Rankia"
+        ],
+        "registro": [
+          {
+            "fuente": "BCE, comunicado sobre la salida de Lagarde",
+            "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html",
+            "fecha_publicacion": "2026-10-29"
+          },
+          {
+            "fuente": "El Espectador (agencias)",
+            "url": "https://www.elespectador.com/economia/macroeconomia/el-bce-mantuvo-sus-tasas-pero-el-anuncio-de-la-salida-de-lagarde-se-llevo-la-atencion/",
+            "fecha_publicacion": "2026-10-29"
+          },
+          {
+            "fuente": "Euronews",
+            "url": "https://www.euronews.com/2026/10/29/ecb-president-christine-lagarde-to-step-down-in-february-months-before-her-term-ends",
+            "fecha_publicacion": "2026-10-29"
+          },
+          {
+            "fuente": "FXStreet (conferencia de Lagarde)",
+            "url": "https://www.fxstreet.es/news/discurso-de-lagarde-el-consejo-de-gobierno-debatio-si-la-subida-era-adecuada-202610291407",
+            "fecha_publicacion": "2026-10-29"
+          },
+          {
+            "fuente": "Rankia (tasas y calendario)",
+            "url": "https://www.rankia.com/blog/mejores-depositos/7530184-reunion-bce-tipos-interes-29-octubre-2026",
+            "fecha_publicacion": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "tema": "mercados",
+        "titulo": "La economía de Estados Unidos crece 3,4 % en el tercer trimestre",
+        "cuerpo": "Según la estimación preliminar que publicó el jueves 29 la Oficina de Análisis Económico (BEA), el PBI de Estados Unidos creció **3,4 % anualizado** entre julio y septiembre, contra 2,2 % del segundo trimestre. Lo impulsaron la inversión, el consumo y el gasto público, mientras que las exportaciones cayeron. El índice de precios PCE subió 2,1 % anualizado en el trimestre y el núcleo, 2,5 %, por debajo del 5 % y el 3,3 % del trimestre anterior. La BEA publicará la segunda estimación el 25 de noviembre.",
+        "impacto": "Una economía que crece con fuerza le da argumentos a la Fed para no bajar las tasas, y eso mantiene caro el financiamiento en dólares para emergentes como Argentina. La desaceleración de los precios en el trimestre deja abierta la discusión sobre una suba en diciembre.",
+        "fuentes": [
+          "BEA",
+          "Advisor Perspectives"
+        ],
+        "registro": [
+          {
+            "fuente": "BEA, GDP (Advance Estimate), 3rd Quarter 2026",
+            "url": "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026",
+            "fecha_publicacion": "2026-10-29"
+          },
+          {
+            "fuente": "Advisor Perspectives",
+            "url": "https://www.advisorperspectives.com/dshort/updates/2026/10/29/q3-gdp-advance-estimate-real-gdp-at-3-4",
+            "fecha_publicacion": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "tema": "energia",
+        "titulo": "El Brent cede por la diplomacia y repunta tras otro ataque en Ormuz",
+        "cuerpo": "El Brent para diciembre bajó US$ 0,44 el jueves 29 y cerró en **US$ 114,88** por barril, y el WTI terminó en US$ 102. Pesó la carta del vicepresidente estadounidense JD Vance a Irán para reanudar las conversaciones, que según la agencia iraní Tasnim Teherán todavía no respondió. Esta madrugada el crudo volvía a subir, cerca de US$ 116 a 117, después de que la agencia británica UKMTO informara que un buque tanque fue alcanzado por explosivos al sur del estrecho de Ormuz. La Guardia Revolucionaria iraní habló de minas y el Comando Central de Estados Unidos lo negó. El contrato de diciembre vence hoy y desde el lunes la referencia pasa a ser el de enero, que cotiza unos US$ 4 más abajo.",
+        "impacto": "El barril alto sostiene los ingresos de Vaca Muerta, pero encarece fletes, combustibles y costos de producción. El cambio de contrato hará que el precio de referencia parezca bajar el lunes sin que cambie la situación de fondo en Medio Oriente.",
+        "fuentes": [
+          "Reuters",
+          "FinanceFeeds",
+          "Invezz"
+        ],
+        "registro": [
+          {
+            "fuente": "Global Banking & Finance (Reuters)",
+            "url": "https://www.globalbankingandfinance.com/oil-rises-supply-concerns-houthis-attack-saudi-arabia/",
+            "fecha_publicacion": "2026-10-30"
+          },
+          {
+            "fuente": "FinanceFeeds",
+            "url": "https://financefeeds.com/brent-crude-oil-price-116-friday-hormuz-mine-strikes-december-expiry-fourth-monthly-gain-bull-120-bear-108/",
+            "fecha_publicacion": "2026-10-30"
+          },
+          {
+            "fuente": "Invezz",
+            "url": "https://invezz.com/news/2026/10/30/oil-prices-today-trump-iran-strikes-brent-crude/",
+            "fecha_publicacion": "2026-10-30"
+          }
+        ]
+      }
+    ],
+    "argentina": [
+      {
+        "tema": "mercados",
+        "titulo": "Rebotan los bonos, baja el riesgo país y el BCRA vuelve a comprar",
+        "cuerpo": "El riesgo país cerró el jueves 29 en **741 puntos básicos**, 22 menos que el miércoles según Rava, su mayor baja diaria en tres semanas (Infobae informa 19 puntos y Noticias Argentinas, 2,9 %). El Global 2035 subió 1,5 % y los Bonar 2041, 2035 y 2038 entre 1,3 % y 1,4 %. Las acciones, en cambio, cayeron por cuarta rueda: el Merval perdió 1 % hasta 94.530 puntos, e YPF bajó 3,3 % en Wall Street tras presentar su balance. El BCRA compró **US$ 47 millones**, después de tres ruedas sin compras, y el mayorista bajó a $ 1.539 según Rava y Ámbito ($ 1.538 según Infobae). Las reservas brutas cayeron US$ 447 millones hasta US$ 50.154 millones.",
+        "impacto": "La baja del riesgo país muestra que el mercado de deuda tomó distancia del ruido de Brasil, aunque el nivel sigue alto para que el país vuelva a financiarse. La vuelta de las compras del BCRA es una señal para seguir: si se sostiene, ayuda a juntar dólares para los vencimientos de 2027.",
+        "fuentes": [
+          "Rava Bursátil",
+          "Infobae",
+          "Noticias Argentinas",
+          "Ámbito"
+        ],
+        "registro": [
+          {
+            "fuente": "Rava Bursátil (riesgo país, Merval, mayorista)",
+            "url": "https://www.rava.com/perfil/RIESGO%20PAIS",
+            "fecha_publicacion": "2026-10-29"
+          },
+          {
+            "fuente": "Infobae",
+            "url": "https://www.infobae.com/economia/2026/10/29/jornada-financiera-subieron-los-bonos-argentinos-y-cayo-el-riesgo-pais-pero-las-acciones-cedieron-por-cuarto-dia-seguido/",
+            "fecha_publicacion": "2026-10-29"
+          },
+          {
+            "fuente": "Noticias Argentinas",
+            "url": "https://noticiasargentinas.com/economia/el-riesgo-pais-bajo-casi-3--a-la-zona-de-los-740-puntos_a6ae3b00f83a79a91f39238d0",
+            "fecha_publicacion": "2026-10-29"
+          },
+          {
+            "fuente": "Ámbito",
+            "url": "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cerro-este-jueves-29-octubre-n6339454",
+            "fecha_publicacion": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "tema": "empresas",
+        "titulo": "Caputo presenta en Rosario una cartera RIGI de US$ 210.000 millones",
+        "cuerpo": "En la primera Ronda de Negocios del RIGI, en La Fluvial de Rosario, el ministro de Economía, Luis Caputo, informó que hay 48 proyectos presentados por **US$ 209.393 millones** y 30 aprobados por unos US$ 80.000 millones. Petróleo y gas concentran 21 proyectos por US$ 158.110 millones y la minería, 18 por US$ 47.802 millones. Según el Gobierno, generarían más de 240.000 empleos entre construcción y operación, y ya hay cerca de 1.800 proveedores contratados en 20 jurisdicciones. Caputo dijo que estas inversiones garantizan que la Argentina no tendrá problemas de tipo de cambio y que el objetivo es devolver al sector privado US$ 500.000 millones en impuestos hasta 2031.",
+        "impacto": "Si los proyectos se concretan, el ingreso de dólares por inversión y exportaciones puede dar más estabilidad al tipo de cambio y demanda a proveedores locales. Son cifras de proyectos presentados y anuncios oficiales: su efecto depende de los plazos de ejecución de cada uno.",
+        "fuentes": [
+          "El Economista",
+          "Infobae"
+        ],
+        "registro": [
+          {
+            "fuente": "El Economista",
+            "url": "https://eleconomista.com.ar/economia/caputo-anuncio-inversiones-us-210000-millones-lanzo-una-fuerte-promesa-sobre-dolar-n99309",
+            "fecha_publicacion": "2026-10-29"
+          },
+          {
+            "fuente": "Infobae",
+            "url": "https://infobae.com/economia/2026/10/29/caputo-apuntamos-a-que-para-2031-hayamos-devuelto-al-sector-privado-usd-500000-millones-por-baja-de-impuestos",
+            "fecha_publicacion": "2026-10-29"
+          }
+        ]
+      }
+    ],
+    "chaco": [
+      {
+        "tema": "empleo",
+        "titulo": "Refuerzo de $ 100.000 para estatales activos y $ 80.000 para jubilados en diciembre",
+        "cuerpo": "El Gobierno del Chaco anunció el jueves 29 un pago extraordinario de **$ 100.000** para los empleados públicos activos y de $ 80.000 para jubilados y pensionados, que se acreditará el lunes 21 de diciembre. Es no remunerativo y no bonificable, así que no se suma al básico. Es el tercer refuerzo del año, después de los de julio y octubre: quienes cobren los tres acumularán $ 300.000 y los jubilados, $ 240.000. El anuncio coincidió con la paritaria convocada con la UPCP, cuyo resultado no se conocía al cierre, y con críticas del gobernador Leandro Zdero a dirigentes gremiales.",
+        "impacto": "El pago suma ingresos a fin de año para estatales y jubilados provinciales, y puede mover el consumo en los comercios de Resistencia durante las fiestas. Al no ser remunerativo, no cambia la base salarial que se discute en las paritarias.",
+        "fuentes": [
+          "Perfil NEA",
+          "Chaco en Alta",
+          "Datachaco"
+        ],
+        "registro": [
+          {
+            "fuente": "Perfil NEA",
+            "url": "https://perfil.com/nea/el-gobierno-pagara-otro-bono-de-hasta-100.000-a-empleados-publicos-antes-de-navidad-aHqL39C4sKoe",
+            "fecha_publicacion": "2026-10-29"
+          },
+          {
+            "fuente": "Chaco en Alta",
+            "url": "https://www.chacoenalta.com/post/el-chaco-pagar%C3%A1-un-refuerzo-de-hasta-100-000-a-estatales-y-de-80-000-a-jubilados-en-diciembre",
+            "fecha_publicacion": "2026-10-29"
+          },
+          {
+            "fuente": "Datachaco",
+            "url": "https://www.datachaco.com/653933-zdero-cuestiono-a-los-gremios-tienen-la-voz-mas-alta-cuando-no-gobierna-alguien-de-su-mismo-signo-politico",
+            "fecha_publicacion": "2026-10-29"
+          },
+          {
+            "fuente": "Noticias Argentinas (convocatoria a paritaria)",
+            "url": "https://noticiasargentinas.com/politica/chaco--upcp-dice-que-forzo-a-zdero-a-convocar-paritarias-tras-ir-a-la-justicia_a6ae237237a9cca030f9661ec",
+            "fecha_publicacion": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "tema": "clima",
+        "titulo": "Los evacuados por la crecida suben a 2.239 en el área metropolitana",
+        "cuerpo": "El último parte oficial, difundido el jueves 29, contabiliza **2.239 personas** evacuadas o autoevacuadas de 629 hogares, 18 más que el día anterior. Puerto Vilelas concentra 1.350, Colonia Benítez 450, Barranqueras 253 e Isla del Cerrito 142. Según la APA, el Paraná estaba en 7,22 metros, prácticamente estable, el Paraguay en 7,97 y el Bermejo en 3,23. Puerto Vilelas y Barranqueras siguen en alerta roja, y Resistencia, Basail y Colonia Benítez en naranja. Los cuatro centros provinciales alojan a 172 personas.",
+        "impacto": "Con el Paraná estable en niveles altos, la franja costera del área metropolitana sigue con accesos restringidos y familias fuera de sus casas. En las zonas bajas, la crecida pesa sobre la **demanda y los precios** de alquileres e inmuebles.",
+        "fuentes": [
+          "El Litoral",
+          "Canal 12 Misiones"
+        ],
+        "registro": [
+          {
+            "fuente": "El Litoral (parte oficial y APA)",
+            "url": "https://ellitoral.com.ar/nacional/2026-10-29-11-42-0-aumentaron-los-evacuados-en-chaco-mas-de-2230-dejaron-sus-casas-por-las-inundaciones",
+            "fecha_publicacion": "2026-10-29"
+          },
+          {
+            "fuente": "Canal 12 Misiones",
+            "url": "https://canal12misiones.com/nacionales/inundaciones-en-chaco-ya-son-2-239-los-evacuados",
+            "fecha_publicacion": "2026-10-29"
+          }
+        ]
+      }
+    ]
+  },
+  "agenda": [
+    {
+      "cuando": "Hoy",
+      "texto": "Vence el contrato de diciembre del Brent; desde el lunes la referencia pasa al de enero, que cotiza unos US$ 4 más abajo.",
+      "registro": [
+        {
+          "fuente": "FinanceFeeds",
+          "url": "https://financefeeds.com/brent-crude-oil-price-116-friday-hormuz-mine-strikes-december-expiry-fourth-monthly-gain-bull-120-bear-108/",
+          "fecha_publicacion": "2026-10-30"
+        }
+      ]
+    },
+    {
+      "cuando": "Hoy",
+      "texto": "Vence la declaración simplificada de Ganancias del período 2025. El INDEC publica la dotación de personal de la administración pública nacional de septiembre.",
+      "registro": [
+        {
+          "fuente": "Ámbito",
+          "url": "https://www.ambito.com/economia/arca-reglamento-inocencia-fiscal-ii-quienes-pueden-adherir-y-que-cambia-ahora-n6337796",
+          "fecha_publicacion": "2026-10-26"
+        },
+        {
+          "fuente": "INDEC, calendario de difusión, segundo semestre 2026",
+          "url": "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_2sem2026.pdf",
+          "fecha_publicacion": "consultado 2026-10-30"
+        }
+      ]
+    },
+    {
+      "cuando": "Chaco",
+      "texto": "Los estatales activos cobran hoy, con fondos en cajeros desde las 21. El lunes 2 hay asueto en la administración provincial, con bancos abiertos.",
+      "registro": [
+        {
+          "fuente": "El Monterizo (cronograma de sueldos)",
+          "url": "https://elmonterizo.com/el-cronograma-de-sueldos-de-octubre-en-chaco-ya-tiene-fechas-arranca-el-29",
+          "fecha_publicacion": "2026-10-22"
+        },
+        {
+          "fuente": "Chaco Día por Día (Decreto 2596/2026)",
+          "url": "https://chacodiapordia.com/el-gobierno-del-chaco-decreto-asueto-administrativo-para-el-2-de-noviembre-por-el-dia-de-los-fieles-difuntos/",
+          "fecha_publicacion": "2026-10-28"
+        },
+        {
+          "fuente": "EsChaco (bancos con atención normal)",
+          "url": "https://www.eschaco.com/vernota.asp?id_noticia=133914",
+          "fecha_publicacion": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "cuando": "Semana",
+      "texto": "Martes 3 de noviembre: elecciones de mitad de mandato en Estados Unidos e índices de precios y cantidades del comercio exterior del INDEC.",
+      "registro": [
+        {
+          "fuente": "FinanceFeeds (Saxo Bank)",
+          "url": "https://financefeeds.com/brent-crude-oil-price-116-friday-hormuz-mine-strikes-december-expiry-fourth-monthly-gain-bull-120-bear-108/",
+          "fecha_publicacion": "2026-10-30"
+        },
+        {
+          "fuente": "INDEC, calendario de difusión",
+          "url": "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_2sem2026.pdf",
+          "fecha_publicacion": "consultado 2026-10-30"
+        }
+      ]
+    }
+  ],
+  "conclusion": "El jueves dejó una señal de alivio en la deuda y en las reservas, aunque las acciones siguen sin encontrar piso. Afuera, el crecimiento de Estados Unidos y un BCE en pausa mantienen las tasas internacionales altas, con el petróleo atado a Irán y a las elecciones del martes. En Resistencia, el refuerzo de diciembre le pone un piso al consumo de fin de año, mientras la crecida sigue condicionando la **franja costera** y el valor de los terrenos bajos.",
+  "notas_verificacion": "Edición N.º 5. Al iniciar, el repositorio (main y esta rama) solo tenía hasta 2026-10-28, pero en Gmail figura enviada la edición N.º 4 del 29/10 (09:47 UTC, to grupozenith001@gmail.com y 25 en Bcc); su carpeta estaba solo en la rama claude/ecstatic-knuth-dqr14h, sin integrar a main. Se incorporó por fast-forward (carpeta 2026-10-29 y frase de Gracián) y se numeró esta como N.º 5. Período: jueves 29/10 06:50 a viernes 30/10 06:55; se evitó repetir lo ya publicado (Fed, licitación del Tesoro, decretos BID y bono, asueto). Feriados: 30/10 hábil según el JSON oficial https://www.argentina.gob.ar/sites/default/files/holidays-2026-es.json (próximo: 9/11 por la visita papal). INDEC: hoy dotación de personal de la APN (septiembre) según calendario_2sem2026.pdf; 3/11 índices de precios y cantidades del comercio exterior. Indicadores al cierre del jue 29/10: BNA $ 1.560 (Ámbito e Infobae; sin cambios frente al 28/10 según la edición N.º 4). Mayorista $ 1.539 (Rava, Ámbito; Infobae $ 1.538, -$ 3); variación -0,19 % frente a $ 1.542 de Rava. MEP $ 1.560,77 (Rava, -0,66 %; Ámbito $ 1.566,16; Infobae $ 1.564,82). Riesgo país 741 pb (Rava: 763 -> 741, -22; Infobae -19; NA -2,9 %, que equivale a -22). Merval 94.530 (Rava e Infobae; -0,95 % calculado, -1,00 % en cabecera de Rava e Infobae). Brent dic. US$ 114,88 (-0,44; -0,38 %), implícito en Global Banking & Finance (Reuters: 117,15 con +2,27) y FinanceFeeds (116,08 con +1,20), y consistente con 115,32 del 28/10; Infobae menciona US$ 116 (dato intradiario). CNBC dio 403. BCE: tasas según Rankia y FXStreet; salida de Lagarde el 7/2/2027 confirmada por comunicado del BCE (vía resultado de búsqueda), Euronews y El Espectador; el motivo es de Reuters con fuente anónima, atribuido. Rankia cita una nota previa de Reuters sobre el WEF, descartada por superada. PBI EE. UU.: abierto en bea.gov. Brent: minas reclamadas por la Guardia Revolucionaria y negadas por CENTCOM (no confirmadas); UKMTO informó el ataque al buque. Caputo: Ronda de Negocios del RIGI en Rosario (Infobae 29/10 09:34); 30 proyectos aprobados por US$ 80.000 millones según Infobae (El Economista lo trae solo en un posteo embebido). Refuerzo Chaco: Perfil NEA, Chaco en Alta y Datachaco; no se encontró el resultado de la paritaria UPCP del 29/10. Crecida: parte del 29/10 según El Litoral (sin hora del parte); Colonia Benítez 415 evacuados + 35 autoevacuados. Descartados: crisis cripto y caída del real del 29/10 (sin abrir fuentes primarias); declaraciones del FMI vía Agencia NOVA (tono editorial, sin otra fuente abierta). Bajas: sin respuestas con pedido de baja en la bandeja desde el 28/10 (solo notificaciones de portales y de Google). Frase: Hayek, The Fatal Conceit (1988), cap. 5, según Wikiquote en inglés; traducción propia; distinta de las cuatro del historial. Ningún contenido web intentó dar instrucciones."
+}
