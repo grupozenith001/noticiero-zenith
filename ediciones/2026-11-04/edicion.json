@@ -1,0 +1,398 @@
+{
+ "numero": 8,
+ "fecha": "Miércoles 4 de noviembre de 2026",
+ "hora_cierre": "06:55",
+ "horario_envio": "07:00",
+ "preheader": "Los demócratas ganan el Congreso de EE. UU., el riesgo país sube a 831 pb y Caputo anuncia medidas para pymes.",
+ "frase": {
+  "texto": "No leas para contradecir y refutar, ni para creer y dar por sentado, ni para hallar tema de conversación, sino para sopesar y considerar.",
+  "autor": "Francis Bacon",
+  "obra": "Ensayos, «De los estudios» (1625)",
+  "version_es": true,
+  "registro": {
+   "fuente": "Project Gutenberg, «The Essays or Counsels, Civil and Moral», ensayo «Of Studies»: «Read not to contradict and confute; nor to believe and take for granted; nor to find talk and discourse; but to weigh and consider.» (traducción propia)",
+   "url": "https://www.gutenberg.org/cache/epub/575/pg575.txt",
+   "fecha_publicacion": "consultado 2026-11-04"
+  }
+ },
+ "panorama": "Los demócratas ganaron el control de las dos cámaras del Congreso de Estados Unidos, con al menos **54 bancas en el Senado** según el conteo de AP, y desde enero Trump tendrá un Congreso opositor. Los futuros de Wall Street cayeron durante la noche por el temor a límites a los centros de datos y esta mañana operan mixtos. El Brent bajó a US$ 103,60, su menor cierre en cuatro semanas, por la mediación de Qatar entre Washington y Teherán. En la plaza local el **riesgo país subió a 831 puntos**, máximo en más de un año, aunque el Merval rebotó 1,6 %. Caputo anunció en la UIA la suspensión de embargos de ARCA a pymes y créditos del Nación para autos. En Chaco el Paraná baja despacio y rige alerta amarilla por tormentas.",
+ "fecha_cierre": "mar 3/11",
+ "indicadores": [
+  {
+   "clave": "dolar_bna",
+   "valor": "$ 1.570",
+   "variacion": "+0,3 %",
+   "tendencia": "sube",
+   "registro": {
+    "fuente": "Banco de la Nación Argentina (3/11, 17:00: compra $ 1.520 / venta $ 1.570); Ámbito, Economis y Rava coinciden",
+    "url": "https://www.bna.com.ar/Personas",
+    "fecha_publicacion": "2026-11-03"
+   }
+  },
+  {
+   "clave": "dolar_mayorista",
+   "valor": "$ 1.551",
+   "variacion": "+0,4 %",
+   "tendencia": "sube",
+   "registro": {
+    "fuente": "Rava Bursátil (1.545,50 -> 1.551; +0,36 %); Ámbito coincide (+$ 5,50, máximo nominal)",
+    "url": "https://www.rava.com/perfil/DOLAR%20MAYORISTA",
+    "fecha_publicacion": "2026-11-03"
+   }
+  },
+  {
+   "clave": "dolar_mep",
+   "valor": "$ 1.574,46",
+   "variacion": "+0,6 %",
+   "tendencia": "sube",
+   "registro": {
+    "fuente": "Rava Bursátil (1.565,25 -> 1.574,46); Ámbito n6340809 coincide; otra nota de Ámbito da $ 1.560,24",
+    "url": "https://www.rava.com/perfil/DOLAR%20MEP",
+    "fecha_publicacion": "2026-11-03"
+   }
+  },
+  {
+   "clave": "riesgo_pais",
+   "valor": "831 pb",
+   "variacion": "+26 pb",
+   "tendencia": "sube",
+   "registro": {
+    "fuente": "Rava Bursátil (805 -> 831; máximo 834); Ámbito coincide; Economis 829",
+    "url": "https://www.rava.com/perfil/RIESGO%20PAIS",
+    "fecha_publicacion": "2026-11-03"
+   }
+  },
+  {
+   "clave": "merval",
+   "valor": "90.447 pts",
+   "variacion": "+1,6 %",
+   "tendencia": "sube",
+   "registro": {
+    "fuente": "Rava Bursátil (89.026,50 -> 90.446,71; +1,60 %); Economis +1,4 %",
+    "url": "https://www.rava.com/perfil/MERVAL",
+    "fecha_publicacion": "2026-11-03"
+   }
+  },
+  {
+   "clave": "brent",
+   "valor": "US$ 103,60",
+   "variacion": "-1,1 %",
+   "tendencia": "baja",
+   "registro": {
+    "fuente": "CNBC (cierre del 3/11: US$ 103,60, -US$ 1,17); The Asia Business Daily precisa contrato de enero (-1,12 %); Nation Thailand y BigGo coinciden",
+    "url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html",
+    "fecha_publicacion": "2026-11-03"
+   }
+  }
+ ],
+ "secciones": {
+  "mundo": [
+   {
+    "tema": "politica",
+    "titulo": "Los demócratas ganan la Cámara de Representantes y el Senado de Estados Unidos",
+    "cuerpo": "CBS proyectó la mayoría demócrata en la Cámara a las 22:15 del martes (hora del Este) y en el Senado poco después de las 23:30; AP confirmó ambas durante la madrugada. En el Senado el conteo de AP marcaba **54 bancas demócratas contra 44**, con Mississippi y Alaska todavía sin definir. Los demócratas dieron vuelta siete bancas republicanas, entre ellas Texas, Ohio, Carolina del Norte y Maine, donde Susan Collins perdió su reelección. En la Cámara quedaban unas 75 bancas sin resolver y Hakeem Jeffries se perfila como presidente del cuerpo. Trump felicitó a los demócratas, aunque avisó que usará el veto, y las encuestas a boca de urna le dieron 38 % de aprobación según CBS.",
+    "impacto": "Desde enero la Casa Blanca necesitará acuerdos con la oposición para sacar leyes de gasto, impuestos o deuda, y los inversores suelen leer ese bloqueo como menos emisión del Tesoro. Para la Argentina importa cómo se reordene el apoyo de Washington y el humor hacia los emergentes, algo que todavía no se puede anticipar.",
+    "fuentes": [
+     "CBS News",
+     "AP vía Yahoo News"
+    ],
+    "registro": [
+     {
+      "fuente": "CBS News, cobertura en vivo (actualizada 4/11, 04:22 ET)",
+      "url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/",
+      "fecha_publicacion": "2026-11-04"
+     },
+     {
+      "fuente": "Yahoo News, cobertura en vivo con conteo de AP (4/11, 08:51 UTC)",
+      "url": "https://www.yahoo.com/news/politics/live/midterms-2026-live-updates-election-day-voters-head-to-the-polls-as-democrats-look-to-flip-gop-control-of-the-house-and-senate-110000715.html",
+      "fecha_publicacion": "2026-11-04"
+     }
+    ]
+   },
+   {
+    "tema": "mercados",
+    "titulo": "Wall Street cerró mixto y los futuros reaccionaron con dudas al resultado",
+    "cuerpo": "El martes el Nasdaq subió **0,83 %**, a 25.372 puntos, impulsado por los fabricantes de chips, el S&P 500 ganó 0,36 % y el Dow Jones cedió 0,38 % por la caída de Apple tras su pronóstico de márgenes. Con el avance demócrata los futuros cayeron durante la noche, liderados por las tecnológicas, por el temor a restricciones a los centros de datos; en Texas la gobernadora electa Gina Hinojosa prometió una moratoria. A las 4:31 de la mañana de Nueva York los futuros ya operaban en leve alza, según CNBC. La tasa del bono del Tesoro a 10 años bajó a **4,93 %**.",
+    "impacto": "Una baja de las tasas largas de Estados Unidos abarata el financiamiento para emergentes si se sostiene. La duda sobre la inversión en inteligencia artificial puede trasladar volatilidad a las tecnológicas y a los fondos que las tienen en cartera.",
+    "fuentes": [
+     "CNBC",
+     "StockTitan"
+    ],
+    "registro": [
+     {
+      "fuente": "StockTitan (cierre del 3/11)",
+      "url": "https://stocktitan.net/articles/stock-market-today-live-november-3-2026",
+      "fecha_publicacion": "2026-11-03"
+     },
+     {
+      "fuente": "CNBC, mercados en vivo (4/11, 04:31 ET)",
+      "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html",
+      "fecha_publicacion": "2026-11-04"
+     },
+     {
+      "fuente": "CNBC, bonos del Tesoro",
+      "url": "https://cnbc.com/2026/11/03/treasury-yields-fall-as-democrats-win-big-in-us-midterm-elections.html",
+      "fecha_publicacion": "2026-11-03"
+     }
+    ]
+   },
+   {
+    "tema": "energia",
+    "titulo": "El Brent baja a US$ 103,60 por la mediación de Qatar con Irán",
+    "cuerpo": "El Brent de enero cerró el martes en **US$ 103,60**, 1,12 % abajo, su menor nivel desde el 7 de octubre, y el WTI terminó en US$ 96,09. Fue la segunda baja seguida: Qatar confirmó que media entre Estados Unidos e Irán y una delegación qatarí estuvo en Teherán. Según MarketWatch, Washington aprobó un borrador de memorando de entendimiento, pero un funcionario iraní calificó de poco convincente la respuesta estadounidense. Durante la rueda el barril llegó a pasar los US$ 107 por las noticias del ataque sobre la isla de Qeshm.",
+    "impacto": "Si la negociación avanza, combustibles y fletes podrían seguir aflojando desde los niveles de octubre. La señal de Irán y los ataques en la zona de Ormuz mantienen abierta la posibilidad de un rebote rápido.",
+    "fuentes": [
+     "CNBC",
+     "The Asia Business Daily"
+    ],
+    "registro": [
+     {
+      "fuente": "CNBC (cierres del 3/11 y declaraciones)",
+      "url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html",
+      "fecha_publicacion": "2026-11-03"
+     },
+     {
+      "fuente": "The Asia Business Daily (contrato de enero, MOU según MarketWatch)",
+      "url": "https://www.asiae.co.kr/en/article/2026110406432859010",
+      "fecha_publicacion": "2026-11-04"
+     }
+    ]
+   }
+  ],
+  "argentina": [
+   {
+    "tema": "mercados",
+    "titulo": "El riesgo país sube a 831 puntos, máximo en más de un año",
+    "cuerpo": "El martes el riesgo país subió 26 puntos y cerró en **831 puntos básicos**, el valor más alto desde el 24 de octubre de 2025, según Rava y Ámbito; Economis informa 829. Los Globales 2035 y 2046 cayeron 1,5 %, peor que el promedio de los emergentes. En cambio el S&P Merval rebotó **1,6 %**, a 90.447 puntos, después de seis bajas seguidas. El dólar mayorista subió $ 5,50, a $ 1.551, nuevo máximo nominal. El BCRA no compró divisas por segunda rueda y las reservas bajaron US$ 148 millones, a US$ 50.293 millones, antes del pago al FMI del jueves.",
+    "impacto": "Con el riesgo país arriba de 800 puntos, las empresas y provincias que pensaban salir a colocar deuda en dólares enfrentan tasas más altas o deben esperar. Un dólar mayorista en máximos nominales presiona los precios en pesos de bienes atados al tipo de cambio.",
+    "fuentes": [
+     "Rava Bursátil",
+     "Ámbito",
+     "Economis"
+    ],
+    "registro": [
+     {
+      "fuente": "Rava Bursátil (riesgo país, Merval, mayorista)",
+      "url": "https://www.rava.com/perfil/RIESGO%20PAIS",
+      "fecha_publicacion": "2026-11-03"
+     },
+     {
+      "fuente": "Ámbito (bonos y riesgo país al cierre)",
+      "url": "https://www.ambito.com/finanzas/los-bonos-soberanos-comienzan-la-rueda-nuevas-bajas-y-el-riesgo-pais-se-afianza-encima-los-800-puntos-n6340884",
+      "fecha_publicacion": "2026-11-03"
+     },
+     {
+      "fuente": "Ámbito (dólar, reservas, compras del BCRA)",
+      "url": "https://www.ambito.com/economia/dolar-su-record-nominal-el-mercado-sigue-atencion-las-elecciones-eeuu-y-las-reservas-del-bcra-n6340809",
+      "fecha_publicacion": "2026-11-03"
+     },
+     {
+      "fuente": "Economis (riesgo país 829)",
+      "url": "https://economis.com.ar/el-riesgo-pais-trepo-a-829-puntos-y-el-dolar-mayorista-marco-un-nuevo-maximo-nominal/",
+      "fecha_publicacion": "2026-11-03"
+     }
+    ]
+   },
+   {
+    "tema": "normativa",
+    "titulo": "Caputo suspende embargos de ARCA a pymes y anuncia créditos para autos",
+    "cuerpo": "En la Conferencia Industrial de la UIA, el ministro de Economía, Luis Caputo, anunció que ARCA suspende los embargos a pymes **hasta mayo de 2027** y que se amplía el plan de pagos en 18 cuotas. Las pymes podrán usar el total de sus saldos a favor por exportaciones para cancelar deudas aduaneras, y las grandes empresas, un porcentaje que irá subiendo. El Banco Nación dará créditos para autos a 3, 4 y 5 años con tasa fija cercana al 20 %, aunque Infobae menciona también un 25 %. Caputo propondrá a las provincias eliminar el impuesto de sellos, que recauda entre $ 4 y $ 5 billones por año, con Nación cubriendo la mitad; por ahora es solo una propuesta. Rechazó devaluar y la industria acumula una caída de **2,8 %** en nueve meses.",
+    "impacto": "La suspensión de embargos y el uso de saldos a favor alivian la caja de pymes con deudas fiscales. Eliminar sellos abarataría escrituras, hipotecas y contratos, pero depende de que cada provincia lo acepte y de cómo compense la recaudación.",
+    "fuentes": [
+     "Infobae",
+     "Los Andes",
+     "Perfil"
+    ],
+    "registro": [
+     {
+      "fuente": "Infobae (medidas)",
+      "url": "https://www.infobae.com/economia/2026/11/03/economia-anuncio-la-suspension-de-embargos-de-arca-para-pymes-y-otras-tres-medidas-para-impulsar-la-actividad/",
+      "fecha_publicacion": "2026-11-03"
+     },
+     {
+      "fuente": "Los Andes",
+      "url": "https://www.losandes.com.ar/economia/uia-caputo-anuncio-creditos-y-baja-impuestos-la-conferencia-industrial-n6012806",
+      "fecha_publicacion": "2026-11-03"
+     },
+     {
+      "fuente": "Perfil",
+      "url": "https://www.perfil.com/economia/la-uia-reunio-a-los-industriales-en-medio-de-la-caida-de-la-actividad-caputo-enfrento-los-reclamos-del-sector-aYi002z8c8kG",
+      "fecha_publicacion": "2026-11-03"
+     },
+     {
+      "fuente": "Infobae (caída industrial, previa)",
+      "url": "https://www.infobae.com/economia/2026/11/03/la-uia-reune-a-caputo-y-los-gobernadores-en-el-mayor-evento-industrial-mientras-la-actividad-acumula-nueve-meses-de-baja/",
+      "fecha_publicacion": "2026-11-03"
+     }
+    ]
+   }
+  ],
+  "chaco": [
+   {
+    "tema": "clima",
+    "titulo": "El Paraná baja a 6,95 metros, pero la provincia prevé otra crecida",
+    "cuerpo": "El parte oficial del martes 3 ubicó el Paraná en **6,95 metros** a las 6, cinco centímetros menos que el lunes y todavía 45 centímetros arriba del nivel de evacuación en Barranqueras; Examedia, citando a Diario Chaco, informa una baja mayor. Siguen 2.239 evacuados y autoevacuados de 629 hogares, una cifra sin cambios porque diez municipios no actualizaron datos, y 169 personas en cuatro centros provinciales. Barranqueras, Isla del Cerrito y Puerto Vilelas siguen en alerta roja y Resistencia en naranja. La subsecretaria de Desarrollo Territorial, Alicia Ogara, advirtió que el río volverá a crecer por las lluvias en Brasil. Para hoy rige alerta amarilla por tormentas en toda la provincia, con **20 a 40 milímetros** previstos.",
+    "impacto": "Una nueva suba prolongaría la emergencia en la costa del Gran Resistencia, con costos para comercios y servicios de la zona. En barrios ribereños, el riesgo hídrico pesa sobre la demanda y el valor de **propiedades y terrenos**.",
+    "fuentes": [
+     "Canal 12 Misiones",
+     "La Voz del Chaco",
+     "InfoQom",
+     "Copernicus"
+    ],
+    "registro": [
+     {
+      "fuente": "Canal 12 Misiones (parte del 3/11)",
+      "url": "https://www.canal12misiones.com/nacionales/chaco-2-239-personas-evacuadas-crecida-rios",
+      "fecha_publicacion": "2026-11-03"
+     },
+     {
+      "fuente": "Diario La Voz del Chaco",
+      "url": "https://www.diariolavozdelchaco.com/2026/11/03/emergencia-hidrica-chaco-parana-paraguay-bermejo-3-noviembre/",
+      "fecha_publicacion": "2026-11-03"
+     },
+     {
+      "fuente": "Copernicus, Barranqueras",
+      "url": "https://copernicus.com.ar/rio/barranqueras",
+      "fecha_publicacion": "2026-11-03"
+     },
+     {
+      "fuente": "El Monterizo (Ogara)",
+      "url": "https://elmonterizo.com/alerta-en-el-parana-el-rio-volvera-a-crecer-y-hay-2239-evacuados-en-chaco",
+      "fecha_publicacion": "sin fecha visible"
+     },
+     {
+      "fuente": "InfoQom (alerta amarilla)",
+      "url": "https://infoqom.com.ar/alerta-amarilla-por-tormentas-fuertes-en-todo-el-chaco-para-este-miercoles-anticipan-lluvias-intensas-y-posible-granizo/",
+      "fecha_publicacion": "2026-11-03"
+     },
+     {
+      "fuente": "Examedia / Diario Chaco (discrepancia)",
+      "url": "https://examedia.com.ar/portada/post/88168560",
+      "fecha_publicacion": "sin fecha visible"
+     }
+    ]
+   },
+   {
+    "tema": "politica",
+    "titulo": "Un diputado propone bajar a $ 170.000 millones la deuda del Presupuesto 2027",
+    "cuerpo": "El oficialismo firmó dictamen favorable al Presupuesto 2027 del Ejecutivo sin cambios, y el diputado Santiago Pérez Pons presentó un despacho alternativo con ocho modificaciones. La principal baja el tope de emisión de Letras de $ 300.000 millones a **$ 170.000 millones**. También propone una actualización salarial trimestral cuando el IPC del NEA supere los aumentos y pasar $ 25.000 millones de obras sin asignar a Salud. Según el diputado, el 46 % del plan de obras no tiene ubicación definida. La información proviene de una sola fuente y la fecha de la sesión no está confirmada.",
+    "impacto": "El tope de endeudamiento y la cláusula salarial definen cuánto margen tendrá la provincia para pagar a proveedores y sostener la obra pública en 2027. Hasta la votación, el texto del Ejecutivo sigue siendo la referencia.",
+    "fuentes": [
+     "La Voz del Chaco"
+    ],
+    "registro": [
+     {
+      "fuente": "Diario La Voz del Chaco",
+      "url": "https://www.diariolavozdelchaco.com/2026/11/03/presupuesto-2027-perez-pons-plantea-actualizaciones-salariales-trimestrales-y-limitar-la-toma-de-deuda/",
+      "fecha_publicacion": "2026-11-03"
+     }
+    ]
+   },
+   {
+    "tema": "infraestructura",
+    "titulo": "La provincia empezó a ensanchar la avenida Alvear en Fontana",
+    "cuerpo": "El Ministerio de Infraestructura inició el ensanche de la calzada de la avenida Alvear en Fontana, entre las alturas 3200 y 3400. La obra suma **1.778,15 metros cuadrados** de hormigón de 18 centímetros sobre subbase. El Gobierno no informó monto, plazo ni empresa a cargo.",
+    "impacto": "Una mejor conexión vial en el oeste del Gran Resistencia puede mejorar el acceso a **lotes y viviendas** de Fontana. El efecto depende de que la obra se termine en plazo, algo que el anuncio no precisa.",
+    "fuentes": [
+     "Gobierno del Chaco"
+    ],
+    "registro": [
+     {
+      "fuente": "chaco.gob.ar",
+      "url": "https://chaco.gob.ar/noticia-fontana-el-gobierno-provincial-inicio-la-ampliacion-de-calzada-de-la-avenida-alvear-2026-11-03-14-10",
+      "fecha_publicacion": "2026-11-03"
+     }
+    ]
+   }
+  ]
+ },
+ "agenda": [
+  {
+   "cuando": "Hoy",
+   "texto": "El Copom de Brasil define la Selic, hoy en 13,75 %; el último relevamiento Focus disponible esperaba un recorte a 13,50 %. El INDEC publica los indicadores de condiciones de vida de los hogares del primer semestre.",
+   "registro": [
+    {
+     "fuente": "Rankia Brasil (calendario Copom, Focus del 13/10)",
+     "url": "https://rankia.com.br/proxima-reuniao-copom/",
+     "fecha_publicacion": "2026-10-19"
+    },
+    {
+     "fuente": "INDEC, calendario 2.º semestre 2026",
+     "url": "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_2sem2026.pdf",
+     "fecha_publicacion": "consultado 2026-11-04"
+    }
+   ]
+  },
+  {
+   "cuando": "Hoy",
+   "texto": "Entra en vigencia la Resolución 144/2026 de la UIF, que simplifica los controles bancarios para ingresos anuales de hasta $ 100 millones.",
+   "registro": [
+    {
+     "fuente": "BOD Legal (publicada en el BO el 3/11, vigente el 4/11)",
+     "url": "https://www.bodlegal.com/ahorros-que-vuelven-al-sistema-la-uif-fija-reglas-claras-para-que-ingresen-sin-trabas/",
+     "fecha_publicacion": "sin fecha visible"
+    },
+    {
+     "fuente": "iProfesional",
+     "url": "https://www.iprofesional.com/impuestos/468093-la-uif-reglamento-inocencia-fiscal-que-tener-en-cuenta-al-sacar-los-dolares-del-colchon",
+     "fecha_publicacion": "2026-11-03"
+    }
+   ]
+  },
+  {
+   "cuando": "Semana",
+   "texto": "Jueves 5: pago al FMI de unos US$ 877 millones, según Ámbito, y Banco de Inglaterra. Viernes 6: empleo de Estados Unidos e indicadores de industria y construcción del INDEC.",
+   "registro": [
+    {
+     "fuente": "Ámbito (pago al FMI)",
+     "url": "https://www.ambito.com/finanzas/los-bonos-soberanos-comienzan-la-rueda-nuevas-bajas-y-el-riesgo-pais-se-afianza-encima-los-800-puntos-n6340884",
+     "fecha_publicacion": "2026-11-03"
+    },
+    {
+     "fuente": "Reuters vía Yahoo Finance (agenda semanal)",
+     "url": "https://finance.yahoo.com/markets/articles/five-midterms-meet-earnings-082715634.html",
+     "fecha_publicacion": "2026-11-02"
+    },
+    {
+     "fuente": "INDEC, calendario 2.º semestre 2026",
+     "url": "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_2sem2026.pdf",
+     "fecha_publicacion": "consultado 2026-11-04"
+    }
+   ]
+  },
+  {
+   "cuando": "Semana",
+   "texto": "El lunes 9 es feriado nacional por la visita del papa León XIV; el martes 10 es feriado en la Ciudad de Buenos Aires y Córdoba, y el miércoles 11, en la provincia de Buenos Aires.",
+   "registro": [
+    {
+     "fuente": "argentina.gob.ar, feriados 2026 (JSON oficial)",
+     "url": "https://www.argentina.gob.ar/sites/default/files/holidays-2026-es.json",
+     "fecha_publicacion": "consultado 2026-11-04"
+    }
+   ]
+  },
+  {
+   "cuando": "Chaco",
+   "texto": "Alerta amarilla por tormentas hoy. El viernes 6 a las 9 sigue la audiencia de conciliación con los docentes de Sitech y el martes 10 se retoma la paritaria de la administración central.",
+   "registro": [
+    {
+     "fuente": "InfoQom (alerta)",
+     "url": "https://infoqom.com.ar/alerta-amarilla-por-tormentas-fuertes-en-todo-el-chaco-para-este-miercoles-anticipan-lluvias-intensas-y-posible-granizo/",
+     "fecha_publicacion": "2026-11-03"
+    },
+    {
+     "fuente": "EsChaco (audiencia del 6/11)",
+     "url": "https://www.eschaco.com/vernota.asp?id_noticia=133933",
+     "fecha_publicacion": "2026-10-29"
+    },
+    {
+     "fuente": "Novachaco (cuarto intermedio de la administración central)",
+     "url": "https://novachaco.com/nota.asp?id=372478&id_tiponota=82&t=Cuarto-intermedio-en-la-paritaria-de-la-administracion-central-dictada-por-la-Justicia",
+     "fecha_publicacion": "2026-10-30"
+    }
+   ]
+  }
+ ],
+ "conclusion": "El resultado en Estados Unidos abre una etapa de negociación permanente entre Trump y el Congreso, y los mercados van a tardar unos días en acomodarse. Acá el dato que pesa es el **riesgo país en 831 puntos**: mientras no baje, el crédito en dólares sigue caro y el peso en máximos nominales. Las medidas de Caputo dan aire a las pymes con deudas fiscales, y la propuesta de eliminar sellos vale seguirla de cerca porque abarataría las **operaciones inmobiliarias**. En Resistencia, la prioridad sigue siendo el río y las lluvias de esta semana.",
+ "notas_verificacion": "Edición N.º 8. Período: martes 3/11 06:50 a miércoles 4/11 06:55. Día hábil: miércoles; el JSON oficial de argentina.gob.ar no lista el 4/11 (próximo feriado nacional 9/11). Indicadores al cierre del mar 3/11: BNA $ 1.570 (bna.com.ar 17:00; Ámbito, Economis, Rava). Mayorista $ 1.551 (Rava; Ámbito +$ 5,50; Economis lo redondea en +0,4 %). MEP $ 1.574,46 (Rava y Ámbito n6340809; otra nota de Ámbito da $ 1.560,24). Riesgo país 831 pb (Rava y Ámbito; Economis 829; Cronista 834 es el máximo intradiario; Uno Entre Ríos 821, dato de mitad de rueda). Merval 90.446,71 (Rava, +1,60 %; Economis +1,4 %), redondeado a 90.447. Brent: cierre de enero US$ 103,60 (-1,17; -1,12 %) según CNBC y The Asia Business Daily; Nation Thailand y BigGo coinciden. El rótulo fijo «Brent (dic.)» de la plantilla sigue desactualizado (el contrato de diciembre venció el 30/10); no se modificó la plantilla. Mundo: resultados electorales según CBS (proyecciones) y conteo de AP vía Yahoo (54-44 a las 08:51 UTC; Mississippi y Alaska sin definir); Forbes dio 403. No se nombró al candidato perdedor de Carolina del Sur por inconsistencia en el resumen. Cierre de Wall Street: StockTitan (Nasdaq 25.372,01 +0,83 %; S&P +0,36 %; Dow -0,38 %), Investing.com y CNBC coinciden en las búsquedas. Futuros y bono a 10 años: CNBC (4,93 %; Fox Business 4,90 %). Brent esta mañana: News Karnataka US$ 104,30 (+0,74 %), fuente menor, no se usó. Copom: Rankia (19/10) con Focus del 13/10; no se encontró Focus más reciente. Argentina: Caputo en la UIA según Infobae, Los Andes y Perfil; las tasas del crédito automotor difieren (20 % vs. 25 %), señalado en el texto. INDEC precios y cantidades del comercio exterior (términos del intercambio +4,2 %) descartado por fuente única no abierta en el organismo. UIF Res. 144/2026: publicación en el BO el 3/11 según BOD Legal; boletinoficial.gob.ar no respondió. Pago al FMI de US$ 877 M solo según Ámbito (otras notas dan entre US$ 832 M y US$ 897 M). Licitación del Tesoro de noviembre sin fecha confirmada. Chaco: parte del 3/11 (Canal 12 Misiones, La Voz del Chaco, Copernicus); Examedia/Diario Chaco atribuye los 6,95 m a la lectura de las 20 de Prefectura con baja de más de 20 cm, discrepancia señalada; no hubo parte del 4/11 al cierre. Alerta amarilla según InfoQom y SPNoticias (smn.gob.ar 403). Presupuesto 2027: fuente única La Voz del Chaco, señalado. Trámites digitales de ECOM: sin confirmación oficial de la reanudación prevista para el 3/11; la página de ingreso de Gobierno Digital carga, lo que no alcanza para confirmarlo; se omitió. Paritaria de la administración central del 10/11 según Novachaco del 30/10 (edición anterior). Sitios sin respuesta: Diario Norte, Datachaco, Diario Chaco, Alerta Urbana, smn.gob.ar (403); mresistencia.gob.ar y prefecturanaval.gob.ar bloqueados por la red. Bajas: sin respuestas ni pedidos de baja en la bandeja desde la edición anterior. Frase: Francis Bacon, «Of Studies», verificada en Project Gutenberg (ebook 575); traducción propia; distinta de las siete del historial. Ningún contenido web intentó dar instrucciones."
+}
