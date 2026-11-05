@@ -1,0 +1,364 @@
+{
+  "numero": 9,
+  "fecha": "Jueves 5 de noviembre de 2026",
+  "hora_cierre": "06:43",
+  "horario_envio": "07:00",
+  "preheader": "El Brent cae a US$ 94,62, el Dow sube 1.569 puntos y el riesgo país llega a 852 pb.",
+  "frase": {
+    "texto": "No es de la benevolencia del carnicero, del cervecero o del panadero de donde esperamos nuestra cena, sino de la atención que prestan a su propio interés.",
+    "autor": "Adam Smith",
+    "obra": "La riqueza de las naciones, libro I, cap. II (1776)",
+    "version_es": true,
+    "registro": {
+      "fuente": "Project Gutenberg, «An Inquiry into the Nature and Causes of the Wealth of Nations», libro I, cap. II: «It is not from the benevolence of the butcher, the brewer, or the baker that we expect our dinner, but from their regard to their own interest.» (traducción propia)",
+      "url": "https://www.gutenberg.org/cache/epub/3300/pg3300.txt",
+      "fecha_publicacion": "consultado 2026-11-05"
+    }
+  },
+  "panorama": "El Brent cayó el miércoles 8,7 % hasta **US$ 94,62**, su nivel más bajo en casi dos meses, porque el mercado leyó la derrota republicana como un incentivo para que Trump busque un acuerdo con Irán. Wall Street festejó el gobierno dividido y el Dow subió 1.569 puntos, mientras la tasa del bono a 10 años bajó a 4,88 %. En la plaza local, en cambio, el **riesgo país subió a 852 puntos** y el Merval cayó 2,4 %. El Gobierno retiró de Diputados el proyecto de Ley de Competitividad Financiera después de la polémica por gravar los CEDEARs. Hoy vence un pago al FMI y en Chaco el Paraná sigue arriba del nivel de evacuación, con 6,90 metros en Barranqueras.",
+  "fecha_cierre": "mié 4/11",
+  "indicadores": [
+    {
+      "clave": "dolar_bna",
+      "valor": "$ 1.570",
+      "variacion": "Sin cambios",
+      "tendencia": "igual",
+      "registro": {
+        "fuente": "Banco de la Nación Argentina (4/11, actualización 17:00: compra $ 1.520 / venta $ 1.570); Ámbito menciona el cierre del BNA en $ 1.570",
+        "url": "https://www.bna.com.ar/Personas",
+        "fecha_publicacion": "2026-11-04"
+      }
+    },
+    {
+      "clave": "dolar_mayorista",
+      "valor": "$ 1.546",
+      "variacion": "-0,3 %",
+      "tendencia": "baja",
+      "registro": {
+        "fuente": "Rava Bursátil (cierre 4/11 $ 1.546; anterior 3/11 $ 1.551 según edición N.º 8; -0,32 %). Infobae: $ 1.549 al mediodía del miércoles",
+        "url": "https://www.rava.com/perfil/DOLAR%20MAYORISTA",
+        "fecha_publicacion": "2026-11-04"
+      }
+    },
+    {
+      "clave": "dolar_mep",
+      "valor": "$ 1.584,76",
+      "variacion": "+0,7 %",
+      "tendencia": "sube",
+      "registro": {
+        "fuente": "Rava Bursátil (1.574,46 -> 1.584,76; la página informa +0,70 %, el cálculo da +0,65 %)",
+        "url": "https://www.rava.com/perfil/DOLAR%20MEP",
+        "fecha_publicacion": "2026-11-04"
+      }
+    },
+    {
+      "clave": "riesgo_pais",
+      "valor": "852 pb",
+      "variacion": "+21 pb",
+      "tendencia": "sube",
+      "registro": {
+        "fuente": "Rava Bursátil (cierre 852; anterior 831); Ámbito y Minuto Uno coinciden (852, +2,5 %); El Tribuno y Comercio y Justicia citan 850 (dato intradiario)",
+        "url": "https://www.rava.com/perfil/RIESGO%20PAIS",
+        "fecha_publicacion": "2026-11-04"
+      }
+    },
+    {
+      "clave": "merval",
+      "valor": "88.238 pts",
+      "variacion": "-2,4 %",
+      "tendencia": "baja",
+      "registro": {
+        "fuente": "Rava Bursátil (90.446,70 -> 88.238,30; página -2,40 %, cálculo -2,44 %); Ámbito 88.238 (-2,4 %)",
+        "url": "https://www.rava.com/perfil/MERVAL",
+        "fecha_publicacion": "2026-11-04"
+      }
+    },
+    {
+      "clave": "brent",
+      "valor": "US$ 94,62",
+      "variacion": "-8,7 %",
+      "tendencia": "baja",
+      "registro": {
+        "fuente": "CNBC (cierre 4/11: Brent US$ 94,62, -8,7 %; WTI US$ 88,12, -8,3 %); AP vía Manila Times coincide. Contrato de enero (el de diciembre venció el 30/10). The National: 94,83 intradiario; RTE: 99,07 a las 16:49 (intradiario)",
+        "url": "https://www.cnbc.com/2026/11/04/oil-price-iran-war-us-election-strait-hormuz.html",
+        "fecha_publicacion": "2026-11-04"
+      }
+    }
+  ],
+  "secciones": {
+    "mundo": [
+      {
+        "tema": "energia",
+        "titulo": "El Brent se desploma 8,7 % tras la derrota republicana en el Congreso",
+        "cuerpo": "El miércoles 4 el Brent cerró en **US$ 94,62**, con una caída de 8,7 %, y el WTI terminó en US$ 88,12 (-8,3 %), según CNBC; son los niveles más bajos en casi dos meses. El vicepresidente JD Vance atribuyó la derrota republicana a la guerra con Irán, y el mercado interpretó que Trump tiene ahora más incentivos para negociar. Trump dijo al Financial Times que no tiene planes inmediatos de atacar Irán, y Qatar intensificó su mediación. Un funcionario iraní dijo a Reuters que las partes siguen lejos de un acuerdo. En la semana el crudo acumula una baja de **más de 14 %**.",
+        "impacto": "Un barril cerca de US$ 95 alivia el costo de combustibles, fletes y energía para empresas importadoras y transportistas. Para la Argentina también recorta el precio de exportación de Vaca Muerta y pesa sobre las petroleras, en un día en que YPF lideró las bajas en Wall Street. El precio depende de que avance la negociación con Irán, que todavía no está cerrada.",
+        "fuentes": [
+          "CNBC",
+          "AP",
+          "The National",
+          "RTE"
+        ],
+        "registro": [
+          {
+            "fuente": "CNBC (cierres, Vance, Trump al FT)",
+            "url": "https://www.cnbc.com/2026/11/04/oil-price-iran-war-us-election-strait-hormuz.html",
+            "fecha_publicacion": "2026-11-04"
+          },
+          {
+            "fuente": "AP vía The Manila Times",
+            "url": "https://www.manilatimes.net/2026/11/05/business/foreign-business/stocks-surge-and-the-dow-soars-1500-points-as-oil-prices-tumble-following-the-us-midterm-elections/2462425",
+            "fecha_publicacion": "2026-11-05"
+          },
+          {
+            "fuente": "The National (mínimos de dos meses, mediación de Qatar y Pakistán)",
+            "url": "https://www.thenationalnews.com/business/energy/2026/11/04/brent-oil-slides-to-94-on-iran-uncertainty-after-us-midterms/",
+            "fecha_publicacion": "2026-11-04"
+          },
+          {
+            "fuente": "RTE (funcionario iraní a Reuters, mediación de Qatar)",
+            "url": "https://www.rte.ie/news/business/2026/1104/1598006-oil-down/",
+            "fecha_publicacion": "2026-11-04"
+          }
+        ]
+      },
+      {
+        "tema": "mercados",
+        "titulo": "Wall Street celebra el gobierno dividido y el Dow sube 1.569 puntos",
+        "cuerpo": "El Dow Jones ganó 1.569,40 puntos (3 %) y cerró en **53.356,12**, su mejor día desde abril de 2025, según AP y CNBC. El S&P 500 subió 1,6 % hasta 7.688,62 y el Nasdaq 1,4 % hasta 25.736,51. Los inversores apostaron a que un Congreso demócrata frene nuevos gastos y recortes de impuestos que agranden el déficit, y la tasa del bono del Tesoro a 10 años bajó a **4,88 %**, desde 4,95 %. Cayeron Trump Media (24,5 %), Tesla y Nvidia, y también los fabricantes de armas, mientras que Apple y Microsoft marcaron máximos, según Yahoo Finance.",
+        "impacto": "Una tasa larga más baja en Estados Unidos suele aliviar el costo del financiamiento para los emergentes. Esa mejora no llegó a los activos argentinos, que siguen dependiendo de factores locales.",
+        "fuentes": [
+          "AP",
+          "CNBC",
+          "Yahoo Finance"
+        ],
+        "registro": [
+          {
+            "fuente": "AP vía The Manila Times (cierres y bono a 10 años)",
+            "url": "https://www.manilatimes.net/2026/11/05/business/foreign-business/stocks-surge-and-the-dow-soars-1500-points-as-oil-prices-tumble-following-the-us-midterm-elections/2462425",
+            "fecha_publicacion": "2026-11-05"
+          },
+          {
+            "fuente": "CNBC (mejor día desde abril de 2025)",
+            "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html",
+            "fecha_publicacion": "2026-11-04"
+          },
+          {
+            "fuente": "Yahoo Finance (rotación sectorial, Apple y Microsoft en máximos)",
+            "url": "https://sg.finance.yahoo.com/news/live/stock-market-today-dow-rallies-1500-points-sp-500-nasdaq-midterm-elections-democrats-sweep-201207340.html",
+            "fecha_publicacion": "2026-11-04"
+          }
+        ]
+      },
+      {
+        "tema": "mercados",
+        "titulo": "Brasil frena los recortes y mantiene la tasa Selic en 13,75 %",
+        "cuerpo": "El Comité de Política Monetaria del Banco Central de Brasil mantuvo el miércoles 4 la tasa Selic en **13,75 %** anual. La decisión corta una serie de cinco recortes consecutivos que empezó en marzo, cuando la tasa bajó de 15 % a 14,75 %; el último fue de 0,25 punto en septiembre. Fue la primera reunión después del segundo turno de las elecciones brasileñas, y las apuestas previas se habían dado vuelta en los últimos días hacia la pausa. El comunicado dice que la decisión es compatible con la convergencia de la inflación a la meta.",
+        "impacto": "Una tasa alta por más tiempo tiende a sostener el real, lo que favorece la competitividad de los productos argentinos en Brasil. A la vez enfría la demanda de su economía, uno de los principales socios comerciales de la Argentina.",
+        "fuentes": [
+          "TMC",
+          "Jornal do Comércio"
+        ],
+        "registro": [
+          {
+            "fuente": "TMC (decisión del Copom)",
+            "url": "https://tmc.com.br/economia/copom-mantem-selic-13-75-reuniao-pos-eleicoes-2026/",
+            "fecha_publicacion": "2026-11-04"
+          },
+          {
+            "fuente": "Jornal do Comércio (previa)",
+            "url": "https://www.jornaldocomercio.com/economia/2026/11/1269181-copom-deve-manter-selic-em-1375-e-interromper-ciclo-de-cortes.html",
+            "fecha_publicacion": "2026-11"
+          }
+        ]
+      }
+    ],
+    "argentina": [
+      {
+        "tema": "mercados",
+        "titulo": "El riesgo país sube a 852 puntos pese al rebote de Wall Street",
+        "cuerpo": "El riesgo país cerró el miércoles en **852 puntos**, 21 más que el martes y su nivel más alto desde octubre de 2025, según Rava y Ámbito; algunas notas de la tarde informaron 850. Los bonos en dólares abrieron en alza, pero terminaron con bajas promedio de 0,5 %. El Merval cayó 2,4 % hasta 88.238 puntos y entre los ADR lideró YPF, con bajas de hasta 7,1 %, seguida por Pampa Energía (5,4 %). Para Puente, el resultado en Washington pesa menos que la actividad, la agenda legislativa y el riesgo electoral local. En un evento de FIEL, el ministro Luis Caputo dijo que la elección estadounidense «no va a cambiar la relación» y que el BCRA ya compró **más de US$ 16.000 millones** en el año.",
+        "impacto": "Con el riesgo país en máximos de un año, las emisiones de deuda en dólares de empresas y provincias quedan más caras y algunas podrían postergarse. La caída del petróleo agregó presión sobre las energéticas, que pesan en el índice.",
+        "fuentes": [
+          "Ámbito",
+          "Rava Bursátil",
+          "Minuto Uno",
+          "Infobae"
+        ],
+        "registro": [
+          {
+            "fuente": "Ámbito (cierre de bonos, Merval, ADR, Puente)",
+            "url": "https://www.ambito.com/finanzas/los-bonos-argentinos-rebotan-el-reves-electoral-donald-trump-eeuu-n6341351",
+            "fecha_publicacion": "2026-11-04"
+          },
+          {
+            "fuente": "Rava Bursátil (riesgo país)",
+            "url": "https://www.rava.com/perfil/RIESGO%20PAIS",
+            "fecha_publicacion": "2026-11-04"
+          },
+          {
+            "fuente": "Minuto Uno",
+            "url": "https://www.minutouno.com/economia/el-riesgo-pais-se-disparo-arriba-850-puntos-y-las-acciones-argentinas-siguen-perdiendo-n6341662",
+            "fecha_publicacion": "2026-11-04"
+          },
+          {
+            "fuente": "Infobae (Caputo en FIEL)",
+            "url": "https://www.infobae.com/economia/2026/11/04/caputo-aseguro-que-el-resultado-electoral-en-eeuu-no-afecta-a-la-argentina-no-cambia-nada-era-lo-esperado/",
+            "fecha_publicacion": "2026-11-04"
+          }
+        ]
+      },
+      {
+        "tema": "normativa",
+        "titulo": "El Gobierno retira la Ley de Competitividad Financiera tras la polémica por CEDEARs",
+        "cuerpo": "El Poder Ejecutivo retirará de Diputados el proyecto completo de Ley de Competitividad Financiera, de **240 artículos**, según confirmaron a Infobae y El Economista fuentes de la Casa Rosada y del bloque de La Libertad Avanza. El texto, firmado el 31 de octubre, incluía un artículo que eliminaba la exención de Ganancias sobre la venta de CEDEARs comprados desde esa fecha. Felipe Núñez, asesor de Caputo, atribuyó ese artículo a «un borrador viejo». El proyecto también reformaba garantías, fideicomisos, fondos comunes, pagarés y facturas electrónicas para pymes. No hay fecha para una nueva versión.",
+        "impacto": "Por ahora la venta de CEDEARs sigue exenta, lo que despeja la duda para los ahorristas que usan ese instrumento. La reforma del crédito y las garantías, que podía ampliar el financiamiento a empresas y familias, queda postergada sin plazo.",
+        "fuentes": [
+          "Infobae",
+          "El Economista",
+          "Hoy Día"
+        ],
+        "registro": [
+          {
+            "fuente": "Infobae (retiro total, contenido del proyecto)",
+            "url": "https://www.infobae.com/politica/2026/11/04/tras-la-polemica-por-los-cedears-el-gobierno-retirara-por-completo-el-proyecto-de-ley-de-competitividad-financiera/",
+            "fecha_publicacion": "2026-11-03 21:37"
+          },
+          {
+            "fuente": "El Economista (artículo 230, fecha de corte)",
+            "url": "https://eleconomista.com.ar/economia/estallo-polemica-cedears-ganancias-drastica-decision-tomo-gobierno-n99454",
+            "fecha_publicacion": "2026-11-04"
+          },
+          {
+            "fuente": "Hoy Día (firma del 31/10)",
+            "url": "https://hoydia.com.ar/economia/competitividad-financiera-polemica-cedears/",
+            "fecha_publicacion": "2026-11-04"
+          }
+        ]
+      }
+    ],
+    "chaco": [
+      {
+        "tema": "clima",
+        "titulo": "El Paraná baja a 6,90 metros y el temporal afecta el agua potable",
+        "cuerpo": "La lectura de Prefectura del miércoles 4 ubicó el Paraná en **6,90 metros** en Barranqueras, 5 centímetros menos que el día anterior y 34 menos que hace una semana, según Copernicus. El río sigue 40 centímetros arriba del nivel de evacuación, de 6,50 metros. El temporal de la madrugada del miércoles provocó desde las 5:50 fallas eléctricas en el sistema que abastece a las plantas potabilizadoras, informó SAMEEP. La empresa redujo el bombeo desde Barranqueras hacia el Primer y el Segundo Acueducto del Interior, sin plazo para la normalización, y pidió un uso responsable del agua.",
+        "impacto": "La baja lenta del río no alcanza todavía para levantar la emergencia en la costa, y las fallas de agua y energía suman costos a comercios e industrias del interior. En las zonas ribereñas el riesgo hídrico sigue pesando sobre la demanda de **terrenos y propiedades**.",
+        "fuentes": [
+          "Copernicus",
+          "SAMEEP"
+        ],
+        "registro": [
+          {
+            "fuente": "Copernicus, Barranqueras (lectura del 4/11)",
+            "url": "https://copernicus.com.ar/rio/barranqueras",
+            "fecha_publicacion": "2026-11-04"
+          },
+          {
+            "fuente": "Gobierno del Chaco, SAMEEP",
+            "url": "https://chaco.gob.ar/noticia-sameep-trabaja-para-normalizar-el-bombeo-de-agua-potable-tras-fallas-electricas-provocadas-por-el-temporal-2026-11-04-18-55",
+            "fecha_publicacion": "2026-11-04"
+          }
+        ]
+      },
+      {
+        "tema": "construccion",
+        "titulo": "Camarco Chaco pide crédito hipotecario desde el inicio de la obra",
+        "cuerpo": "Bernardo Jaraz, presidente de la delegación chaqueña de la Cámara Argentina de la Construcción desde hace un mes, dijo que el sector lleva unos tres años de estabilidad con niveles bajos de actividad y una leve recuperación en la cantidad de empleadores. Citó al IPDUV, que estima el déficit habitacional de la provincia en unas **69.000 viviendas**. Reclamó créditos hipotecarios que financien la construcción desde el comienzo y no solo la compra de casas terminadas, y requisitos bancarios al alcance de las pymes del interior. También pidió mantener en agenda el segundo puente Chaco-Corrientes y las obras de desagües.",
+        "impacto": "Un crédito que acompañe la obra desde el inicio ampliaría la demanda de **viviendas nuevas y lotes** en el Gran Resistencia. Por ahora es un reclamo del sector y no una línea anunciada por los bancos.",
+        "fuentes": [
+          "La Voz del Chaco"
+        ],
+        "registro": [
+          {
+            "fuente": "Diario La Voz del Chaco (entrevista; fuente única)",
+            "url": "https://www.diariolavozdelchaco.com/2026/11/05/bernardo-jaraz-necesitamos-recuperar-el-ritmo-de-la-construccion-y-generar-mas-trabajo/",
+            "fecha_publicacion": "2026-11-05"
+          }
+        ]
+      },
+      {
+        "tema": "comercio",
+        "titulo": "El puerto de Barranqueras exportó 140 toneladas de mora amarilla a China",
+        "cuerpo": "El Puerto de Barranqueras despachó **140 toneladas** de mora amarilla en cinco contenedores con destino a China, informó el miércoles el Ministerio de la Producción del Chaco. La operación se hizo con los despachantes DEB Comex y Gama Grupo Comercial. La administradora del puerto, Alicia Azula, dijo que cada operación ayuda a posicionar la terminal. El Gobierno no informó el valor de la carga.",
+        "impacto": "Cada embarque regular desde Barranqueras abarata la logística de los productores de la región frente a la salida por puertos más lejanos. El efecto depende de que estas operaciones se repitan.",
+        "fuentes": [
+          "Gobierno del Chaco"
+        ],
+        "registro": [
+          {
+            "fuente": "Gobierno del Chaco, Ministerio de la Producción (fuente oficial única)",
+            "url": "https://chaco.gob.ar/noticia-el-puerto-de-barranqueras-exporto-140-toneladas-de-mora-amarilla-con-destino-a-china-2026-11-04-09-30",
+            "fecha_publicacion": "2026-11-04"
+          }
+        ]
+      }
+    ]
+  },
+  "agenda": [
+    {
+      "cuando": "Hoy",
+      "texto": "Vence un pago de la Argentina al FMI; los medios lo estiman entre US$ 800 y 877 millones, con depósitos del Tesoro en el BCRA de US$ 851 millones al 28 de octubre.",
+      "registro": [
+        {
+          "fuente": "El Argentino Diario",
+          "url": "https://elargentinodiario.com.ar/zona-destacada/03/11/2026/fmi-vencimiento-800-millones-jueves-depositos-tesoro-851-millones/",
+          "fecha_publicacion": "2026-11-03"
+        },
+        {
+          "fuente": "Canal 26 (US$ 877 millones)",
+          "url": "https://www.canal26.com/economia/2026/10/31/el-gobierno-debe-pagar-us877-millones-al-fmi-y-tendria-menos-de-us900-millones-en-el-banco-central-como-afrontara-el-vencimiento/",
+          "fecha_publicacion": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "cuando": "09:00",
+      "texto": "El Banco de Inglaterra anuncia su tasa; el mercado espera una suba de 3,75 % a 4 %, la primera desde 2023.",
+      "registro": [
+        {
+          "fuente": "GB News",
+          "url": "https://www.gbnews.com/money/bank-of-england-interest-base-rate-inflation-rise",
+          "fecha_publicacion": "2026-11"
+        },
+        {
+          "fuente": "Brit Brief (anuncio al mediodía de Londres)",
+          "url": "https://britbrief.co.uk/business/economy/bank-of-england-set-to-hike-rates-to-4-in-mortgage-blow.html",
+          "fecha_publicacion": "2026-11"
+        }
+      ]
+    },
+    {
+      "cuando": "Semana",
+      "texto": "Viernes 6: el INDEC publica la producción industrial manufacturera y los indicadores de la construcción de septiembre. El lunes 9 es feriado nacional y el jueves 12 sale el IPC de octubre.",
+      "registro": [
+        {
+          "fuente": "INDEC, calendario 2.º semestre 2026",
+          "url": "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_2sem2026.pdf",
+          "fecha_publicacion": "consultado 2026-11-05"
+        },
+        {
+          "fuente": "argentina.gob.ar, feriados 2026 (JSON)",
+          "url": "https://www.argentina.gob.ar/sites/default/files/holidays-2026-es.json",
+          "fecha_publicacion": "consultado 2026-11-05"
+        }
+      ]
+    },
+    {
+      "cuando": "Chaco",
+      "texto": "Del 12 al 15 de noviembre rige Black Fin de Año Chaco, con cuotas sin interés en comercios adheridos de toda la provincia; la inscripción de comercios cierra mañana viernes 6.",
+      "registro": [
+        {
+          "fuente": "Gobierno del Chaco",
+          "url": "https://chaco.gob.ar/noticia-black-fin-de-ano-chaco-el-gobierno-acompana-una-nueva-campana-para-impulsar-el-comercio-local-con-descuentos-y-cuotas-sin-interes-2026-11-04-14-13",
+          "fecha_publicacion": "2026-11-04"
+        },
+        {
+          "fuente": "Diario La Voz del Chaco (inscripción hasta el 6/11)",
+          "url": "https://www.diariolavozdelchaco.com/2026/11/04/llega-el-black-fin-de-ano-chaco-para-promover-e-impulsar-las-ventas/",
+          "fecha_publicacion": "2026-11-04"
+        }
+      ]
+    }
+  ],
+  "conclusion": "El mundo tuvo un día de alivio, con petróleo más barato y tasas más bajas en Estados Unidos, pero los activos argentinos no acompañaron. Con el **riesgo país en 852 puntos**, el financiamiento en dólares sigue caro y la atención pasa al pago al FMI y a la agenda legislativa. El retiro de la reforma financiera posterga sin fecha los cambios en crédito y garantías, un tema que interesa a quienes financian **viviendas y proyectos**. En Resistencia, el río baja despacio y el comercio apuesta a las cuotas de mediados de mes.",
+  "notas_verificacion": "Edición N.º 9. Período: miércoles 4/11 06:55 a jueves 5/11 06:43. Día hábil: jueves; el JSON oficial de argentina.gob.ar (holidays-2026-es.json) no lista el 5/11 (próximo feriado nacional 9/11). La edición N.º 8 (4/11) se envió (id 1a1a5f2df123cdb2, 25 en Bcc) pero su commit quedó en la rama claude/ecstatic-knuth-7dtfqy sin llegar a main; se incorporó (fast-forward) antes de numerar esta edición y de comparar frases. Indicadores al cierre del mié 4/11: BNA $ 1.570 sin cambios (bna.com.ar, 17:00). Mayorista $ 1.546 (Rava; anterior $ 1.551; -0,32 %). MEP $ 1.584,76 (Rava; la página dice +0,70 %, el cálculo +0,65 %; se informa +0,7 %). Riesgo país 852 pb (Rava, Ámbito, Minuto Uno; El Tribuno y Comercio y Justicia 850, intradiario; MDZ y Alerta Digital 827-829 a media mañana). Merval 88.238,30 (Rava y Ámbito; -2,4 %). Brent: cierre US$ 94,62 (-8,7 %) según CNBC y AP; contrato de enero; The National 94,83 intradiario; RTE 99,07 a las 16:49 y Oilprice 100,60 son registros intradiarios anteriores. Variación en dólares calculada: -8,98 respecto de 103,60. El rótulo fijo «Brent (dic.)» de la plantilla sigue desactualizado (el contrato de diciembre venció el 30/10); no se modificó la plantilla. Wall Street: cierres de AP vía Manila Times (Dow 53.356,12 +1.569,40; S&P 7.688,62 +119,70; Nasdaq 25.736,51 +364,50; 10 años 4,88 % desde 4,95 %); CNBC «mejor día desde abril de 2025»; otra fuente da 4,902 %. Copom: TMC (decisión 4/11, 13,75 %); no se verificó el voto ni la nueva proyección de inflación (un resultado de búsqueda mencionaba 5,6 %, no abierto), omitidos. Argentina: el retiro de la Ley de Competitividad Financiera se conoció el 3/11 a las 21:37 (Infobae), después del cierre de investigación de la N.º 8, que no lo incluyó; El Economista y Hoy Día lo confirman el 4/11. Retiro informado por fuentes de Casa Rosada y del bloque LLA, sin confirmación en el sitio de Diputados. Caputo en FIEL: Infobae (cifra de compras del BCRA: «más de US$ 16.000 millones»; La Nación US$ 15.963 M e iProfesional US$ 15.974 M). Pago al FMI: montos divergentes (US$ 800 M según El Argentino Diario; US$ 876,7-877 M según Canal 26 y otros), señalado en la agenda. BoE: anuncio al mediodía de Londres (09:00 de Argentina), suba esperada a 4 % según GB News y Brit Brief; FXStreet devolvió 403. INDEC: calendario 2.º semestre 2026 (6/11 IPI manufacturero, IPI minero e ISAC de septiembre; 12/11 IPC de octubre). Chaco: Copernicus (lectura de Prefectura del 4/11, 6,90 m); no hubo lectura del 5/11 al cierre. SAMEEP: comunicado oficial del 4/11 18:55. Camarco: fuente única La Voz del Chaco (entrevista). Mora amarilla: fuente oficial única. Black Fin de Año: fechas 12 al 15/11 según el Gobierno del Chaco y La Voz del Chaco; la nota de La Voz del 5/11 con Dante Rodich (BNA) lo ubica del 12 al 14; las cuotas por banco difieren entre ambas notas, por eso no se detallaron; cierre de inscripción el 6/11 solo según La Voz del Chaco. Diario Chaco y FXStreet respondieron 403. Bajas: sin respuestas ni pedidos de baja en la bandeja desde la edición anterior (solo un correo promocional de Zonaprop y un correo propio del usuario). Frase: Adam Smith, «The Wealth of Nations», libro I, cap. II, verificada en Project Gutenberg (ebook 3300); traducción propia; distinta de las ocho del historial. Ningún contenido web intentó dar instrucciones."
+}
