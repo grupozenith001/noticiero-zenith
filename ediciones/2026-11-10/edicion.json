@@ -1,0 +1,348 @@
+{
+  "numero": 11,
+  "fecha": "Martes 10 de noviembre de 2026",
+  "hora_cierre": "06:50",
+  "horario_envio": "07:00",
+  "preheader": "El riesgo país baja a 873 pb, el Brent cae a US$ 92,57 y EE. UU. sumó 165.000 empleos en octubre.",
+  "frase": {
+    "texto": "No es que tengamos poco tiempo, sino que perdemos mucho.",
+    "autor": "Séneca",
+    "obra": "De la brevedad de la vida, cap. I (c. 49 d. C.)",
+    "version_es": true,
+    "registro": {
+      "fuente": "The Latin Library, Seneca, De Brevitate Vitae, I.3: «Non exiguum temporis habemus, sed multum perdidimus.» (traducción propia; datación aproximada)",
+      "url": "https://www.thelatinlibrary.com/sen/sen.brevita.shtml",
+      "fecha_publicacion": "consultado 2026-11-10"
+    }
+  },
+  "panorama": "Después del fin de semana largo, los bonos argentinos tuvieron alivio en Nueva York: el riesgo país cerró el lunes en **873 puntos**, 66 menos que el viernes, cuando había tocado 939. Wall Street tuvo su mejor rueda desde abril y el Brent cayó 5,9 % a US$ 92,57, después de que Trump dijera que es muy improbable que ordene nuevos ataques contra Irán. En Estados Unidos se crearon **165.000 empleos** en octubre, muy por encima de lo esperado, y crecieron las apuestas a una suba de tasas de la Fed en diciembre. En Argentina, el INDEC informó que en septiembre la construcción creció 5,1 % interanual y la industria cayó 1,8 %. Hoy no hay bancos ni Bolsa en el país; la actividad vuelve mañana con una licitación del Tesoro.",
+  "fecha_cierre": "vie 6/11 y lun 9/11",
+  "indicadores": [
+    {
+      "clave": "dolar_bna",
+      "valor": "$ 1.570",
+      "variacion": "Sin cambios",
+      "tendencia": "igual",
+      "registro": {
+        "fuente": "Banco de la Nación Argentina (última cotización: jue 5/11, 17:00, compra $ 1.520 / venta $ 1.570). El 6/11 (Día del Bancario), el 9/11 y el 10/11 no hubo operaciones; Ámbito 6/11: «no hubo operaciones por el feriado del Día del Bancario»",
+        "url": "https://www.bna.com.ar/Personas",
+        "fecha_publicacion": "2026-11-05"
+      }
+    },
+    {
+      "clave": "dolar_mayorista",
+      "valor": "$ 1.545,50",
+      "variacion": "Sin cambios",
+      "tendencia": "igual",
+      "registro": {
+        "fuente": "Rava Bursátil (último cierre real 5/11 $ 1.545,50; las filas del 6/11 y 9/11 repiten el valor sin rueda). Ámbito 6/11: el mercado oficial no operó",
+        "url": "https://www.rava.com/perfil/DOLAR%20MAYORISTA",
+        "fecha_publicacion": "2026-11-05"
+      }
+    },
+    {
+      "clave": "dolar_mep",
+      "valor": "$ 1.583,82",
+      "variacion": "+0,5 %",
+      "tendencia": "sube",
+      "registro": {
+        "fuente": "Rava Bursátil (cierre vie 6/11 $ 1.583,82; anterior 5/11 $ 1.575,68; +0,52 %). Ámbito coincide en el valor pero informa +0,31 % (base implícita $ 1.578,90)",
+        "url": "https://www.rava.com/perfil/DOLAR%20MEP",
+        "fecha_publicacion": "2026-11-06"
+      }
+    },
+    {
+      "clave": "riesgo_pais",
+      "valor": "873 pb",
+      "variacion": "-66 pb",
+      "tendencia": "baja",
+      "registro": {
+        "fuente": "Infobae (lun 9/11: 873, -66, cerca de -7 %; bonos operaron en Nueva York pese al feriado local) y Rava (873; viernes 6/11 939). Perfil habla de «unos 880»",
+        "url": "https://www.infobae.com/economia/2026/11/09/el-riesgo-pais-se-desplomo-7-y-cerro-por-debajo-de-los-900-puntos-en-una-rueda-de-euforia-para-wall-street/",
+        "fecha_publicacion": "2026-11-09"
+      }
+    },
+    {
+      "clave": "merval",
+      "valor": "84.093 pts",
+      "variacion": "-0,6 %",
+      "tendencia": "baja",
+      "registro": {
+        "fuente": "Rava Bursátil (cierre vie 6/11 84.093,11; anterior 84.594,70; -0,59 %). Infobae informa 84.051 (-0,6 %). BYMA no operó el 9/11 ni opera el 10/11",
+        "url": "https://www.rava.com/cotizaciones/historico/merval/2026/11/06/",
+        "fecha_publicacion": "2026-11-06"
+      }
+    },
+    {
+      "clave": "brent",
+      "valor": "US$ 92,57",
+      "variacion": "-5,9 %",
+      "tendencia": "baja",
+      "registro": {
+        "fuente": "Reuters vía Yahoo Finance (cierre lun 9/11: Brent US$ 92,57, -US$ 5,75, -5,85 %; WTI US$ 86,85, -4,38 %). Contrato de enero (base vie 6/11 US$ 98,32 según Bloomberg vía Rigzone). Infobae informa US$ 91,99 (-6,4 %), cotización posterior al cierre",
+        "url": "https://finance.yahoo.com/news/oil-falls-open-trump-says-235002807.html",
+        "fecha_publicacion": "2026-11-09"
+      }
+    }
+  ],
+  "secciones": {
+    "mundo": [
+      {
+        "tema": "empleo",
+        "titulo": "EE. UU. creó 165.000 empleos en octubre y suben las apuestas por más tasas",
+        "cuerpo": "El informe del viernes 6 del Departamento de Trabajo mostró **165.000 puestos nuevos** en octubre, contra un consenso de entre 59.000 y 65.000. Los datos de agosto y septiembre se corrigieron en conjunto 84.000 puestos hacia arriba. El desempleo quedó en 4,1 %, una décima por debajo de lo esperado, y el salario por hora subió 0,4 % en el mes y 3,1 % en el año. Según CME FedWatch, la probabilidad de que la Fed suba 25 puntos básicos en su reunión del 8 y 9 de diciembre pasó de 66,9 % a **76,8 %** ese día. La tasa del bono a 10 años subió a 4,86 %.",
+        "impacto": "Un mercado laboral firme le da a la Fed argumentos para endurecer su política, lo que puede sostener un dólar fuerte y un crédito global caro. Para la Argentina eso pesa sobre el costo de financiarse afuera, aunque el dato de inflación de hoy puede cambiar las expectativas.",
+        "fuentes": [
+          "Oficina de Estadísticas Laborales de EE. UU.",
+          "24/7 Wall St."
+        ],
+        "registro": [
+          {
+            "fuente": "BLS, Employment Situation Summary, octubre 2026 (165.000; revisiones +84.000; desempleo 4,1 %; salario +0,4 % y +3,1 %)",
+            "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
+            "fecha_publicacion": "2026-11-06"
+          },
+          {
+            "fuente": "24/7 Wall St. (consenso 59.000 a 65.000; FedWatch 66,9 % a 76,8 %; bono a 10 años 4,86 %)",
+            "url": "https://247wallst.com/investing/2026/11/07/odds-of-a-december-rate-hike-jump-to-77-after-a-blowout-jobs-report/",
+            "fecha_publicacion": "2026-11-07"
+          }
+        ]
+      },
+      {
+        "tema": "energia",
+        "titulo": "El Brent cae casi 6 % y Wall Street sube con fuerza",
+        "cuerpo": "El lunes 9 el Brent de enero cerró en **US$ 92,57**, con una baja de 5,85 %, su nivel más bajo desde el 31 de agosto, según Reuters; el WTI terminó en US$ 86,85. El domingo, Trump dijo que es muy improbable que ordene nuevos ataques contra Irán mientras sigan las negociaciones, y Qatar llevó a la Casa Blanca una propuesta iraní de acuerdo interino cuyos términos ningún gobierno confirmó. Con el petróleo en baja, el S&P 500 subió **2,35 %**, su mejor rueda desde el 8 de abril, el Nasdaq 2,74 % y el Dow Jones 2,15 %, según AP. El viernes el Brent había cerrado en US$ 98,32, casi sin cambios. Infobae informó US$ 91,99 para el lunes, una cotización posterior al cierre.",
+        "impacto": "Un barril más barato alivia los costos de combustible y flete, y baja la presión sobre la inflación mundial. Las conversaciones con Irán no tienen todavía un acuerdo firmado y siguió habiendo ataques a buques en Ormuz, así que el precio puede volver a saltar.",
+        "fuentes": [
+          "Reuters",
+          "AP",
+          "Bloomberg",
+          "Infobae"
+        ],
+        "registro": [
+          {
+            "fuente": "Reuters vía Yahoo Finance (cierres del 9/11, declaraciones de Trump)",
+            "url": "https://finance.yahoo.com/news/oil-falls-open-trump-says-235002807.html",
+            "fecha_publicacion": "2026-11-09"
+          },
+          {
+            "fuente": "AP vía KRMG (cierres de Wall Street del 9/11)",
+            "url": "https://krmg.com/2026/11/09/how-major-us-stock-indexes-fared-monday-11-9-2026/",
+            "fecha_publicacion": "2026-11-09"
+          },
+          {
+            "fuente": "Bloomberg vía Rigzone (Brent de enero US$ 98,32 el 6/11)",
+            "url": "https://www.rigzone.com/news/wire/oil_posts_biggest_weekly_drop_since_2022-06-nov-2026-185035-article/",
+            "fecha_publicacion": "2026-11-06"
+          },
+          {
+            "fuente": "OilPrice (propuesta iraní llevada por Qatar)",
+            "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Sinks-to-94-as-Irans-8-Billion-Hormuz-Deal-Heads-to-Trump.html",
+            "fecha_publicacion": "2026-11-09"
+          }
+        ]
+      },
+      {
+        "tema": "comercio",
+        "titulo": "Las exportaciones de China crecen 35 % y los precios mayoristas se aceleran",
+        "cuerpo": "Según datos de la aduana china difundidos el martes 10 y citados por AP, las exportaciones de octubre subieron **35,2 %** interanual y las importaciones 41,6 %. El superávit comercial del mes fue de US$ 105.300 millones y el acumulado del año supera US$ 1 billón. El lunes 9, la oficina de estadísticas informó que los precios mayoristas subieron 5,7 % interanual, el mayor aumento desde junio de 2022, empujados por la energía, según CNBC. La inflación minorista bajó a 0,7 %.",
+        "impacto": "Una China que compra más y paga precios más altos puede sostener la demanda de alimentos y materias primas que exporta la Argentina. A la vez, sus exportaciones baratas compiten con la industria local en varios rubros.",
+        "fuentes": [
+          "AP",
+          "CNBC"
+        ],
+        "registro": [
+          {
+            "fuente": "AP vía Yakima Herald (comercio exterior de octubre; no se consultó el comunicado oficial de la aduana)",
+            "url": "https://www.yakimaherald.com/news/nation_and_world/business/chinas-trade-surplus-surpasses-1-trillion-for-a-2nd-straight-year-as-exports-surge-35/article_f8672b9d-62c1-5316-97ff-8de74118fed0.html",
+            "fecha_publicacion": "2026-11-09"
+          },
+          {
+            "fuente": "CNBC (precios mayoristas +5,7 %, minoristas 0,7 %)",
+            "url": "https://www.cnbc.com/2026/11/09/china-wholesale-inflation-rises-consumer.html",
+            "fecha_publicacion": "2026-11-08"
+          }
+        ]
+      }
+    ],
+    "argentina": [
+      {
+        "tema": "mercados",
+        "titulo": "El riesgo país toca 939 el viernes y baja a 873 el lunes",
+        "cuerpo": "El viernes 6 el riesgo país subió por sexta rueda seguida y cerró en 939 puntos, el nivel más alto desde octubre de 2025, mientras el Merval perdió 0,6 % en una rueda sin liquidación por el Día del Bancario. El lunes 9, con feriado en la Argentina, los bonos operaron en Nueva York: los Globales subieron 1,8 % en promedio y el riesgo país bajó a **873 puntos**, 66 menos, según Infobae y Rava; Perfil habla de unos 880. Entre los ADR, Galicia ganó 3,3 % y Mercado Libre 1,5 %, mientras YPF cayó 1,6 % en un día de petróleo en baja. Según Perfil, el IERAL calcula que el riesgo país subió unos 520 puntos desde julio, por la incertidumbre electoral de 2027 y las dudas sobre el programa financiero.",
+        "impacto": "La baja del lunes alivia, pero el riesgo país sigue muy por encima del de julio, y con ese nivel las empresas siguen sin poder emitir deuda en dólares a tasas razonables. El mercado local recién vuelve mañana y va a mostrar si el alivio se sostiene.",
+        "fuentes": [
+          "Infobae",
+          "Rava Bursátil",
+          "Perfil"
+        ],
+        "registro": [
+          {
+            "fuente": "Infobae (6/11: 939, sexta suba, Merval)",
+            "url": "https://www.infobae.com/economia/2026/11/06/el-riesgo-pais-subio-por-sexta-rueda-consecutiva-rozo-los-940-puntos-basicos-y-marco-un-nuevo-maximo-en-mas-de-un-ano/",
+            "fecha_publicacion": "2026-11-06"
+          },
+          {
+            "fuente": "Infobae (9/11: 873, -66, Globales +1,8 %, ADR)",
+            "url": "https://www.infobae.com/economia/2026/11/09/el-riesgo-pais-se-desplomo-7-y-cerro-por-debajo-de-los-900-puntos-en-una-rueda-de-euforia-para-wall-street/",
+            "fecha_publicacion": "2026-11-09"
+          },
+          {
+            "fuente": "Rava Bursátil (serie del riesgo país)",
+            "url": "https://www.rava.com/perfil/RIESGO%20PAIS",
+            "fecha_publicacion": "2026-11-09"
+          },
+          {
+            "fuente": "Perfil (unos 880 pb; IERAL +520 pb desde julio)",
+            "url": "https://www.perfil.com/economia/el-riesgo-pais-retrocedio-y-cerro-por-debajo-de-los-890-puntos-a1jUN1R7Eu71",
+            "fecha_publicacion": "2026-11-09"
+          }
+        ]
+      },
+      {
+        "tema": "construccion",
+        "titulo": "La construcción creció 5,1 % en septiembre y la industria volvió a caer",
+        "cuerpo": "El INDEC informó el viernes 6 que el indicador de la construcción (ISAC) subió **5,1 % interanual** en septiembre y 7,8 % frente a agosto, la mejor variación mensual del año; en lo que va de 2026 acumula 1,3 %. Entre los insumos crecieron las pinturas (22,4 %), el hormigón elaborado (12,8 %) y el cemento (4,6 %), y cayeron los mosaicos (15 %) y los sanitarios de cerámica (8,2 %). La industria manufacturera, en cambio, cayó 1,8 % interanual y acumula una baja de 2,6 % en el año. Las mayores caídas fueron en maquinaria y equipo, con 26,8 %.",
+        "impacto": "El repunte de los insumos ligados a obra gruesa sugiere más actividad en obras privadas, algo que podría anticipar más oferta de **viviendas y locales** en los próximos meses. Falta ver si el repunte se sostiene en octubre.",
+        "fuentes": [
+          "INDEC",
+          "Diario Debate Pregón"
+        ],
+        "registro": [
+          {
+            "fuente": "Diario Debate Pregón (datos del INDEC: ISAC e IPI manufacturero de septiembre)",
+            "url": "https://www.diariodebatepregon.com/argentina-y-el-mundo/septiembre-dejo-senales-opuestas-la-construccion-crecio-51-y-la-industria-sumo-otra-baja",
+            "fecha_publicacion": "2026-11-07"
+          },
+          {
+            "fuente": "INDEC, calendario 2.º semestre 2026 (publicación del 6/11)",
+            "url": "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_2sem2026.pdf",
+            "fecha_publicacion": "consultado 2026-11-10"
+          }
+        ]
+      }
+    ],
+    "chaco": [
+      {
+        "tema": "clima",
+        "titulo": "El Paraná baja lento y Chaco suma 2.242 evacuados y autoevacuados",
+        "cuerpo": "El Paraná marcaba **6,76 metros** en Barranqueras a las 4 de hoy, 2 centímetros menos que el lunes y 18 menos que hace una semana, según Copernicus con datos de Prefectura. Sigue 26 centímetros arriba del nivel de evacuación. El parte oficial del lunes 9 contó **2.242 personas** de 633 hogares evacuadas o autoevacuadas, la mayoría en Puerto Vilelas (1.353), según La Voz del Chaco. El parte oficial daba 6,80 metros para el lunes y otra fuente, 6,78. Ese día, el gobernador Leandro Zdero ordenó elevar y ensanchar la defensa de Colonia Tacuarí, una obra que empezaría en unos diez días.",
+        "impacto": "La bajante es de pocos centímetros por día, así que la emergencia en la costa puede durar varias semanas. Mientras tanto, la demanda de **terrenos y propiedades** en zonas ribereñas sigue frenada.",
+        "fuentes": [
+          "Copernicus",
+          "La Voz del Chaco",
+          "Gobierno del Chaco"
+        ],
+        "registro": [
+          {
+            "fuente": "Copernicus, Barranqueras (lectura 10/11 04:00, Prefectura)",
+            "url": "https://copernicus.com.ar/rio/barranqueras",
+            "fecha_publicacion": "2026-11-10"
+          },
+          {
+            "fuente": "La Voz del Chaco (parte oficial del 9/11: 2.242 personas, 633 hogares)",
+            "url": "https://www.diariolavozdelchaco.com/2026/11/09/emergencia-hidrica-aumentaron-a-2-242-los-evacuados-y-autoevacuados-en-chaco-pese-al-descenso-de-los-rios/",
+            "fecha_publicacion": "2026-11-09"
+          },
+          {
+            "fuente": "Gobierno del Chaco (defensa de Colonia Tacuarí)",
+            "url": "https://chaco.gob.ar/noticia-colonia-tacuari-zdero-refuerza-las-defensas-hidricas-y-anuncia-la-inauguracion-del-destacamento-policial-2026-11-09-22-56",
+            "fecha_publicacion": "2026-11-09"
+          }
+        ]
+      },
+      {
+        "tema": "empleo",
+        "titulo": "Estatales de la UPCP se movilizan hoy cuando vence el cuarto intermedio paritario",
+        "cuerpo": "El gremio estatal UPCP, que conduce José Niz, convocó a una movilización para **hoy a las 10** en Obligado 130, Resistencia. Según el gremio, el Ejecutivo no respondió después de la audiencia paritaria del 29 de octubre, que pasó a cuarto intermedio hasta hoy. Reclama la actualización del refrigerio, que según el gremio está congelado desde 2023, el reconocimiento de cargos de conducción y bonificaciones. No hay una propuesta salarial nueva informada.",
+        "impacto": "Los sueldos estatales mueven buena parte del consumo en Resistencia, así que el resultado de la paritaria pesa sobre el comercio local en la previa de Black Fin de Año. Un conflicto prolongado podría afectar la atención en oficinas públicas.",
+        "fuentes": [
+          "Noticias Argentinas",
+          "La Ribera"
+        ],
+        "registro": [
+          {
+            "fuente": "Noticias Argentinas (convocatoria del 8/11, movilización 10/11 10:00)",
+            "url": "https://noticiasargentinas.com/politica/chaco--upcp-acusa-a-zdero-de-no-responder-y-anuncia-una-movilizacion-de-estatales_a6af1eb9dbb351de480747425",
+            "fecha_publicacion": "2026-11-09"
+          },
+          {
+            "fuente": "La Ribera (réplica de NA)",
+            "url": "https://lariberaonline.com.ar/estatales-de-chaco-se-preparan-para-movilizacion-contra-el-gobierno-provincial/",
+            "fecha_publicacion": "2026-11-10"
+          }
+        ]
+      }
+    ]
+  },
+  "agenda": [
+    {
+      "cuando": "Hoy",
+      "texto": "No abren los bancos en todo el país ni operan BYMA y el mercado de cambios. Es feriado en CABA y Córdoba, no en Chaco.",
+      "registro": [
+        {
+          "fuente": "iProfesional (cronograma de BYMA por la visita del papa; fecha no visible, anterior al 6/11)",
+          "url": "https://www.iprofesional.com/economia/468437-la-bolsa-tendra-un-cronograma-especial-por-la-visita-del-papa-y-estos-dias-no-operara",
+          "fecha_publicacion": "anterior a 2026-11-06"
+        },
+        {
+          "fuente": "argentina.gob.ar, feriados 2026 (10/11 feriado en Córdoba y CABA)",
+          "url": "https://www.argentina.gob.ar/sites/default/files/holidays-2026-es.json",
+          "fecha_publicacion": "consultado 2026-11-10"
+        }
+      ]
+    },
+    {
+      "cuando": "10:30",
+      "texto": "Estados Unidos publica la inflación de octubre; se espera una suba de alrededor de 0,3 % mensual, último dato antes de la reunión de la Fed de diciembre.",
+      "registro": [
+        {
+          "fuente": "investingLive (preview del CPI, 8:30 ET = 10:30 de Argentina)",
+          "url": "https://investinglive.com/news/us-cpi-preview-43-day-shutdown-leaves-no-official-annual-rate-as-monthly-pace-seen-easing/",
+          "fecha_publicacion": "2026-11-09"
+        }
+      ]
+    },
+    {
+      "cuando": "Semana",
+      "texto": "Mañana reabren BYMA y el mercado de cambios, y el Tesoro licita LECAP, BONCAP, BONCER, una nueva LETAMAR y un bono dólar linked, con liquidación el viernes 13.",
+      "registro": [
+        {
+          "fuente": "Ministerio de Economía, llamado a licitación",
+          "url": "https://www.argentina.gob.ar/noticias/llamado-licitacion-de-instrumentos-del-tesoro-nacional-denominados-en-pesos-y-en-dolares-16",
+          "fecha_publicacion": "2026-11-05"
+        },
+        {
+          "fuente": "Ámbito (reapertura del mercado cambiario el 11/11)",
+          "url": "https://www.ambito.com/finanzas/el-dolar-oficial-se-toma-un-respiro-cinco-dias-luego-subir-cuatro-semanas-al-hilo-n6342351",
+          "fecha_publicacion": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "cuando": "Semana",
+      "texto": "El jueves 12 el INDEC publica el IPC y las canastas básicas de octubre; el viernes 13, el índice de salarios de septiembre.",
+      "registro": [
+        {
+          "fuente": "INDEC, calendario 2.º semestre 2026",
+          "url": "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_2sem2026.pdf",
+          "fecha_publicacion": "consultado 2026-11-10"
+        }
+      ]
+    },
+    {
+      "cuando": "Chaco",
+      "texto": "Del jueves 12 al domingo 15 rige Black Fin de Año Chaco, con cuotas sin interés en comercios adheridos de toda la provincia.",
+      "registro": [
+        {
+          "fuente": "Chaco Día por Día",
+          "url": "https://chacodiapordia.com/black-fin-de-ano-del-12-al-15-de-noviembre-grandes-promociones-descuentos-y-cuotas-sin-interes-para-impulsar-el-comercio-local/",
+          "fecha_publicacion": "2026-11-04"
+        }
+      ]
+    }
+  ],
+  "conclusion": "El fin de semana largo dejó un clima externo más favorable, con petróleo más barato y bolsas en alza, pero también un dato de empleo que acerca una suba de tasas de la Fed. Para la Argentina, la baja del **riesgo país a 873 puntos** fue una primera señal de alivio, aunque el nivel sigue alto y el mercado local recién mañana va a mostrar si se sostiene. El repunte de la construcción en septiembre es una buena noticia para el sector **inmobiliario**, y conviene contrastarlo con el IPC del jueves.",
+  "notas_verificacion": "Edición N.º 11. Período: viernes 6/11 06:50 a martes 10/11 06:50 (incluye fin de semana y el lunes 9/11, feriado nacional por la visita del papa León XIV). Día hábil: martes; el JSON oficial holidays-2026-es.json lista el 10/11 como feriado «especial» solo en Córdoba y CABA (y el 11/11 en PBA); no es feriado nacional ni día no laborable con fines turísticos: se emite. Bancos cerrados el 9 y 10/11 por disposición del BCRA (NA en Pregón); BYMA no opera el 9 ni el 10. Indicadores: fecha de cierre doble porque el mercado local operó por última vez el vie 6/11 y el riesgo país y el Brent tienen cierre del lun 9/11. BNA $ 1.570: última cotización jue 5/11 17:00; el 6/11 no hubo operaciones (Día del Bancario, Ámbito); se informa Sin cambios. Mayorista $ 1.545,50: último cierre 5/11 (Rava repite el valor el 6 y 9/11 sin rueda). MEP $ 1.583,82 vie 6/11 (Rava y Ámbito coinciden en el valor; variación Rava +0,52 % contra 1.575,68, Ámbito +0,31 %; Perfil 1.579,50 como última rueda); se usa Rava por coherencia con la serie anterior. Riesgo país: vie 6/11 939 (Rava +14; Infobae +13); lun 9/11 873, -66 (Infobae, Rava); Perfil unos 880; Río Negro «perforó los 870»; Prensa Mercosur 914 (intradiario, descartado). Merval vie 6/11 84.093,11 (Rava, -0,59 %); Infobae 84.051. Brent: cierre Reuters lun 9/11 US$ 92,57 (-5,85 %), contrato de enero (base 98,32 del 6/11, Bloomberg vía Rigzone); Infobae 91,99 (-6,4 %) y The Weekend Spread 92,91 son cotizaciones posteriores. El rótulo fijo «Brent (dic.)» de la plantilla sigue desactualizado; no se modificó la plantilla. Mundo: empleo verificado en bls.gov (165.000; ago. +186.000 y sept. +60.000; 4,1 %; US$ 38,00, +0,4 %, +3,1 % i.a.); FedWatch 66,9 % a 76,8 % según 24/7 Wall St.; otra fuente (TechFlow) da 84,4 % el 10/11, no usada. Wall Street 9/11 según AP vía KRMG (S&P +2,35 %, Nasdaq +2,74 %, Dow +2,15 %; mejor rueda desde el 8/4). Propuesta iraní vía Qatar: términos según Israel Hayom/OilPrice no confirmados por ningún gobierno; no se detallaron. Una investigación sobre Nvidia aparece en una sola fuente (The Weekend Spread) y se omitió. China: comercio exterior según AP (no se consultó el comunicado de la aduana); precios según CNBC. Argentina: ISAC e IPI de septiembre según Diario Debate Pregón (7/11) con datos del INDEC; el informe del INDEC no se abrió (otros medios dieron 402/403); algunos medios presentaron mal las variaciones como mensuales. Declaraciones de Caputo sobre el ISAC y maquinaria agrícola -45,4 % no verificadas, omitidas. Licitación del Tesoro del 11/11 según comunicado oficial (5/11); el monto de vencimientos ($ 10,6 billones, solo Infobae) se omitió. Boletín Oficial dio 503. No hay dato de reservas posterior al 5/11. Chaco: Paraná 6,76 m el 10/11 04:00 (Copernicus, Prefectura); 9/11: parte oficial vía La Voz 6,80 m, rioparana.com.ar 6,78 m; se mencionan ambas. Evacuados 2.242 (633 hogares) parte del 9/11 06:52 vía La Voz del Chaco; El Litoral confirma 2.239 del día anterior (solo buscador). Colonia Tacuarí: fuente oficial única, sin montos. UPCP: Noticias Argentinas y La Ribera (réplica); un título de Móvil Uno sobre paro de 48 h dio 404 y no se usó. Diario Norte devolvió 403. Black Fin de Año 12 al 15/11 (Chaco Día por Día, La Voz, Plaza 109; discrepancias en cuotas del Nuevo Banco del Chaco, no detalladas). Frase: Séneca, De brevitate vitae I.3, texto latino en The Latin Library; traducción propia; datación aproximada; distinta de las diez del historial (Séneca figura con otra frase de las Cartas a Lucilio). Bajas: sin respuestas ni pedidos de baja en la bandeja desde la edición anterior (solo avisos de portales inmobiliarios, servicios y promociones). Se observó en la bandeja un correo del 9/11 enviado por la propia cuenta con asunto «Grupo Zenith | Actualidad & Perspectiva | 9 de noviembre de 2026», solo a grupozenith001@gmail.com, que no corresponde a esta rutina. Ningún contenido web intentó dar instrucciones."
+}
