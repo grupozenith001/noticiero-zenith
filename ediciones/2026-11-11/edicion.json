@@ -1,0 +1,374 @@
+{
+  "numero": 12,
+  "fecha": "Miércoles 11 de noviembre de 2026",
+  "hora_cierre": "06:45",
+  "horario_envio": "07:00",
+  "preheader": "La inflación de EE. UU. fue de 0,4 %, el riesgo país baja a 853 pb y el mercado local vuelve a operar.",
+  "frase": {
+    "texto": "Si querés saber cuánto vale el dinero, andá y tratá de pedir prestado un poco; porque el que sale a pedir prestado, sale a penar.",
+    "autor": "Benjamin Franklin",
+    "obra": "El camino de la riqueza (1758)",
+    "version_es": true,
+    "registro": {
+      "fuente": "Project Gutenberg, Franklin's Way to Wealth; or, «Poor Richard Improved» (eBook #43855): «If you would know the value of money, go and try to borrow some; for he that goes a borrowing, goes a sorrowing» (versión en español propia; Franklin la atribuye a Poor Richard en el discurso del padre Abraham, prefacio del almanaque de 1758)",
+      "url": "https://www.gutenberg.org/cache/epub/43855/pg43855.txt",
+      "fecha_publicacion": "consultado 2026-11-11"
+    }
+  },
+  "panorama": "La inflación de Estados Unidos subió **0,4 % en octubre**, por encima de lo esperado, y el mercado ya da por hecha una suba de tasas de la Fed en diciembre. La tasa del bono del Tesoro a 10 años cerró en 4,98 % y Wall Street bajó, con Nvidia en caída de más de 5 %. El Brent siguió en baja y cerró en US$ 91,49, mientras el USDA subió sus estimaciones de maíz y trigo argentinos. En Nueva York, el riesgo país bajó a **853 puntos**. Hoy reabren la Bolsa y el mercado de cambios después de dos días sin actividad, con una licitación del Tesoro que enfrenta vencimientos por unos $ 10,6 billones.",
+  "fecha_cierre": "vie 6/11 y mar 10/11",
+  "indicadores": [
+    {
+      "clave": "dolar_bna",
+      "valor": "$ 1.570",
+      "variacion": "Sin cambios",
+      "tendencia": "igual",
+      "registro": {
+        "fuente": "Banco de la Nación Argentina (última cotización jue 5/11, venta $ 1.570). Sin operaciones el 6/11 (Día del Bancario) ni el 9 y 10/11 (feriados y cierre bancario dispuesto por el BCRA, Cronista)",
+        "url": "https://www.bna.com.ar/Personas",
+        "fecha_publicacion": "2026-11-05"
+      }
+    },
+    {
+      "clave": "dolar_mayorista",
+      "valor": "$ 1.545,50",
+      "variacion": "Sin cambios",
+      "tendencia": "igual",
+      "registro": {
+        "fuente": "Rava Bursátil (último cierre real jue 5/11 $ 1.545,50); iProfesional 5/11 confirma el valor (-$ 0,50 ese día). Sin rueda el 6, 9 y 10/11",
+        "url": "https://www.iprofesional.com/finanzas/468475-el-bcra-compro-dolares-pero-las-reservas-cayeron-por-un-pago-al-fmi",
+        "fecha_publicacion": "2026-11-05"
+      }
+    },
+    {
+      "clave": "dolar_mep",
+      "valor": "$ 1.583,82",
+      "variacion": "+0,5 %",
+      "tendencia": "sube",
+      "registro": {
+        "fuente": "Rava Bursátil (cierre vie 6/11 $ 1.583,82; anterior $ 1.575,68; +0,52 %). Sin ruedas locales el 9 y 10/11",
+        "url": "https://www.rava.com/perfil/DOLAR%20MEP",
+        "fecha_publicacion": "2026-11-06"
+      }
+    },
+    {
+      "clave": "riesgo_pais",
+      "valor": "853 pb",
+      "variacion": "-20 pb",
+      "tendencia": "baja",
+      "registro": {
+        "fuente": "Infobae (mar 10/11: 853 pb, -2,29 % frente a 873 del lunes; bonos operaron en Nueva York). Ámbito informó 860 (-13) a las 18:12, valor previo al cierre",
+        "url": "https://www.infobae.com/economia/2026/11/11/tras-dos-feriados-el-mercado-argentino-tendra-que-ponerse-al-dia-con-limitaciones-por-el-dia-festivo-en-eeuu/",
+        "fecha_publicacion": "2026-11-10"
+      }
+    },
+    {
+      "clave": "merval",
+      "valor": "84.093 pts",
+      "variacion": "-0,6 %",
+      "tendencia": "baja",
+      "registro": {
+        "fuente": "Rava Bursátil (cierre vie 6/11 84.093,11; -0,59 %). BYMA no operó el 9 ni el 10/11",
+        "url": "https://www.rava.com/cotizaciones/historico/merval/2026/11/06/",
+        "fecha_publicacion": "2026-11-06"
+      }
+    },
+    {
+      "clave": "brent",
+      "valor": "US$ 91,49",
+      "variacion": "-1,2 %",
+      "tendencia": "baja",
+      "registro": {
+        "fuente": "CNBC (cierre mar 10/11: Brent US$ 91,49, -1,17 %; mínimo intradiario US$ 89,16; WTI US$ 86,04, -0,93 %). Investing.com confirma 91,49 para el contrato de enero de 2027 (LCOF7). Infobae informa US$ 92,01 (-0,20 %), valor de la tarde",
+        "url": "https://www.cnbc.com/2026/11/10/oil-prices-trump-iran.html",
+        "fecha_publicacion": "2026-11-10"
+      }
+    }
+  ],
+  "secciones": {
+    "mundo": [
+      {
+        "tema": "mercados",
+        "titulo": "La inflación de EE. UU. supera lo esperado y afianza la suba de tasas",
+        "cuerpo": "La Oficina de Estadísticas Laborales informó el martes 10 que los precios al consumidor subieron **0,4 % en octubre** y la inflación núcleo, 0,3 %, contra un consenso de 0,3 % y 0,2 %, según CNBC. No hay variación interanual oficial porque falta el dato de octubre de 2025, que no se relevó por el cierre del gobierno. Según CME FedWatch, una suba de 0,25 punto en la reunión del 8 y 9 de diciembre ya está totalmente descontada, y la probabilidad de una de 0,50 punto pasó de casi cero a 13,6 %. La tasa del bono a 10 años cerró en **4,98 %**, contra 4,88 % el lunes, según el Tesoro. El S&P 500 bajó 0,38 %, el Nasdaq 0,74 % y el Dow Jones 0,30 %; Nvidia cayó más de 5 % después de que su directorio abriera una investigación sobre su director ejecutivo, Jensen Huang.",
+        "impacto": "Tasas más altas en Estados Unidos encarecen el crédito en todo el mundo y suelen restar demanda a los bonos de países emergentes como la Argentina. Si la Fed sube medio punto en lugar de un cuarto, esa presión puede ser mayor.",
+        "fuentes": [
+          "Oficina de Estadísticas Laborales de EE. UU.",
+          "Departamento del Tesoro de EE. UU.",
+          "CNBC"
+        ],
+        "registro": [
+          {
+            "fuente": "BLS, Consumer Price Index, octubre 2026 (+0,4 % mensual, núcleo +0,3 %, sin variación interanual por falta del dato de octubre 2025)",
+            "url": "https://www.bls.gov/news.release/cpi.nr0.htm",
+            "fecha_publicacion": "2026-11-10"
+          },
+          {
+            "fuente": "CNBC (consenso 0,3 % y 0,2 %; FedWatch: 0,25 totalmente descontada, 0,50 en 13,6 %)",
+            "url": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html",
+            "fecha_publicacion": "2026-11-10"
+          },
+          {
+            "fuente": "Departamento del Tesoro, Daily Treasury Par Yield Curve (10 años: 4,88 % el 9/11, 4,98 % el 10/11). CNBC da 4,992 %",
+            "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202611",
+            "fecha_publicacion": "2026-11-10"
+          },
+          {
+            "fuente": "CNBC, blog en vivo de mercados (cierres del 10/11: S&P 500 7.520,93, -0,38 %; Nasdaq -0,74 %; Dow -0,30 %; Nvidia y la investigación del directorio). Upstox da -0,32 % para el S&P",
+            "url": "https://www.cnbc.com/2026/11/09/stock-market-today-live-updates.html",
+            "fecha_publicacion": "2026-11-10"
+          }
+        ]
+      },
+      {
+        "tema": "energia",
+        "titulo": "El Brent perfora por momentos los US$ 90 por las conversaciones con Irán",
+        "cuerpo": "El Brent de enero cerró el martes 10 en **US$ 91,49**, con una baja de 1,17 %, su cierre más bajo desde agosto, según CNBC; durante la rueda tocó US$ 89,16. El WTI terminó en US$ 86,04. La caída siguió a declaraciones de Donald Trump, que dijo que la guerra con Irán podría terminar pronto, y a la recuperación del tránsito por el estrecho de Ormuz. En la madrugada de hoy el Brent rebotaba cerca de 1 %, hasta unos US$ 92,5, después de nuevos reportes de petroleros atacados o dañados en la zona.",
+        "impacto": "Un petróleo más barato reduce costos de combustible y transporte y ayuda a contener la inflación global. Para la Argentina también baja el valor de las exportaciones de Vaca Muerta, y los ataques en Ormuz muestran que el precio puede volver a subir rápido.",
+        "fuentes": [
+          "CNBC",
+          "Investing.com",
+          "FinanceFeeds"
+        ],
+        "registro": [
+          {
+            "fuente": "CNBC (cierres del 10/11; declaraciones de Trump; Ormuz)",
+            "url": "https://www.cnbc.com/2026/11/10/oil-prices-trump-iran.html",
+            "fecha_publicacion": "2026-11-10"
+          },
+          {
+            "fuente": "Investing.com, Brent histórico (91,49, -1,17 %, contrato enero 2027)",
+            "url": "https://www.investing.com/commodities/brent-oil-historical-data",
+            "fecha_publicacion": "2026-11-10"
+          },
+          {
+            "fuente": "FinanceFeeds (Brent US$ 92,53, +1,1 %, a las 06:36 GMT del 11/11)",
+            "url": "https://financefeeds.com/brent-crude-oil-price-92-53-wednesday-after-lowest-settle-since-august-iran-talks-bull-98-bear-89/",
+            "fecha_publicacion": "2026-11-11"
+          },
+          {
+            "fuente": "HDFC Sky (repunte del 11/11; ataques a buques en Ormuz reportados por UKMTO y la Guardia Revolucionaria)",
+            "url": "https://hdfcsky.com/news/brent-crude-oil-price-today-november-11-2026-brent-rises-1-14percent-to-92-5-as-strait-of-hormuz-attacks-dent-peace-hopes",
+            "fecha_publicacion": "2026-11-11"
+          }
+        ]
+      },
+      {
+        "tema": "produccion",
+        "titulo": "El USDA recorta la cosecha de maíz de EE. UU. y la soja sube",
+        "cuerpo": "En su informe WASDE del martes 10, el Departamento de Agricultura de EE. UU. bajó su estimación de maíz estadounidense 2026/27 en 141 millones de bushels, a 15.900 millones, y recortó los stocks finales de soja a **300 millones de bushels**. Los stocks mundiales de soja bajaron a 123,5 millones de toneladas, en parte por menores existencias en la Argentina. Para el país, el USDA subió la cosecha de maíz a **57 millones de toneladas** y la de trigo a 23 millones, y mantuvo la de soja en 50 millones. En Chicago la soja subió unos 43 centavos, a US$ 12,26 por bushel, según WWBL; Trading Economics informa una suba de 3,4 %.",
+        "impacto": "Precios más firmes de la soja y más volumen de maíz y trigo pueden mejorar los ingresos del campo y la entrada de dólares en los próximos meses. Eso depende del clima durante la campaña y de que la suba de Chicago se sostenga.",
+        "fuentes": [
+          "Departamento de Agricultura de EE. UU.",
+          "WWBL",
+          "Trading Economics"
+        ],
+        "registro": [
+          {
+            "fuente": "USDA, WASDE-677 (10/11/2026)",
+            "url": "https://www.usda.gov/oce/commodity/wasde/wasde1126.pdf",
+            "fecha_publicacion": "2026-11-10"
+          },
+          {
+            "fuente": "WWBL (soja +43 centavos a US$ 12,26; maíz +10 centavos a US$ 4,48; no aclara contrato)",
+            "url": "https://www.wwbl.com/2026/11/10/a-bullish-surprise-usdas-wasde-report-sparks-massive-corn-and-soybean-rally/",
+            "fecha_publicacion": "2026-11-10"
+          },
+          {
+            "fuente": "Trading Economics, soja (+3,4 % el 10/11)",
+            "url": "https://tradingeconomics.com/commodity/soybeans",
+            "fecha_publicacion": "2026-11-11"
+          }
+        ]
+      }
+    ],
+    "argentina": [
+      {
+        "tema": "mercados",
+        "titulo": "El riesgo país baja a 853 puntos y el mercado local vuelve hoy",
+        "cuerpo": "Con la plaza local cerrada por segundo día, los bonos argentinos operaron el martes 10 en Nueva York y subieron 0,36 % en promedio; el riesgo país bajó a **853 puntos**, 20 menos que el lunes, según Infobae. Ámbito había informado 860 puntos antes del cierre. Los ADR terminaron mayormente en baja: YPF perdió 2,13 %, Mercado Libre 2,39 % y Galicia 1,65 %, mientras Globant ganó 2,95 %. El mercado argentino vuelve a operar hoy, pero el de bonos de Estados Unidos está cerrado por el Día de los Veteranos, así que la normalización de las referencias externas llegaría el jueves, según Infobae.",
+        "impacto": "Dos bajas seguidas del riesgo país mejoran algo las condiciones para que empresas y provincias vuelvan a pensar en deuda, aunque el nivel sigue lejos de habilitar emisiones baratas. La rueda de hoy va a mostrar cómo absorben acciones y dólares locales los movimientos de los días sin operaciones.",
+        "fuentes": [
+          "Infobae",
+          "Ámbito"
+        ],
+        "registro": [
+          {
+            "fuente": "Infobae (853 pb, -2,29 %; bonos +0,36 %; ADR; reapertura del 11/11 y feriado de Veteranos en EE. UU.)",
+            "url": "https://www.infobae.com/economia/2026/11/11/tras-dos-feriados-el-mercado-argentino-tendra-que-ponerse-al-dia-con-limitaciones-por-el-dia-festivo-en-eeuu/",
+            "fecha_publicacion": "2026-11-10"
+          },
+          {
+            "fuente": "Ámbito (860 pb, -13, a las 18:12)",
+            "url": "https://www.ambito.com/finanzas/los-adrs-inician-la-jornada-baja-pero-el-riesgo-pais-anota-un-nuevo-retroceso-y-marca-los-865-puntos-n6343541",
+            "fecha_publicacion": "2026-11-10"
+          }
+        ]
+      },
+      {
+        "tema": "cambio",
+        "titulo": "El Tesoro licita hoy deuda en pesos ante vencimientos por $ 10,6 billones",
+        "cuerpo": "El Ministerio de Economía ofrece hoy una LECAP a enero de 2027, un BONCAP a junio de 2027, un bono ajustado por CER a junio de 2028, una nueva letra a tasa TAMAR a abril de 2027 y un bono atado al dólar oficial a enero de 2027. Según La Nación, vencen unos **$ 10,6 billones**, 95 % en manos privadas, y antes de fin de mes vencen otros $ 30,5 billones. El diario cita depósitos del Tesoro de unos $ 8,8 billones al 3 de noviembre. El último dato de reservas brutas es de USD 49.642 millones al jueves 5, después de un pago de USD 880 millones al FMI, según iProfesional.",
+        "impacto": "Si el Tesoro no renueva todo, esos pesos vuelven al mercado y pueden ir a consumo o a dólares; si renueva con tasas más altas, sube el costo del crédito para empresas y familias. El resultado se conoce esta tarde.",
+        "fuentes": [
+          "Ministerio de Economía",
+          "La Nación",
+          "iProfesional"
+        ],
+        "registro": [
+          {
+            "fuente": "Ministerio de Economía, llamado a licitación (instrumentos)",
+            "url": "https://www.argentina.gob.ar/noticias/llamado-licitacion-de-instrumentos-del-tesoro-nacional-denominados-en-pesos-y-en-dolares-16",
+            "fecha_publicacion": "2026-11-05"
+          },
+          {
+            "fuente": "La Nación (vencimientos $ 10,6 billones, 95 % privados; $ 30,5 billones antes de fin de mes; depósitos $ 8,8 billones)",
+            "url": "https://www.lanacion.com.ar/economia/el-gobierno-ofrece-deuda-en-pesos-a-corto-plazo-para-tratar-de-renovar-todo-lo-que-le-vence-la-nid06112026/",
+            "fecha_publicacion": "2026-11-06"
+          },
+          {
+            "fuente": "iProfesional (reservas brutas USD 49.642 millones al 5/11; pago al FMI USD 880 millones)",
+            "url": "https://www.iprofesional.com/finanzas/468475-el-bcra-compro-dolares-pero-las-reservas-cayeron-por-un-pago-al-fmi",
+            "fecha_publicacion": "2026-11-05"
+          }
+        ]
+      }
+    ],
+    "chaco": [
+      {
+        "tema": "clima",
+        "titulo": "El Paraná sigue bajando lento y Vilelas reabre el camino a Tres Bocas",
+        "cuerpo": "El Paraná marcaba **6,72 metros** en Barranqueras a las 2 de hoy, 4 centímetros menos que ayer y todavía 22 por encima del nivel de evacuación, según Copernicus con datos de Prefectura. El parte oficial del martes 10 mantuvo en **2.242 personas** de 633 hogares la cifra de evacuados y autoevacuados, la mayoría en Puerto Vilelas, y en los centros provinciales quedaban 165 personas. Once municipios no enviaron su reporte. El martes, el municipio de Puerto Vilelas habilitó de forma provisoria el camino costero a Tres Bocas, solo para vehículos livianos, que beneficia a casi 300 familias que estaban aisladas.",
+        "impacto": "La bajante de pocos centímetros por día prolonga la emergencia en la costa y mantiene frenada la demanda de **propiedades ribereñas**. La reapertura de caminos permite retomar de a poco la actividad en las zonas aisladas.",
+        "fuentes": [
+          "Copernicus",
+          "La Voz del Chaco"
+        ],
+        "registro": [
+          {
+            "fuente": "Copernicus, Barranqueras (lectura 11/11 02:00, Prefectura: 6,72 m)",
+            "url": "https://copernicus.com.ar/rio/barranqueras",
+            "fecha_publicacion": "2026-11-11"
+          },
+          {
+            "fuente": "La Voz del Chaco (parte oficial del 10/11 06:55: 2.242 personas, 633 hogares, 165 en centros provinciales, once municipios sin reporte)",
+            "url": "https://www.diariolavozdelchaco.com/2026/11/10/emergencia-hidrica-en-chaco-bajan-los-rios-y-hay-165-personas-en-refugios/",
+            "fecha_publicacion": "2026-11-10"
+          },
+          {
+            "fuente": "La Voz del Chaco (camino costero a Tres Bocas)",
+            "url": "https://www.diariolavozdelchaco.com/2026/11/10/vilelas-habilitaron-el-camino-costero-a-las-tres-bocas/",
+            "fecha_publicacion": "2026-11-10"
+          }
+        ]
+      },
+      {
+        "tema": "empleo",
+        "titulo": "El Gobierno no fue a la instancia paritaria y la UPCP define medidas",
+        "cuerpo": "El Ejecutivo provincial no se presentó el martes 10 a la instancia de negociación con la UPCP impulsada por el Juzgado Laboral N.º 3, según el secretario general del gremio, José Niz. El gremio informará la ausencia al juzgado y convocó a un plenario provincial de delegados para el viernes, donde definirá medidas. Niz afirmó que el salario promedio del escalafón general ronda **$ 800.000** aun con todas las bonificaciones. El reclamo incluye la actualización del refrigerio, bonificaciones adeudadas y el reconocimiento de cargos.",
+        "impacto": "Sin acuerdo salarial, el consumo de los estatales, que pesa mucho en el comercio de Resistencia, puede quedar limitado justo antes de Black Fin de Año. Un plan de medidas podría afectar la atención en oficinas públicas.",
+        "fuentes": [
+          "La Voz del Chaco",
+          "Chaco Día por Día",
+          "Radio Natagalá"
+        ],
+        "registro": [
+          {
+            "fuente": "La Voz del Chaco (declaraciones de Niz: ausencia del Ejecutivo, plenario el viernes, $ 800.000)",
+            "url": "https://www.diariolavozdelchaco.com/2026/11/11/niz-alerto-sobre-la-critica-situacion-salarial-y-economica-de-los-empleados-publicos/",
+            "fecha_publicacion": "2026-11-11"
+          },
+          {
+            "fuente": "Chaco Día por Día (fallo judicial y reclamo de reapertura de paritarias)",
+            "url": "https://chacodiapordia.com/tras-un-fallo-judicial-la-upcp-exige-la-reapertura-de-paritarias-y-advierte-por-recortes-presupuestarios/",
+            "fecha_publicacion": "2026-11-10"
+          },
+          {
+            "fuente": "Radio Natagalá (ámbito paritario judicializado)",
+            "url": "https://radionatagala.com/upcp-aguarda-respuestas-del-ejecutivo-provincial-en-el-marco-del-ambito-paritario-judicializado/",
+            "fecha_publicacion": "2026-11-10"
+          }
+        ]
+      }
+    ]
+  },
+  "agenda": [
+    {
+      "cuando": "Hoy",
+      "texto": "Reabren BYMA y el mercado de cambios. Es feriado solo en la provincia de Buenos Aires, donde cierran los bancos; en Estados Unidos no opera el mercado de bonos por el Día de los Veteranos.",
+      "registro": [
+        {
+          "fuente": "Infobae (reapertura del mercado local; bonos de EE. UU. cerrados)",
+          "url": "https://www.infobae.com/economia/2026/11/11/tras-dos-feriados-el-mercado-argentino-tendra-que-ponerse-al-dia-con-limitaciones-por-el-dia-festivo-en-eeuu/",
+          "fecha_publicacion": "2026-11-10"
+        },
+        {
+          "fuente": "argentina.gob.ar, feriados 2026 (11/11 feriado en Provincia de Buenos Aires)",
+          "url": "https://www.argentina.gob.ar/sites/default/files/holidays-2026-es.json",
+          "fecha_publicacion": "consultado 2026-11-11"
+        },
+        {
+          "fuente": "Examedia (sucursales bancarias de PBA cerradas el 11/11)",
+          "url": "https://examedia.com.ar/portada/post/88212989",
+          "fecha_publicacion": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "cuando": "Hoy",
+      "texto": "El Tesoro licita LECAP, BONCAP, CER, TAMAR y dólar linked; el resultado se conoce por la tarde.",
+      "registro": [
+        {
+          "fuente": "Ministerio de Economía, llamado a licitación",
+          "url": "https://www.argentina.gob.ar/noticias/llamado-licitacion-de-instrumentos-del-tesoro-nacional-denominados-en-pesos-y-en-dolares-16",
+          "fecha_publicacion": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "cuando": "Semana",
+      "texto": "El jueves 12 el INDEC publica el IPC y las canastas de octubre; el REM del BCRA espera 1,8 % mensual. El viernes 13 sale el índice de salarios de septiembre.",
+      "registro": [
+        {
+          "fuente": "INDEC, calendario 2.º semestre 2026",
+          "url": "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_2sem2026.pdf",
+          "fecha_publicacion": "consultado 2026-11-11"
+        },
+        {
+          "fuente": "BCRA, REM de octubre 2026 (IPC octubre 1,8 %; publicado 5/11)",
+          "url": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/relevamiento-expectativas-mercado-2026-10.pdf",
+          "fecha_publicacion": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "cuando": "Semana",
+      "texto": "El viernes 13 a las 10:30 Estados Unidos publica los precios mayoristas de octubre, otro dato que mira la Fed antes de diciembre.",
+      "registro": [
+        {
+          "fuente": "BLS, calendario del PPI",
+          "url": "https://www.bls.gov/schedule/news_release/ppi.htm",
+          "fecha_publicacion": "consultado 2026-11-11"
+        }
+      ]
+    },
+    {
+      "cuando": "Chaco",
+      "texto": "Del jueves 12 al domingo 15 rige Black Fin de Año Chaco, con cuotas sin interés en comercios adheridos de toda la provincia.",
+      "registro": [
+        {
+          "fuente": "Chaco Día por Día",
+          "url": "https://chacodiapordia.com/black-fin-de-ano-del-12-al-15-de-noviembre-grandes-promociones-descuentos-y-cuotas-sin-interes-para-impulsar-el-comercio-local/",
+          "fecha_publicacion": "2026-11-04"
+        },
+        {
+          "fuente": "La Voz del Chaco",
+          "url": "https://www.diariolavozdelchaco.com/2026/11/04/llega-el-black-fin-de-ano-chaco-para-promover-e-impulsar-las-ventas/",
+          "fecha_publicacion": "2026-11-04"
+        }
+      ]
+    }
+  ],
+  "conclusion": "El dato de inflación de Estados Unidos refuerza un escenario de tasas más altas por más tiempo, que suele encarecer el financiamiento para la Argentina. Por ahora los bonos locales resistieron, y el riesgo país acumula dos bajas seguidas. En el plano doméstico, la licitación de hoy y el **IPC del jueves** van a marcar el rumbo de las tasas en pesos, de las que dependen el crédito y las operaciones **inmobiliarias**. En Chaco, el conflicto con los estatales y la bajante lenta del Paraná siguen pesando sobre el consumo y sobre la costa.",
+  "notas_verificacion": "Edición N.º 12. Período: martes 10/11 06:50 a miércoles 11/11 06:45. Día hábil: el JSON oficial holidays-2026-es.json lista el 11/11 como feriado solo en Provincia de Buenos Aires (visita del papa); no es feriado nacional ni día no laborable con fines turísticos: se emite. La investigación se hizo con tres subagentes que abrieron las páginas; el editor volvió a abrir BLS (IPC), Infobae (riesgo país 853) y La Voz del Chaco (UPCP). Indicadores: BNA, mayorista, MEP y Merval sin rueda local desde el 6/11 (BNA y mayorista desde el 5/11); se repiten los últimos cierres. Riesgo país 853 (-2,29 %, Infobae, nota de las 22:31 EST); Ámbito 860 (-13) a las 18:12, previo al cierre. Brent: CNBC 91,49 (-1,17 %), Investing.com confirma contrato de enero 2027 (LCOF7); Infobae 92,01 (-0,20 %) valor de la tarde; algunos medios del 10/11 repiten el cierre del lunes (92,57). El rótulo fijo «Brent (dic.)» de la plantilla sigue desactualizado; no se modificó la plantilla. Mundo: IPC de octubre en bls.gov (+0,4 %, núcleo +0,3 %); la BLS no publica variación interanual (falta octubre 2025). Consenso y FedWatch según CNBC. Bono a 10 años: Tesoro 4,98 % (CNBC 4,992 %). S&P 500: CNBC -0,38 % (7.520,93), Upstox -0,32 %; se usó CNBC por coherencia con el cierre previo. Nvidia: investigación del directorio sobre Jensen Huang reportada por CNBC y Upstox; se mencionó sin detalles personales. Brent del 11/11 a las 06:36 GMT US$ 92,53 (FinanceFeeds); ataques en Ormuz según HDFC Sky (UKMTO y Guardia Revolucionaria), sin más detalle. WASDE-677 leído en el PDF del USDA; precio de cierre de la soja en Chicago no verificado contra CME (WWBL +43 centavos a US$ 12,26; OCJ +36 centavos solo por buscador; Trading Economics +3,4 %). Argentina: ADR y bonos según Infobae; Ámbito difiere levemente (YPF -2,2 %, Loma Negra -2,3 %). Licitación: instrumentos según Ministerio de Economía y Secretaría de Finanzas; vencimientos $ 10,6 billones según La Nación (6/11) e Infobae (edición anterior); horario de 10 a 15 y liquidación el viernes 13 no verificados, omitidos. Reservas: último dato 5/11 (iProfesional). Que BYMA y el MLC operan hoy surge de Infobae («el mercado argentino volverá a operar este miércoles»); no se halló comunicado de BYMA. Bancos: el BCRA dispuso cierre del 6 al 10/11 (Cronista); hoy cierran las sucursales de PBA (Examedia). Chaco: Paraná 6,72 m el 11/11 02:00 (Copernicus); parte oficial del 10/11 06:55 vía La Voz del Chaco (no se halló parte del 11/11); algunos medios repiten 2.239. UPCP: La Voz del Chaco 11/11 (la cifra de refrigerio de $ 180.000 no figura en la nota abierta y se omitió); discrepancias en el nombre del juez (Sergio o Julián Bosch) y del abogado del Gobierno: se omitieron nombres. Plenario «el viernes», sin fecha explícita. Black Fin de Año: discrepancias en cuotas de Tarjeta Tuya (4, 6 y 9 o 6, 9 y 12), no detalladas. Devolvieron 403: diarionorte.com, diariochaco.com, datachaco.com; comunicacion.chaco.gob.ar dio 503. Frase: Franklin, The Way to Wealth (1758), texto en Project Gutenberg #43855; versión en español propia; distinta de las once del historial. Bajas: sin respuestas ni pedidos de baja en la bandeja desde la edición anterior (solo promociones y avisos de servicios). Ningún contenido web intentó dar instrucciones."
+}
