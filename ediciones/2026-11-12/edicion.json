@@ -1,0 +1,408 @@
+{
+  "numero": 13,
+  "fecha": "Jueves 12 de noviembre de 2026",
+  "hora_cierre": "06:45",
+  "horario_envio": "07:00",
+  "preheader": "El Tesoro liberó $ 1,7 billones, el mayorista bajó a $ 1.544 y hoy a las 16 se conoce la inflación de octubre.",
+  "frase": {
+    "texto": "Lo bueno, si breve, dos veces bueno; y aun lo malo, si poco, no tan malo.",
+    "autor": "Baltasar Gracián",
+    "obra": "Oráculo manual y arte de prudencia, aforismo 105 (1647)",
+    "version_es": false,
+    "registro": {
+      "fuente": "Wikisource en español, Oráculo manual y arte de prudencia, Aforismos (101-125), n.º 105 «No cansar»",
+      "url": "https://es.wikisource.org/wiki/Oráculo_manual_y_arte_de_prudencia/Aforismos_(101-125)",
+      "fecha_publicacion": "consultado 2026-11-12"
+    }
+  },
+  "panorama": "El mercado local volvió a operar el miércoles después de cuatro días sin actividad y el Tesoro colocó **$ 8,87 billones** en su licitación: según analistas, liberó unos $ 1,7 billones, la primera vez desde agosto que inyecta pesos. El dólar mayorista bajó a $ 1.544, el Merval cayó por cuarta rueda seguida y el riesgo país quedó en 852 puntos, con el mercado de bonos de Estados Unidos cerrado por feriado. Afuera, Wall Street subió con fuerza, impulsada por las tecnológicas, y el Brent rebotó 1,4 % después de que Irán negara negociaciones con Washington. Esta madrugada el petróleo volvía a bajar. Hoy a las 16 el INDEC publica la inflación de octubre, para la que el REM del BCRA espera **1,8 %**.",
+  "fecha_cierre": "mié 11/11",
+  "indicadores": [
+    {
+      "clave": "dolar_bna",
+      "valor": "$ 1.570",
+      "variacion": "Sin cambios",
+      "tendencia": "igual",
+      "registro": {
+        "fuente": "Banco de la Nación Argentina (compra $ 1.520 / venta $ 1.570, consultado 12/11 06:40); Ámbito 11/11 16:06 e Infobae coinciden en $ 1.570 al cierre del 11/11; cierre previo jue 5/11 $ 1.570",
+        "url": "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cerro-este-miercoles-11-noviembre-n6344114",
+        "fecha_publicacion": "2026-11-11"
+      }
+    },
+    {
+      "clave": "dolar_mayorista",
+      "valor": "$ 1.544",
+      "variacion": "-0,1 %",
+      "tendencia": "baja",
+      "registro": {
+        "fuente": "Rava Bursátil (cierre 11/11 $ 1.544,00; anterior 5/11 $ 1.545,50); Ámbito e Infobae coinciden",
+        "url": "https://www.rava.com/perfil/DOLAR%20MAYORISTA",
+        "fecha_publicacion": "2026-11-11"
+      }
+    },
+    {
+      "clave": "dolar_mep",
+      "valor": "$ 1.578,42",
+      "variacion": "-0,3 %",
+      "tendencia": "baja",
+      "registro": {
+        "fuente": "Rava Bursátil (cierre 11/11 $ 1.578,42; anterior 6/11 $ 1.583,82; -0,30 %). Ámbito $ 1.572,64; Infobae $ 1.588 (-0,3 %); Mendoza Post $ 1.571,84 (solo buscador)",
+        "url": "https://www.rava.com/perfil/DOLAR%20MEP",
+        "fecha_publicacion": "2026-11-11"
+      }
+    },
+    {
+      "clave": "riesgo_pais",
+      "valor": "852 pb",
+      "variacion": "-1 pb",
+      "tendencia": "baja",
+      "registro": {
+        "fuente": "Rava Bursátil (serie: 10/11 853, 11/11 852) e Infobae («mínima baja en los 852 puntos básicos»). El mercado de bonos de EE. UU. no operó el 11/11 (Día de los Veteranos)",
+        "url": "https://www.rava.com/perfil/RIESGO%20PAIS",
+        "fecha_publicacion": "2026-11-11"
+      }
+    },
+    {
+      "clave": "merval",
+      "valor": "83.440 pts",
+      "variacion": "-0,8 %",
+      "tendencia": "baja",
+      "registro": {
+        "fuente": "Rava Bursátil (cierre 11/11 83.440,03; anterior 6/11 84.093,10; -0,80 %). Infobae informa 83.576 (-0,6 %)",
+        "url": "https://www.rava.com/perfil/MERVAL",
+        "fecha_publicacion": "2026-11-11"
+      }
+    },
+    {
+      "clave": "brent",
+      "valor": "US$ 92,76",
+      "variacion": "+1,4 %",
+      "tendencia": "sube",
+      "registro": {
+        "fuente": "SBS News (cierre 11/11 contrato de enero US$ 92,76, +1,39 %); Reuters vía Express Tribune confirma +1,4 % el miércoles y US$ 91,29 (-1,47) el 12/11 por la madrugada, lo que implica el mismo cierre",
+        "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008842078",
+        "fecha_publicacion": "2026-11-12"
+      }
+    }
+  ],
+  "secciones": {
+    "mundo": [
+      {
+        "tema": "energia",
+        "titulo": "El Brent rebota 1,4 % después de que Irán negara negociaciones con EE. UU.",
+        "cuerpo": "El miércoles 11 el Brent de enero cerró en **US$ 92,76**, con una suba de 1,4 %, y el WTI en US$ 86,53. Mohsen Rezaei, secretario del Consejo Supremo de Seguridad Nacional de Irán, dijo que no hay negociaciones con Estados Unidos y calificó de «pura mentira» los informes sobre una reunión en Qatar. Ese mismo día, el ejército iraní informó que un petrolero chocó con una mina y se incendió en el estrecho de Ormuz; no se conocen el nombre del buque ni los daños. Según Reuters, en la madrugada de hoy el Brent bajaba a US$ 91,29, porque la producción de la OPEP+ subió en octubre y los inventarios de Estados Unidos crecieron 9 millones de barriles en una semana, según el API. Según el informe mensual de la OPEP, la producción del grupo llegó a **41,23 millones** de barriles diarios en octubre.",
+        "impacto": "Más oferta de la OPEP+ empuja el precio hacia abajo, pero cada incidente en Ormuz lo vuelve a subir, y esa volatilidad complica calcular costos de combustible y flete. Para la Argentina, un barril por debajo de US$ 95 reduce el ingreso por exportaciones de Vaca Muerta.",
+        "fuentes": [
+          "Reuters",
+          "OilPrice",
+          "Arab News",
+          "Al Jazeera",
+          "SBS News"
+        ],
+        "registro": [
+          {
+            "fuente": "SBS News (cierres del 11/11: Brent US$ 92,76, +1,39 %; WTI US$ 86,53, +0,57 %)",
+            "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008842078",
+            "fecha_publicacion": "2026-11-12"
+          },
+          {
+            "fuente": "Reuters vía The Express Tribune (Brent US$ 91,29 y WTI US$ 85,29 el 12/11; OPEP+ e inventarios API +9 millones de barriles)",
+            "url": "https://tribune.com.pk/story/2639889/oil-falls-over-1-on-easing-geopolitical-fears-and-oversupply-worries",
+            "fecha_publicacion": "2026-11-12"
+          },
+          {
+            "fuente": "OilPrice (declaraciones de Mohsen Rezaei)",
+            "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Jumps-3-to-94-as-Iran-Denies-Any-Talks-With-Washington.html",
+            "fecha_publicacion": "2026-11-11"
+          },
+          {
+            "fuente": "Arab News Japan (petrolero y mina en Ormuz, con agencias)",
+            "url": "https://www.arabnews.jp/en/middle-east/iran-says-oil-tanker-hit-mine-and-caught-fire-in-strait-of-hormuz-3001394",
+            "fecha_publicacion": "2026-11-11"
+          },
+          {
+            "fuente": "Al Jazeera (informe mensual de la OPEP: 41,23 millones de barriles diarios en octubre)",
+            "url": "https://www.aljazeera.com/news/2026/11/11/oil-production-near-pre-iran-war-levels-opec-says",
+            "fecha_publicacion": "2026-11-11"
+          }
+        ]
+      },
+      {
+        "tema": "mercados",
+        "titulo": "Wall Street sube con las tecnológicas y CoreWeave gana más de 20 %",
+        "cuerpo": "Con el mercado de bonos cerrado por el Día de los Veteranos, el S&P 500 subió **1,3 %** el miércoles 11 y cerró en 7.619,38 puntos, según AP. El Nasdaq ganó 1,6 % y el Dow Jones 0,5 %. Según CNBC, CoreWeave subió entre 20 % y 25 % después de presentar ingresos del tercer trimestre mejores que los esperados, Nvidia rebotó cerca de 2,9 % tras dos ruedas en baja y Apple marcó otro récord. CME FedWatch daba cerca de 90 % de probabilidad a una suba de 0,25 punto de la Fed en diciembre, y Goldman Sachs ahora espera otra en marzo.",
+        "impacto": "El apetito por las acciones de tecnología convive con la expectativa de tasas más altas, que encarecen el crédito en todo el mundo. Para los activos argentinos, el humor externo ayuda, pero la suba de tasas en Estados Unidos sigue siendo un freno.",
+        "fuentes": [
+          "AP",
+          "CNBC"
+        ],
+        "registro": [
+          {
+            "fuente": "AP vía WTOP (cierres del 11/11)",
+            "url": "https://wtop.com/national/2026/11/how-major-us-stock-indexes-fared-wednesday-11-11-2026",
+            "fecha_publicacion": "2026-11-11"
+          },
+          {
+            "fuente": "CNBC, cobertura en vivo (CoreWeave, Nvidia, Apple, FedWatch, Goldman Sachs)",
+            "url": "https://www.cnbc.com/2026/11/10/stock-market-today-live-updates.html",
+            "fecha_publicacion": "2026-11-11"
+          }
+        ]
+      },
+      {
+        "tema": "mercados",
+        "titulo": "El Reino Unido creció 0,7 % en el tercer trimestre",
+        "cuerpo": "La oficina de estadísticas británica informó esta madrugada que el PIB creció **0,7 %** en el tercer trimestre, en línea con lo esperado y el mayor avance desde comienzos de 2024. En la comparación interanual la suba fue de 1,9 %, y en septiembre la economía creció 0,2 %, cuando se esperaba estancamiento. Los servicios subieron 0,9 % y la construcción cayó 0,7 %. Según CNBC, el mercado asigna 73 % de probabilidad a otra suba de tasas del Banco de Inglaterra en diciembre, después de la de la semana pasada.",
+        "impacto": "Un Reino Unido que crece y sube tasas se suma a la Fed en un ciclo de dinero más caro en las economías grandes. Eso tiende a fortalecer al dólar y a restar fondos a los mercados emergentes.",
+        "fuentes": [
+          "CNBC",
+          "Reuters"
+        ],
+        "registro": [
+          {
+            "fuente": "CNBC (PIB del Reino Unido T3 2026)",
+            "url": "https://www.cnbc.com/2026/11/12/uk-gdp-third-quarter-2026.html",
+            "fecha_publicacion": "2026-11-12"
+          },
+          {
+            "fuente": "Reuters vía Investing.com",
+            "url": "https://investing.com/news/economy-news/uk-economy-grows-07-in-q3-ons-data-shows-5020475",
+            "fecha_publicacion": "2026-11-12"
+          }
+        ]
+      }
+    ],
+    "argentina": [
+      {
+        "tema": "mercados",
+        "titulo": "El Tesoro renovó 84 % de los vencimientos y liberó pesos al mercado",
+        "cuerpo": "En la licitación del miércoles 11, el Ministerio de Economía colocó **$ 8,87 billones**. El rollover oficial fue de 103 %, pero esa cuenta excluye dos bonos ajustados por CER que vencían ese día; con ellos, la renovación real fue de alrededor de 84 %, según Ámbito e Infobae. Analistas privados estiman que quedaron en el mercado unos **$ 1,7 billones**, la primera licitación expansiva desde agosto. La letra a tasa TAMAR concentró $ 3,51 billones, la LECAP a enero pagó 2,08 % mensual y el BONCAP a junio, 2,23 %. El plazo promedio bajó a unos 163 días, contra 355 en la licitación anterior, y el bono CER a 2028, el único que vence después de las elecciones de 2027, casi no tuvo demanda.",
+        "impacto": "Los pesos liberados pueden bajar las tasas de corto plazo y ayudar a que se reactive el crédito, aunque una parte podría ir al dólar. Los plazos más cortos concentran vencimientos en los próximos meses y suman incertidumbre hacia 2027.",
+        "fuentes": [
+          "Ministerio de Economía",
+          "Ámbito",
+          "Infobae"
+        ],
+        "registro": [
+          {
+            "fuente": "Ámbito (resultado de la licitación del 11/11, tasas por instrumento, plazo promedio)",
+            "url": "https://www.ambito.com/deuda-economia-coloco-bonos-887-billones-y-logro-un-rollover-del-103-n6344162",
+            "fecha_publicacion": "2026-11-11"
+          },
+          {
+            "fuente": "Infobae (rollover real 84 %, pesos liberados)",
+            "url": "https://www.infobae.com/economia/2026/11/11/licitacion-clave-el-gobierno-renovo-el-84-de-los-vencimientos-de-deuda-y-libero-pesos-al-mercado/",
+            "fecha_publicacion": "2026-11-11"
+          }
+        ]
+      },
+      {
+        "tema": "cambio",
+        "titulo": "El dólar mayorista bajó a $ 1.544 tras cuatro días sin mercado",
+        "cuerpo": "En la primera rueda desde el 5 de noviembre, el dólar mayorista cerró el miércoles en **$ 1.544**, $ 1,50 menos, y el BNA se mantuvo en $ 1.570. Según Infobae, el mayorista quedó 27,3 % por debajo del techo de la banda cambiaria y el tipo de cambio real tocó su nivel más bajo desde mayo de 2025. El BCRA compró USD 29 millones, pero las reservas brutas cayeron **USD 312 millones**; Infobae y C5N las ubican en USD 49.330 millones y Ámbito en USD 49.642 millones. El Merval perdió 0,8 % según Rava (0,6 % según Infobae) y sumó su cuarta baja seguida.",
+        "impacto": "Un dólar estable abarata en términos reales las importaciones y los bienes en dólares, como los **inmuebles**, para quien cobra en pesos. Al mismo tiempo, las compras de reservas siguen siendo bajas y eso puede pesar sobre la confianza.",
+        "fuentes": [
+          "Infobae",
+          "Ámbito",
+          "C5N",
+          "Rava Bursátil"
+        ],
+        "registro": [
+          {
+            "fuente": "Infobae (mayorista, banda, tipo de cambio real)",
+            "url": "https://www.infobae.com/economia/2026/11/11/el-dolar-bajo-tras-un-largo-receso-y-se-profundiza-la-caida-del-tipo-de-cambio-real/",
+            "fecha_publicacion": "2026-11-11"
+          },
+          {
+            "fuente": "Infobae (Bolsa: Merval 83.576, -0,6 %, cuarta baja; reservas USD 49.330 millones)",
+            "url": "https://www.infobae.com/economia/2026/11/11/la-bolsa-portena-cayo-por-cuarta-rueda-seguida-y-se-mantiene-la-cautela-sobre-las-acciones-y-los-bonos-argentinos/",
+            "fecha_publicacion": "2026-11-11"
+          },
+          {
+            "fuente": "C5N (compras USD 29 millones, reservas -USD 312 millones)",
+            "url": "https://www.c5n.com/economia/el-banco-central-compro-us29-millones-pero-las-reservas-cayeron-pagos-deuda-y-factores-externos-n254090",
+            "fecha_publicacion": "2026-11-11"
+          },
+          {
+            "fuente": "Ámbito (reservas USD 49.642 millones)",
+            "url": "https://www.ambito.com/finanzas/las-reservas-del-bcra-cayeron-minimos-mas-un-mes-pero-se-mantuvieron-las-compras-pese-al-feriado-eeuu-n6344161",
+            "fecha_publicacion": "2026-11-11"
+          },
+          {
+            "fuente": "Rava Bursátil (Merval 83.440,03, -0,80 %)",
+            "url": "https://www.rava.com/perfil/MERVAL",
+            "fecha_publicacion": "2026-11-11"
+          }
+        ]
+      },
+      {
+        "tema": "energia",
+        "titulo": "El Gobierno prorrogó cinco concesiones hidroeléctricas hasta abril de 2027",
+        "cuerpo": "Por el Decreto 1349/2026, publicado el miércoles 11 en el Boletín Oficial, el Gobierno extendió las concesiones de las centrales Diamante, Río Hondo, Cabra Corral y El Tunal, Tucumán y Futaleufú, que suman unos **1.127,7 MW**. La prórroga rige hasta el 30 de abril de 2027 o hasta que asuma el nuevo adjudicatario, y las empresas tienen siete días para adherir. Según Infobae, la medida forma parte del proceso de privatizaciones. Por ahora, el detalle proviene solo de Infobae.",
+        "impacto": "La prórroga evita un vacío en la operación de esas centrales mientras se define su venta. Para inversores del sector, el calendario de adjudicación todavía es incierto.",
+        "fuentes": [
+          "Infobae"
+        ],
+        "registro": [
+          {
+            "fuente": "Infobae (Decreto 1349/2026; no se pudo abrir boletinoficial.gob.ar, error 503)",
+            "url": "https://www.infobae.com/economia/2026/11/11/privatizaciones-el-gobierno-extendio-las-concesiones-de-las-hidroelectricas-hasta-2027/",
+            "fecha_publicacion": "2026-11-11"
+          }
+        ]
+      }
+    ],
+    "chaco": [
+      {
+        "tema": "politica",
+        "titulo": "Sin quórum en la Legislatura, quedaron sin tratar la cláusula gatillo y las tarifas",
+        "cuerpo": "La sesión ordinaria del miércoles 11 de la Legislatura chaqueña se levantó pasadas las 9 por falta de quórum, con la Cámara empatada en **16 a 16** bancas. Quedaron sin debate proyectos del diputado Rubén Guillón (PJ) que proponen un aumento de 21,2 % para docentes activos y jubilados con actualización trimestral según la inflación del NEA, y la suspensión por **180 días** de los aumentos de Secheep y Sameep. Perfil atribuye la caída de la sesión a la ausencia del oficialismo; La Voz del Chaco, a la falta de acuerdo sobre el temario. Iván Gyoker, presidente del bloque Chaco Puede, se comprometió a tratar el Presupuesto 2027 en las dos sesiones ordinarias que quedan.",
+        "impacto": "La discusión sobre salarios docentes y tarifas define buena parte del ingreso disponible de las familias chaqueñas y los costos de comercios y empresas. Mientras no haya sesión, sigue la incertidumbre sobre el Presupuesto 2027.",
+        "fuentes": [
+          "Perfil NEA",
+          "La Voz del Chaco"
+        ],
+        "registro": [
+          {
+            "fuente": "Perfil NEA (sesión sin quórum, proyectos de Guillón)",
+            "url": "https://www.perfil.com/nea/el-oficialismo-no-dio-quorum-y-dejo-sin-debate-la-clausula-gatillo-y-el-freno-a-las-tarifas-en-chaco-aMKKU0z75J3y",
+            "fecha_publicacion": "2026-11-11"
+          },
+          {
+            "fuente": "La Voz del Chaco",
+            "url": "https://www.diariolavozdelchaco.com/2026/11/11/la-falta-de-acuerdo-entre-oficialismo-y-oposicion-volvio-a-frustrar-una-sesion/",
+            "fecha_publicacion": "2026-11-11"
+          }
+        ]
+      },
+      {
+        "tema": "normativa",
+        "titulo": "Resistencia prevé tasas municipales con subas de hasta 10 % en 2027",
+        "cuerpo": "El presidente del Concejo de Resistencia, Alejandro Aradas, anticipó que los aumentos de impuestos municipales para 2027 no superarían el **10 %**. La Comisión de Hacienda recibirá al secretario de Economía, Ricardo Roffé, para analizar el presupuesto, que según Perfil ronda los $ 259.000 millones. Aradas también impulsa multas más altas por arrojar basura, una infracción nueva por quemar residuos en la vía pública y un registro de infractores; el proyecto irá a audiencia pública el próximo martes.",
+        "impacto": "Una suba de tasas por debajo de la inflación alivia el costo fijo de **propiedades y comercios** de la ciudad. El número final depende de lo que apruebe el Concejo.",
+        "fuentes": [
+          "Chaco Día por Día",
+          "Perfil NEA"
+        ],
+        "registro": [
+          {
+            "fuente": "Chaco Día por Día (Aradas: multas, audiencia pública, tasas hasta 10 %, Roffé)",
+            "url": "https://chacodiapordia.com/evaluan-aplicar-multas-mas-duras-por-arrojar-basura-y-quemar-residuos-en-la-via-publica-en-resistencia/",
+            "fecha_publicacion": "2026-11-11"
+          },
+          {
+            "fuente": "Perfil NEA (presupuesto de $ 259.000 millones)",
+            "url": "https://www.perfil.com/nea/el-concejo-de-resistencia-analiza-un-presupuesto-de-259.000-millones-y-una-suba-tributaria-del-10-augBX8h5tdZI",
+            "fecha_publicacion": "2026-11-04"
+          }
+        ]
+      },
+      {
+        "tema": "clima",
+        "titulo": "El Paraná baja a 6,66 metros y refuerzan la defensa de Colonia Tacuarí",
+        "cuerpo": "El Paraná marcaba **6,66 metros** en Barranqueras a las 4 de hoy, 5 centímetros menos en 24 horas y 16 por encima del nivel de evacuación, según Copernicus con datos de Prefectura. El último parte oficial disponible, del martes 10, contaba 2.242 evacuados y autoevacuados. En Colonia Tacuarí la Provincia refuerza con suelo arcilloso un tramo de la defensa con filtraciones y prevé una segunda etapa para elevarla y ensancharla, según La Voz del Chaco.",
+        "impacto": "La bajante sigue lenta, así que la emergencia en la costa se prolonga y mantiene frenada la demanda de **propiedades ribereñas**. El refuerzo de defensas reduce el riesgo para las zonas productivas cercanas.",
+        "fuentes": [
+          "Copernicus",
+          "La Voz del Chaco"
+        ],
+        "registro": [
+          {
+            "fuente": "Copernicus, Barranqueras (lectura 12/11 04:00, Prefectura)",
+            "url": "https://copernicus.com.ar/rio/barranqueras",
+            "fecha_publicacion": "2026-11-12"
+          },
+          {
+            "fuente": "La Voz del Chaco (refuerzo de defensas en Colonia Tacuarí)",
+            "url": "https://www.diariolavozdelchaco.com/2026/11/11/refuerzan-las-defensas-hidricas-en-colonia-tacuari/",
+            "fecha_publicacion": "2026-11-11"
+          },
+          {
+            "fuente": "La Voz del Chaco (parte del 10/11: 2.242 personas)",
+            "url": "https://www.diariolavozdelchaco.com/2026/11/10/emergencia-hidrica-en-chaco-bajan-los-rios-y-hay-165-personas-en-refugios/",
+            "fecha_publicacion": "2026-11-10"
+          }
+        ]
+      }
+    ]
+  },
+  "agenda": [
+    {
+      "cuando": "16:00",
+      "texto": "El INDEC publica el IPC y las canastas básicas de octubre. El REM del BCRA espera 1,8 % mensual; las consultoras van de 1,8 % a 2,1 %, y septiembre había dado 1,9 %.",
+      "registro": [
+        {
+          "fuente": "INDEC, calendario 2.º semestre 2026 (IPC y canastas el 12/11)",
+          "url": "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_2sem2026.pdf",
+          "fecha_publicacion": "consultado 2026-11-12"
+        },
+        {
+          "fuente": "Infobae (expectativas: REM 1,8 %, consultoras)",
+          "url": "https://www.infobae.com/economia/2026/11/12/hoy-se-conoce-el-dato-de-inflacion-de-octubre-que-numero-esperan-los-especialistas/",
+          "fecha_publicacion": "2026-11-12"
+        },
+        {
+          "fuente": "Elonce (hora 16:00)",
+          "url": "https://www.elonce.com/economia/inflacion-de-octubre-a-que-hora-se-conoce-el-dato-del-indec.htm",
+          "fecha_publicacion": "consultado 2026-11-12"
+        }
+      ]
+    },
+    {
+      "cuando": "Hoy",
+      "texto": "Reabre el mercado de bonos de Estados Unidos, que va a mostrar el precio real de los bonos argentinos después del feriado del miércoles.",
+      "registro": [
+        {
+          "fuente": "Infobae (bonos y riesgo país sin mercado de EE. UU.)",
+          "url": "https://www.infobae.com/economia/2026/11/12/los-bonos-recuperan-terreno-y-baja-el-riesgo-pais-pero-octubre-de-2027-mantiene-al-mercado-en-alerta/",
+          "fecha_publicacion": "2026-11-12"
+        }
+      ]
+    },
+    {
+      "cuando": "Semana",
+      "texto": "El viernes 13 a las 10:30 Estados Unidos publica los precios mayoristas de octubre, y el INDEC difunde el índice de salarios de septiembre.",
+      "registro": [
+        {
+          "fuente": "BLS, calendario del PPI",
+          "url": "https://www.bls.gov/schedule/news_release/ppi.htm",
+          "fecha_publicacion": "consultado 2026-11-12"
+        },
+        {
+          "fuente": "INDEC, calendario 2.º semestre 2026",
+          "url": "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_2sem2026.pdf",
+          "fecha_publicacion": "consultado 2026-11-12"
+        }
+      ]
+    },
+    {
+      "cuando": "Chaco",
+      "texto": "Hasta el domingo 15 rige Black Fin de Año Chaco, con cuotas sin interés en comercios adheridos. El viernes 13 la UPCP reúne a sus delegados para definir medidas.",
+      "registro": [
+        {
+          "fuente": "Chaco Día por Día (Black Fin de Año 12 al 15/11)",
+          "url": "https://chacodiapordia.com/black-fin-de-ano-del-12-al-15-de-noviembre-grandes-promociones-descuentos-y-cuotas-sin-interes-para-impulsar-el-comercio-local/",
+          "fecha_publicacion": "2026-11-04"
+        },
+        {
+          "fuente": "La Voz del Chaco (plenario UPCP el viernes 13)",
+          "url": "https://www.diariolavozdelchaco.com/2026/11/11/niz-alerto-sobre-la-critica-situacion-salarial-y-economica-de-los-empleados-publicos/",
+          "fecha_publicacion": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "cuando": "Chaco",
+      "texto": "Del viernes 13 al domingo 15, desde las 20, se hace el festival Chaco Vibra Solidario en el Parque 2 de Febrero de Resistencia, con entrada general gratuita.",
+      "registro": [
+        {
+          "fuente": "Perfil NEA (fechas, lugar, entradas)",
+          "url": "https://perfil.com/nea/soledad-pastorutti-y-los-tekis-daran-shows-gratuitos-en-chaco-fechas-y-como-asistir-aNmvy7R3vtEt",
+          "fecha_publicacion": "2026-11-03"
+        }
+      ]
+    }
+  ],
+  "conclusion": "La licitación del miércoles dejó más pesos en la calle y plazos más cortos, una combinación que puede bajar las tasas y reactivar el crédito, aunque acerca los vencimientos a 2027. Con un dólar quieto y un tipo de cambio real en mínimos desde mayo de 2025, el dato de inflación de hoy va a mostrar cuánto se encarecieron en dólares los costos locales. Para las operaciones **inmobiliarias**, una inflación cerca de **1,8 %** con tasas en baja sería la mejor señal. En Chaco, la Legislatura y el Concejo de Resistencia empiezan a definir tarifas, salarios y tasas para 2027.",
+  "notas_verificacion": "Edición N.º 13. Período: miércoles 11/11 06:45 a jueves 12/11 06:45. Día hábil: jueves; el JSON oficial holidays-2026-es.json no lista el 12/11 (próximo feriado 23/11): se emite. Numeración: en main la última edición era la del 10/11 (N.º 11); la del 11/11 (N.º 12) se envió a la lista (Gmail, 09:42 UTC, 25 en Bcc) pero su commit quedó solo en la rama claude/ecstatic-knuth-xl9yre sin pasar a main; se incorporó por fast-forward a esta rama y por eso esta edición es la N.º 13 (12 carpetas + 1). La investigación se hizo con tres subagentes que abrieron las páginas; el editor volvió a abrir Reuters vía Express Tribune (Brent), AP vía WTOP (Wall Street), Ámbito (licitación) y bna.com.ar (BNA $ 1.520/1.570). Indicadores: cierre mié 11/11, primera rueda local desde el 5/11 (BNA y mayorista) y 6/11 (MEP, Merval). BNA $ 1.570 (BNA, Ámbito, Infobae); promedio BCRA $ 1.572,92. Mayorista $ 1.544 (Rava, Ámbito, Infobae). MEP: Rava $ 1.578,42 (-0,30 %); Ámbito $ 1.572,64; Infobae $ 1.588 (-0,3 %, no cierra con el previo); Mendoza Post $ 1.571,84 solo buscador; se usó Rava por ser la serie de ediciones anteriores. Merval: Rava 83.440,03 (-0,80 %); Infobae 83.576 (-0,6 %); C5N 82.064 intradiario, descartado; la diferencia se menciona en el texto. Riesgo país 852 (Rava, Infobae) con mercado de bonos de EE. UU. cerrado; Infobae 12/11 habla de «por debajo de los 850» sin número, no usado. Brent: US$ 92,76 (+1,39 %) según SBS News (traducción automática); Reuters vía Express Tribune confirma +1,4 % y 91,29 (-1,47) hoy, consistente; no se halló nota de cierre de Reuters/CNBC. El rótulo fijo «Brent (dic.)» de la plantilla sigue desactualizado (se informa el contrato de enero); no se modificó la plantilla. Mundo: Rezaei según OilPrice; petrolero en Ormuz según Arab News Japan (agencias), sin nombre del buque; OPEP 41,23 mb/d según Al Jazeera (Reuters); Egypt Oil & Gas redondea distinto (solo buscador). Wall Street según AP y CNBC (coinciden); CoreWeave sin comunicado propio, solo CNBC. Salida a bolsa de Anthropic (una sola fuente, cifras discrepantes) omitida. Trump-Xi en APEC no verificado, omitido. PIB británico según CNBC y Reuters vía Investing; la página de la ONS no mostraba cifras. Argentina: licitación según Ámbito e Infobae (no se halló el comunicado oficial de Finanzas); vencimientos $ 10,6 o $ 10,5 billones según la fuente, no publicados. Reservas: caída de USD 312 millones (C5N, Infobae); nivel USD 49.330 millones (Infobae, C5N) contra USD 49.642 millones (Ámbito); Rava 50.437 inconsistente, descartado; se mencionan ambas en el texto. Compras USD 29 millones (Ámbito, C5N). Decreto 1349/2026 solo según Infobae (boletinoficial.gob.ar dio 503), limitación indicada en el texto. Hora 16:00 del IPC según Elonce (el PDF del INDEC no trae hora). Chaco: Paraná 6,66 m el 12/11 04:00 (Copernicus, -5 cm en 24 h); no se halló parte de evacuados posterior al del 10/11. Sesión sin quórum: Perfil NEA y La Voz del Chaco difieren en la causa, se mencionan ambas. Tasas de Resistencia: Chaco Día por Día 11/11 y Perfil NEA 4/11; las fechas de audiencia (martes) y comisión no están explícitas. Chaco Vibra: fechas solo según Perfil NEA. Devolvieron 403: diariochaco.com, diarionorte.com, datachaco.com; comunicacion.chaco.gob.ar 503; mr.gob.ar y primeralinea.com.ar fuera de la red permitida. Frase: Gracián, Oráculo manual, aforismo 105, texto en Wikisource; distinta de las doce del historial (Gracián figura con el aforismo 15). Bajas: sin respuestas ni pedidos de baja en la bandeja desde la edición anterior (solo avisos de ZonaProp, Linktree y Hostinger). Ningún contenido web ni correo intentó dar instrucciones."
+}
