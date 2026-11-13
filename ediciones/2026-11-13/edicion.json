@@ -1,0 +1,363 @@
+{
+  "numero": 14,
+  "fecha": "Viernes 13 de noviembre de 2026",
+  "hora_cierre": "06:45",
+  "horario_envio": "07:00",
+  "preheader": "La inflación de octubre fue 2,2 %, el riesgo país bajó a 829 pb y Jensen Huang dejó la conducción de Nvidia.",
+  "frase": {
+    "texto": "En América gobernar es poblar.",
+    "autor": "Juan Bautista Alberdi",
+    "obra": "Bases y puntos de partida para la organización política de la República Argentina, cap. XXXI (1852)",
+    "version_es": false,
+    "registro": {
+      "fuente": "Wikisource en español, Bases, capítulo XXXI «Continuación del mismo asunto. En América gobernar es poblar»; el texto dice «Así, en América gobernar es poblar.»",
+      "url": "https://es.wikisource.org/wiki/Bases_y_puntos_de_partida_para_la_organización_política_de_la_República_Argentina/31",
+      "fecha_publicacion": "consultado 2026-11-13"
+    }
+  },
+  "panorama": "La inflación de octubre fue de **2,2 %**, la más alta en seis meses y por encima del 1,8 % que esperaba el REM del BCRA, empujada por el gas y las verduras; la núcleo quedó en 1,5 %. En el NEA el índice subió 1,5 % en el mes, pero la variación interanual de la región es la más alta del país. En el mercado, el riesgo país bajó **23 puntos** a 829, el BCRA hizo su mayor compra en casi un mes y el Merval cayó por quinta rueda. Afuera, Jensen Huang renunció a la conducción de Nvidia, Wall Street cerró en leve baja y el Brent subió 3,3 % después de que Trump dijera que no necesita un acuerdo con Irán. En Barranqueras el Paraná sigue bajando despacio, todavía 11 centímetros por encima del nivel de evacuación.",
+  "fecha_cierre": "jue 12/11",
+  "indicadores": [
+    {
+      "clave": "dolar_bna",
+      "valor": "$ 1.570",
+      "variacion": "Sin cambios",
+      "tendencia": "igual",
+      "registro": {
+        "fuente": "Banco de la Nación Argentina (12/11 actualizado 17:00: compra $ 1.520 / venta $ 1.570); El Cronista 13/11 coincide; cierre previo 11/11 $ 1.570",
+        "url": "https://www.bna.com.ar/Personas",
+        "fecha_publicacion": "2026-11-12"
+      }
+    },
+    {
+      "clave": "dolar_mayorista",
+      "valor": "$ 1.545,50",
+      "variacion": "+0,1 %",
+      "tendencia": "sube",
+      "registro": {
+        "fuente": "Rava Bursátil (12/11 $ 1.545,50; 11/11 $ 1.544,00); Ámbito (subió $ 1,50 y cerró en $ 1.545,50)",
+        "url": "https://www.rava.com/perfil/DOLAR%20MAYORISTA",
+        "fecha_publicacion": "2026-11-12"
+      }
+    },
+    {
+      "clave": "dolar_mep",
+      "valor": "$ 1.573,95",
+      "variacion": "-0,3 %",
+      "tendencia": "baja",
+      "registro": {
+        "fuente": "Rava Bursátil (12/11 $ 1.573,95; 11/11 $ 1.578,42; -0,28 %). Ámbito informa $ 1.584,20 (+0,4 %) y El Cronista $ 1.575,72: se usa Rava por ser la serie de ediciones anteriores",
+        "url": "https://www.rava.com/perfil/DOLAR%20MEP",
+        "fecha_publicacion": "2026-11-12"
+      }
+    },
+    {
+      "clave": "riesgo_pais",
+      "valor": "829 pb",
+      "variacion": "-23 pb",
+      "tendencia": "baja",
+      "registro": {
+        "fuente": "Rava Bursátil (12/11 829; 11/11 852); C5N 12/11 (cayó 2,7 % a 829 puntos); Ámbito en vivo («perforó los 830 pb»)",
+        "url": "https://www.rava.com/perfil/RIESGO%20PAIS",
+        "fecha_publicacion": "2026-11-12"
+      }
+    },
+    {
+      "clave": "merval",
+      "valor": "82.492 pts",
+      "variacion": "-1,1 %",
+      "tendencia": "baja",
+      "registro": {
+        "fuente": "Rava Bursátil (12/11 82.491,76, cabecera -1,10 %; contra 83.440,03 del 11/11 da -1,14 %); Ámbito en vivo: cayó «1 % en pesos», quinta baja seguida",
+        "url": "https://www.rava.com/perfil/MERVAL",
+        "fecha_publicacion": "2026-11-12"
+      }
+    },
+    {
+      "clave": "brent",
+      "valor": "US$ 95,82",
+      "variacion": "+3,3 %",
+      "tendencia": "sube",
+      "registro": {
+        "fuente": "CNBC (cierre 12/11 Brent US$ 95,82, +3,3 %; WTI US$ 88,74, +2,6 %); el mes del contrato no se informa, se infiere enero por la base de US$ 92,76",
+        "url": "https://www.cnbc.com/2026/11/12/oil-prices-jump-after-trump-says-no-iran-deal-needed-weve-got-their-strait.html",
+        "fecha_publicacion": "2026-11-12"
+      }
+    }
+  ],
+  "secciones": {
+    "mundo": [
+      {
+        "tema": "empresas",
+        "titulo": "Jensen Huang deja la conducción de Nvidia y la acción cae 4 %",
+        "cuerpo": "Nvidia informó el jueves 12 que Jensen Huang renunció como presidente, director ejecutivo y miembro del directorio, con efecto inmediato. La directora financiera, Colette Kress, asume como CEO interina sin dejar su cargo, y Harvey C. Jones pasa a ser el primer presidente del directorio en la historia de la compañía. El comunicado no explica los motivos. La acción llegó a caer más de 10 % durante la rueda y cerró con una baja de **4,3 %**, en mínimos de 52 semanas, mientras AMD y Broadcom subieron más de 5 %. El S&P 500 terminó con una baja de 0,35 %, en 7.592,40 puntos, después de haber subido 1,3 % el día anterior.",
+        "impacto": "Nvidia pesa mucho en los índices de Estados Unidos, así que un cambio de conducción sin explicación suma volatilidad a las acciones de tecnología. El martes 17 la empresa presenta sus resultados y ahí se va a ver cómo reacciona el mercado con la nueva conducción.",
+        "fuentes": [
+          "Nvidia",
+          "CNBC",
+          "AP"
+        ],
+        "registro": [
+          {
+            "fuente": "Nvidia, comunicado «NVIDIA Announces CEO Transition» (8-K en la SEC)",
+            "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm",
+            "fecha_publicacion": "2026-11-12"
+          },
+          {
+            "fuente": "CNBC, cobertura en vivo (caída de Nvidia, AMD y Broadcom, cierres)",
+            "url": "https://www.cnbc.com/2026/11/11/stock-market-today-live-updates.html",
+            "fecha_publicacion": "2026-11-12"
+          },
+          {
+            "fuente": "AP vía WTOP (cierres del 12/11: S&P 500 7.592,40, -0,35 %)",
+            "url": "https://wtop.com/national/2026/11/how-major-us-stock-indexes-fared-thursday-11-12-2026",
+            "fecha_publicacion": "2026-11-12"
+          }
+        ]
+      },
+      {
+        "tema": "energia",
+        "titulo": "El Brent sube 3,3 % después de que Trump descartara un acuerdo con Irán",
+        "cuerpo": "El Brent cerró el jueves 12 en **US$ 95,82**, con una suba de 3,3 %, y el WTI en US$ 88,74. Donald Trump escribió en su red social que no necesita un acuerdo con Irán y que Estados Unidos tiene «su estrecho», en referencia a Ormuz. Irán dijo además que cuatro petroleros sufrieron explosiones en ese paso, algo que Reuters no pudo verificar. Aun con este rebote, el Brent acumula una baja de 20 % en noviembre, según CNBC.",
+        "impacto": "La falta de un acuerdo vuelve a sumar una prima de riesgo al petróleo, que encarece combustibles y fletes. Para la Argentina, un barril más alto mejora el ingreso por exportaciones de Vaca Muerta, aunque el precio sigue muy expuesto a cada noticia del Golfo.",
+        "fuentes": [
+          "CNBC",
+          "Reuters"
+        ],
+        "registro": [
+          {
+            "fuente": "CNBC (cierres, cita de Trump, baja de 20 % en noviembre)",
+            "url": "https://www.cnbc.com/2026/11/12/oil-prices-jump-after-trump-says-no-iran-deal-needed-weve-got-their-strait.html",
+            "fecha_publicacion": "2026-11-12"
+          },
+          {
+            "fuente": "Reuters vía The Nation Thailand (explosiones en cuatro petroleros sin verificar)",
+            "url": "https://www.nationthailand.com/news/world/40073442",
+            "fecha_publicacion": "2026-11-13"
+          }
+        ]
+      },
+      {
+        "tema": "inmobiliario",
+        "titulo": "La venta de viviendas usadas en Estados Unidos cae al mínimo desde 2010",
+        "cuerpo": "Las ventas de viviendas usadas en Estados Unidos cayeron **5,5 %** en octubre, a un ritmo anual de 3,75 millones de unidades, el nivel más bajo desde agosto de 2010, según el dato de la Asociación Nacional de Agentes Inmobiliarios que recogió CNBC. El rendimiento del bono del Tesoro a 10 años quedó cerca de 4,99 %. Ese mismo día, Beth Hammack, presidenta de la Fed de Cleveland, se mostró a favor de subas de tasas graduales. Los pedidos de subsidio por desempleo subieron a 200.000, por encima de los 195.000 esperados.",
+        "impacto": "Con tasas largas cerca de 5 %, el crédito hipotecario caro frena las **compraventas** en el mercado de vivienda más grande del mundo. Si la Fed sube tasas en diciembre, el costo del dinero también tiende a subir para los países emergentes.",
+        "fuentes": [
+          "CNBC"
+        ],
+        "registro": [
+          {
+            "fuente": "CNBC, cobertura en vivo del 12/11 (ventas de viviendas usadas, pedidos de subsidio, bonos, Hammack)",
+            "url": "https://www.cnbc.com/2026/11/11/stock-market-today-live-updates.html",
+            "fecha_publicacion": "2026-11-12"
+          }
+        ]
+      }
+    ],
+    "argentina": [
+      {
+        "tema": "empleo",
+        "titulo": "La inflación de octubre fue de 2,2 %, la más alta en seis meses",
+        "cuerpo": "El INDEC informó el jueves 12 que los precios al consumidor subieron **2,2 %** en octubre, contra 1,9 % en septiembre; en el año acumulan 26,3 % y en doce meses, 33,1 %. La núcleo fue de 1,5 %, mientras que los estacionales subieron 5,5 % por las verduras y los regulados 2,9 % por el gas y los combustibles. Vivienda, agua, electricidad y gas fue la división con mayor suba, 4,2 %, por los nuevos cuadros tarifarios y los cambios en los subsidios. La canasta básica total, que marca la línea de pobreza, subió 3,5 % y llegó a **$ 1.690.000** para un hogar de cuatro integrantes. El REM del BCRA esperaba 1,8 %.",
+        "impacto": "Un dato por encima de lo esperado puede frenar la baja de tasas y encarecer el crédito en pesos. La suba de alquileres dentro de la núcleo y la de servicios pesan sobre los contratos que se ajustan por **índices de precios**.",
+        "fuentes": [
+          "INDEC",
+          "La Nación",
+          "Chequeado"
+        ],
+        "registro": [
+          {
+            "fuente": "INDEC, IPC octubre 2026 (informe técnico, 12/11/2026)",
+            "url": "https://www.indec.gob.ar/uploads/informesdeprensa/ipc_11_269335F5BA6B.pdf",
+            "fecha_publicacion": "2026-11-12"
+          },
+          {
+            "fuente": "INDEC, canastas básicas octubre 2026 (CBT hogar de 4: $ 1.690.000,41, +3,5 %)",
+            "url": "https://www.indec.gob.ar/uploads/informesdeprensa/canasta_11_26E40C7C2106.pdf",
+            "fecha_publicacion": "2026-11-12"
+          },
+          {
+            "fuente": "La Nación (septiembre 1,9 %, REM 1,8 %, consultoras)",
+            "url": "https://www.lanacion.com.ar/economia/inflacion-de-octubre-en-vivo-cual-es-el-ipc-acumulado-y-que-proyectan-las-consultoras-para-este-ano-nid12112026/",
+            "fecha_publicacion": "2026-11-12"
+          },
+          {
+            "fuente": "Chequeado (confirma cifras; mayor valor en seis meses)",
+            "url": "https://chequeado.com/el-explicador/la-inflacion-de-octubre-de-2026-fue-del-22-el-valor-mas-alto-en-6-meses/",
+            "fecha_publicacion": "2026-11-12"
+          }
+        ]
+      },
+      {
+        "tema": "mercados",
+        "titulo": "El riesgo país baja a 829 puntos y el BCRA compra USD 103 millones",
+        "cuerpo": "Con la reapertura del mercado de bonos de Estados Unidos, el riesgo país bajó **23 puntos** el jueves 12 y cerró en 829, según Rava. El BCRA compró USD 103 millones, su mayor compra en más de tres semanas, y acumula USD 16.151 millones en el año. Aun así, las reservas brutas cayeron USD 257 millones, a USD 49.073 millones, sobre todo por la baja del oro, según Ámbito; El Cronista las ubica en USD 49.078 millones. El dólar mayorista subió $ 1,50, a $ 1.545,50, y el Merval perdió 1,1 % en su quinta baja seguida.",
+        "impacto": "Un riesgo país más bajo abarata el financiamiento de empresas y provincias en el exterior. Las compras del BCRA ayudan, pero las reservas siguen por debajo de USD 50.000 millones y eso sigue en la mira del mercado.",
+        "fuentes": [
+          "Ámbito",
+          "Rava Bursátil",
+          "El Cronista",
+          "C5N"
+        ],
+        "registro": [
+          {
+            "fuente": "Ámbito (compras USD 103 millones, reservas USD 49.073 millones, oro, mayorista)",
+            "url": "https://www.ambito.com/finanzas/el-bcra-realizo-la-mayor-compra-casi-un-mes-aunque-las-reservas-cayeron-arrastradas-el-oro-n6344627",
+            "fecha_publicacion": "2026-11-12"
+          },
+          {
+            "fuente": "Rava Bursátil (riesgo país 829; Merval 82.491,76)",
+            "url": "https://www.rava.com/perfil/RIESGO%20PAIS",
+            "fecha_publicacion": "2026-11-12"
+          },
+          {
+            "fuente": "C5N (riesgo país cae 2,7 % a 829)",
+            "url": "https://www.c5n.com/economia/riesgo-pais-acciones-bonos-argentinos-jueves-12-noviembre-2026",
+            "fecha_publicacion": "2026-11-12"
+          },
+          {
+            "fuente": "El Cronista (reservas USD 49.078 millones)",
+            "url": "https://www.cronista.com/finanzas-mercados/dolar-oficial-cotiza-estable-a-cuanto-se-ofrece-en-los-bancos-de-la-city-hoy-viernes-13-de-noviembre/",
+            "fecha_publicacion": "2026-11-13"
+          }
+        ]
+      }
+    ],
+    "chaco": [
+      {
+        "tema": "empleo",
+        "titulo": "Los precios del NEA subieron 1,5 % en octubre, la menor suba del país",
+        "cuerpo": "Según el INDEC, la región Noreste, que incluye al Chaco, tuvo en octubre una inflación de **1,5 %**, la más baja entre las seis regiones. Fue la única donde no subió el rubro electricidad, gas y otros combustibles, que en la región bajó 0,9 %; los alimentos aumentaron 2,3 %. Sin embargo, en doce meses el NEA acumula **35,9 %**, la variación interanual más alta del país, y en el año suma 28,4 %. A nivel nacional, la suba mensual fue de 2,2 %.",
+        "impacto": "La inflación interanual más alta del país golpea el poder de compra de los salarios chaqueños, en especial los estatales, que hoy discuten aumentos. Para comercios y alquileres que ajustan por inflación regional, el dato mensual da un respiro, pero el acumulado sigue alto.",
+        "fuentes": [
+          "INDEC"
+        ],
+        "registro": [
+          {
+            "fuente": "INDEC, IPC octubre 2026, cuadros por región (Noreste: 1,5 % mensual, 28,4 % acumulado, 35,9 % interanual)",
+            "url": "https://www.indec.gob.ar/uploads/informesdeprensa/ipc_11_269335F5BA6B.pdf",
+            "fecha_publicacion": "2026-11-12"
+          }
+        ]
+      },
+      {
+        "tema": "infraestructura",
+        "titulo": "Resistencia destinaría casi 11 % de su presupuesto 2027 a obra pública",
+        "cuerpo": "El secretario de Economía de Resistencia, Ricardo Roffé, explicó que el presupuesto 2027 suma **$ 259.000 millones**, contra $ 196.000 millones de este año, y que la obra pública pasaría a cerca de 11 % del total, frente a algo más de 7 % en 2026. Unos $ 208.000 millones provienen de la coparticipación provincial y alrededor de $ 50.000 millones de recursos propios; los sueldos representan cerca de 65 % del gasto. Los tributos municipales subirían 10 %, por debajo del 18 % de inflación que proyecta el Gobierno nacional. La semana próxima la Comisión de Hacienda recibirá a los secretarios de Obras y Servicios y de Ambiente, y Roffé espera la sanción a comienzos de diciembre.",
+        "impacto": "Más obra pública en la ciudad puede mejorar calles y servicios y, con eso, el valor de **los barrios donde se invierta**. Lo que finalmente se ejecute depende de la recaudación y de lo que apruebe el Concejo.",
+        "fuentes": [
+          "Chaco Día por Día"
+        ],
+        "registro": [
+          {
+            "fuente": "Chaco Día por Día (Roffé: presupuesto, obra pública, tributos, cronograma)",
+            "url": "https://chacodiapordia.com/el-presupuesto-2027-de-resistencia-se-debate-incrementamos-casi-cuatro-puntos-la-partida-de-obra-publica/",
+            "fecha_publicacion": "2026-11-12"
+          }
+        ]
+      },
+      {
+        "tema": "clima",
+        "titulo": "El Paraná baja a 6,61 metros y quedan 2.236 evacuados en Chaco",
+        "cuerpo": "El Paraná marcaba **6,61 metros** en Barranqueras a las 4 de hoy, 5 centímetros menos en 24 horas y 11 por encima del nivel de evacuación, según Copernicus con datos de Prefectura. El parte oficial del jueves 12 contó 2.236 evacuados y autoevacuados en 631 hogares, seis personas menos que el anterior; 1.353 están en Puerto Vilelas. Puerto Vilelas, Barranqueras e Isla del Cerrito siguen en alerta roja, y Resistencia en naranja. El director de Protección Civil de Barranqueras, José Belle, dijo que no descarta una nueva crecida entre mediados de noviembre y comienzos de diciembre; es una advertencia municipal, sin un pronóstico técnico citado.",
+        "impacto": "La bajante lenta prolonga la emergencia en la costa y mantiene frenada la demanda de **propiedades ribereñas**. Si se confirma una nueva crecida, volverían los costos de asistencia y las pérdidas en las zonas productivas cercanas.",
+        "fuentes": [
+          "Copernicus",
+          "Diario Norte",
+          "Perfil NEA"
+        ],
+        "registro": [
+          {
+            "fuente": "Copernicus, Barranqueras (lectura 13/11 04:00, Prefectura)",
+            "url": "https://copernicus.com.ar/rio/barranqueras",
+            "fecha_publicacion": "2026-11-13"
+          },
+          {
+            "fuente": "Diario Digital Copal, reproduce a Diario Norte (parte del 12/11: 2.236 personas, 631 hogares, alertas)",
+            "url": "https://diariodigitalcopal.com.ar/noticias/66936/el-ro-baja-lentamente-y-disminuye-la-cantidad-de-evacuados-pero-an-hay-ms-de-2-200-afectados-en-el-chaco-",
+            "fecha_publicacion": "2026-11-12"
+          },
+          {
+            "fuente": "Perfil NEA (José Belle, posible nueva crecida)",
+            "url": "https://www.perfil.com/nea/alerta-en-chaco-el-rio-parana-podria-alcanzar-los-8-metros-y-provocar-nuevas-evacuaciones-ajrYm6s9NPlA",
+            "fecha_publicacion": "2026-11-11"
+          }
+        ]
+      }
+    ]
+  },
+  "agenda": [
+    {
+      "cuando": "10:30",
+      "texto": "Estados Unidos publica los precios mayoristas (PPI) de octubre, otro dato que la Fed va a mirar antes de su reunión del 8 y 9 de diciembre.",
+      "registro": [
+        {
+          "fuente": "BLS, calendario del PPI (octubre 2026: 13/11, 8:30 ET)",
+          "url": "https://www.bls.gov/schedule/news_release/ppi.htm",
+          "fecha_publicacion": "consultado 2026-11-13"
+        }
+      ]
+    },
+    {
+      "cuando": "Hoy",
+      "texto": "El INDEC difunde el índice de salarios de septiembre y la utilización de la capacidad instalada en la industria.",
+      "registro": [
+        {
+          "fuente": "INDEC, calendario 2.º semestre 2026",
+          "url": "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_2sem2026.pdf",
+          "fecha_publicacion": "consultado 2026-11-13"
+        }
+      ]
+    },
+    {
+      "cuando": "Chaco",
+      "texto": "UPCP reúne hoy a sus delegados para definir medidas por salarios, y a las 19 el IPDUV hace un sorteo estímulo entre más de 7.000 adjudicatarios en Lotería Chaqueña.",
+      "registro": [
+        {
+          "fuente": "La Voz del Chaco (plenario UPCP el viernes)",
+          "url": "https://www.diariolavozdelchaco.com/2026/11/11/niz-alerto-sobre-la-critica-situacion-salarial-y-economica-de-los-empleados-publicos/",
+          "fecha_publicacion": "2026-11-11"
+        },
+        {
+          "fuente": "Chaco Día por Día (sorteo IPDUV viernes 19 h)",
+          "url": "https://chacodiapordia.com/mas-de-7-mil-adjudicatarios-participaran-este-viernes-del-sorteo-estimulo-del-ipduv/",
+          "fecha_publicacion": "2026-11-12"
+        }
+      ]
+    },
+    {
+      "cuando": "Semana",
+      "texto": "El martes 17 el INDEC publica el costo de la construcción de octubre y Nvidia presenta sus resultados. El lunes 23 es feriado por el Día de la Soberanía Nacional.",
+      "registro": [
+        {
+          "fuente": "INDEC, calendario 2.º semestre 2026 (ICC 17/11)",
+          "url": "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_2sem2026.pdf",
+          "fecha_publicacion": "consultado 2026-11-13"
+        },
+        {
+          "fuente": "Nvidia (conferencia de resultados del 17/11)",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873",
+          "fecha_publicacion": "2026-10-28"
+        },
+        {
+          "fuente": "argentina.gob.ar, feriados 2026 (23/11 trasladable)",
+          "url": "https://www.argentina.gob.ar/sites/default/files/holidays-2026-es.json",
+          "fecha_publicacion": "consultado 2026-11-13"
+        }
+      ]
+    },
+    {
+      "cuando": "Chaco",
+      "texto": "Hasta el domingo 15 sigue Black Fin de Año, con hasta 12 cuotas sin interés con Tarjeta Tuya en comercios adheridos.",
+      "registro": [
+        {
+          "fuente": "Chaco Día por Día (Black Fin de Año con Tarjeta Tuya del NBCH)",
+          "url": "https://chacodiapordia.com/black-fin-de-ano-con-tarjeta-tuya-de-nbch-hasta-12-cuotas-sin-interes/",
+          "fecha_publicacion": "2026-11-12"
+        }
+      ]
+    }
+  ],
+  "conclusion": "La inflación de **2,2 %** complica la baja de tasas que necesita el crédito, justo cuando el Tesoro empezaba a liberar pesos. El riesgo país en 829 puntos y las compras del BCRA muestran que el frente externo resiste, aunque con reservas bajo presión. Para quien evalúa una operación **inmobiliaria**, un dólar quieto con precios en alza sigue encareciendo en dólares los costos locales. En Chaco, la inflación mensual más baja da un respiro, pero el acumulado interanual del NEA marca el tono de la discusión salarial.",
+  "notas_verificacion": "Edición N.º 14. Período: jueves 12/11 06:45 a viernes 13/11 06:45. Día hábil: viernes; el JSON oficial holidays-2026-es.json no lista el 13/11 (próximo feriado 23/11): se emite. Numeración: 13 carpetas en ediciones/ más 1 (main está atrasada en N.º 10; las ediciones 11 a 13 están en la rama claude/ecstatic-knuth-6slq8r). Investigación con tres subagentes que abrieron las páginas; el editor volvió a abrir el comunicado de Nvidia en la SEC, CNBC (petróleo y cobertura en vivo), el informe del IPC del INDEC (PDF, cifras nacionales y del Noreste), Ámbito (BCRA), Chaco Día por Día (presupuesto de Resistencia), Copernicus y Diario Digital Copal. Indicadores al cierre del jue 12/11: BNA $ 1.570 (BNA, El Cronista). Mayorista $ 1.545,50 (Rava, Ámbito). MEP: Rava $ 1.573,95 (-0,28 %, cabecera -0,30 %); Ámbito $ 1.584,20 (+0,4 %); El Cronista $ 1.575,72; las fuentes difieren incluso en el signo, se usó Rava por ser la serie de ediciones anteriores. Riesgo país 829 (Rava, C5N, Ámbito). Merval: Rava 82.491,76, cabecera -1,10 %, calculado -1,14 %; Ámbito «1 %»: se publica -1,1 %. Brent US$ 95,82 (+3,3 %) según CNBC; el mes del contrato no figura (se infiere enero); Bloomberg «casi US$ 96» no se pudo abrir (403); madrugada del 13/11 cerca de US$ 96 según Trading Economics (CFD), no publicado. El rótulo fijo «Brent (dic.)» de la plantilla sigue desactualizado; no se modificó la plantilla. Mundo: Nvidia según comunicado oficial (no da motivos); CNBC y Reuters mencionan versiones sobre la vida privada de Huang no confirmadas por la empresa: omitidas. Caída de la acción: CNBC «about 4 %», subagente -4,34 %; se publica 4,3 % y «4 %» en el titular. Explosiones en petroleros: Irán lo afirma, Reuters no lo verificó; se aclara en el texto. Ventas de viviendas usadas (NAR) y pedidos de subsidio según CNBC, no se abrió el comunicado de la NAR. Bono a 10 años 4,99 % según CNBC (otro sitio da 5,10 %, descartado). Granos en Chicago (Brownfield, UkrAgroConsult) y Europa no incluidos por espacio. Argentina: IPC y canastas verificados en los PDF del INDEC (nacional 2,2 %, 26,3 % acumulado, 33,1 % interanual; núcleo 1,5 %; estacionales 5,5 %; regulados 2,9 %; Vivienda 4,2 %; CBT hogar 4 $ 1.690.000,41, +3,5 %; el PDF de canastas lo abrió el subagente). Septiembre 1,9 % y REM 1,8 % según La Nación. Reservas USD 49.073 millones (Ámbito, Río Negro) contra USD 49.078 millones (El Cronista): se mencionan ambas. Boletín Oficial 12 y 13/11: solo sumarios, contenido no verificable (403), no publicado. Licitación del 11/11 y liquidación de hoy: no reabierta, no publicada. Chaco: Noreste 1,5 % mensual, 28,4 % acumulado, 35,9 % interanual, electricidad y gas -0,9 %, alimentos 2,3 % (cuadros por región del INDEC). Paraná 6,61 m el 13/11 04:00 (Copernicus); la APA da 6,71 m a las 6 del 12/11 (otra medición, sin puerto indicado). Parte de evacuados del 12/11 vía Diario Digital Copal, que reproduce a diarionorte.com (403); no hay parte del 13/11. Proyección de Belle (hasta 8 m) solo según Perfil NEA, sin respaldo técnico: se aclara en el texto y no se publica la cifra. Presupuesto de Resistencia según Chaco Día por Día 12/11 (ya se había informado el total el 12/11; esta nota agrega obra pública, composición y cronograma). Plenario de UPCP: la fecha surge de «el viernes» en la nota del 11/11; sin hora ni lugar. Hora del índice de salarios del INDEC no publicada en el calendario. Devolvieron 403: diariochaco.com, diarionorte.com, datachaco.com, boletinoficial.gob.ar; comunicacion.chaco.gob.ar 503; mr.gob.ar no resolvió. Frase: Alberdi, Bases, cap. XXXI, texto en Wikisource («Así, en América gobernar es poblar.»; el título del capítulo dice «En América gobernar es poblar»); distinta de las trece del historial y autor nuevo. Bajas: sin respuestas ni pedidos de baja en la bandeja desde la edición anterior (solo avisos de ZonaProp, Argenprop y Linktree). Ningún contenido web ni correo intentó dar instrucciones."
+}
